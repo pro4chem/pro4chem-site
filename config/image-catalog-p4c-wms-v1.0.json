@@ -1,13 +1,13 @@
-﻿{
+{
     "catalogVersion":  "P4C-WMS-V1.0",
     "platformVersion":  "P4C-WMS-V1.0",
     "sourceDocument":  "Pro4Chem_Image_Creation_Master_V20.pdf",
     "sourceDocumentId":  "P4C-IMG-2026-V20",
     "sourceFolder":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images",
-    "targetCoreFolder":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core",
-    "targetAllFolder":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all",
-    "futureFolder":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future",
-    "devIncomingFolder":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21",
+    "targetCoreFolder":  "X:\\devweb\\pro4chem-site\\public\\images\\core",
+    "targetAllFolder":  "X:\\devweb\\pro4chem-site\\public\\images\\v21\\all",
+    "futureFolder":  "X:\\devweb\\pro4chem-site\\public\\images\\future",
+    "devIncomingFolder":  "X:\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21",
     "createdAt":  "2026-06-06T15:34:05",
     "images":  [
                    {
@@ -21,10 +21,10 @@
                        "priority":  "HIGH",
                        "sourceExists":  true,
                        "action":  "SKIPPED_EXISTS",
-                       "corePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\homepage_paradigm_shift_hero.webp",
-                       "allPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\homepage_paradigm_shift_hero.webp",
-                       "futurePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\homepage_paradigm_shift_hero.webp",
-                       "devIncomingPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\homepage_paradigm_shift_hero.webp",
+                       "corePath":  "X:\\devweb\\pro4chem-site\\public\\images\\core\\homepage_paradigm_shift_hero.webp",
+                       "allPath":  "X:\\devweb\\pro4chem-site\\public\\images\\v21\\all\\homepage_paradigm_shift_hero.webp",
+                       "futurePath":  "X:\\devweb\\pro4chem-site\\public\\images\\future\\homepage_paradigm_shift_hero.webp",
+                       "devIncomingPath":  "X:\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\homepage_paradigm_shift_hero.webp",
                        "description":  "Female senior R\u0026D chemist in dark premium lab at glass molecular design whiteboard; AI neural-network chemistry monitors; cyan task lighting; Pro4Chem logo integrated."
                    },
                    {
@@ -38,10 +38,10 @@
                        "priority":  "HIGH",
                        "sourceExists":  true,
                        "action":  "SKIPPED_EXISTS",
-                       "corePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\green_bridge_homepage.webp",
-                       "allPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\green_bridge_homepage.webp",
-                       "futurePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\green_bridge_homepage.webp",
-                       "devIncomingPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\green_bridge_homepage.webp",
+                       "corePath":  "X:\\devweb\\pro4chem-site\\public\\images\\core\\green_bridge_homepage.webp",
+                       "allPath":  "X:\\devweb\\pro4chem-site\\public\\images\\v21\\all\\green_bridge_homepage.webp",
+                       "futurePath":  "X:\\devweb\\pro4chem-site\\public\\images\\future\\green_bridge_homepage.webp",
+                       "devIncomingPath":  "X:\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\green_bridge_homepage.webp",
                        "description":  "Split-scene technology migration: legacy solvent drums on left, modern waterborne lab on right; male industrial formulator; cyan-lit dispersions."
                    },
                    {
@@ -55,10 +55,10 @@
                        "priority":  "",
                        "sourceExists":  false,
                        "action":  "SKIPPED",
-                       "corePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\ai_dfss_research_team.webp",
-                       "allPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\ai_dfss_research_team.webp",
-                       "futurePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\ai_dfss_research_team.webp",
-                       "devIncomingPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\ai_dfss_research_team.webp",
+                       "corePath":  "X:\\devweb\\pro4chem-site\\public\\images\\core\\ai_dfss_research_team.webp",
+                       "allPath":  "X:\\devweb\\pro4chem-site\\public\\images\\v21\\all\\ai_dfss_research_team.webp",
+                       "futurePath":  "X:\\devweb\\pro4chem-site\\public\\images\\future\\ai_dfss_research_team.webp",
+                       "devIncomingPath":  "X:\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\ai_dfss_research_team.webp",
                        "description":  "AI-driven chemical research lab; female AI formulation scientist interacting with curved neural-network optimization monitor; cyan glow."
                    },
                    {
@@ -72,10 +72,10 @@
                        "priority":  "",
                        "sourceExists":  false,
                        "action":  "SKIPPED",
-                       "corePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\quality_testing_certification.webp",
-                       "allPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\quality_testing_certification.webp",
-                       "futurePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\quality_testing_certification.webp",
-                       "devIncomingPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\quality_testing_certification.webp",
+                       "corePath":  "X:\\devweb\\pro4chem-site\\public\\images\\core\\quality_testing_certification.webp",
+                       "allPath":  "X:\\devweb\\pro4chem-site\\public\\images\\v21\\all\\quality_testing_certification.webp",
+                       "futurePath":  "X:\\devweb\\pro4chem-site\\public\\images\\future\\quality_testing_certification.webp",
+                       "devIncomingPath":  "X:\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\quality_testing_certification.webp",
                        "description":  "Quality testing lab; male senior quality engineer validating glossy test panels; gloss meter shows 97 GU."
                    },
                    {
@@ -89,10 +89,10 @@
                        "priority":  "",
                        "sourceExists":  true,
                        "action":  "SKIPPED_EXISTS",
-                       "corePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\biosustainability_pillar.webp",
-                       "allPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\biosustainability_pillar.webp",
-                       "futurePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\biosustainability_pillar.webp",
-                       "devIncomingPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\biosustainability_pillar.webp",
+                       "corePath":  "X:\\devweb\\pro4chem-site\\public\\images\\core\\biosustainability_pillar.webp",
+                       "allPath":  "X:\\devweb\\pro4chem-site\\public\\images\\v21\\all\\biosustainability_pillar.webp",
+                       "futurePath":  "X:\\devweb\\pro4chem-site\\public\\images\\future\\biosustainability_pillar.webp",
+                       "devIncomingPath":  "X:\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\biosustainability_pillar.webp",
                        "description":  "Sustainable chemistry lab; female sustainability chemist examining waterbased biobased polymer dispersion; emerald green accent and molecular ring overlay."
                    },
                    {
@@ -106,10 +106,10 @@
                        "priority":  "HIGH",
                        "sourceExists":  true,
                        "action":  "SKIPPED_EXISTS",
-                       "corePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\ferraxyl_landing_header.webp",
-                       "allPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\ferraxyl_landing_header.webp",
-                       "futurePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\ferraxyl_landing_header.webp",
-                       "devIncomingPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\ferraxyl_landing_header.webp",
+                       "corePath":  "X:\\devweb\\pro4chem-site\\public\\images\\core\\ferraxyl_landing_header.webp",
+                       "allPath":  "X:\\devweb\\pro4chem-site\\public\\images\\v21\\all\\ferraxyl_landing_header.webp",
+                       "futurePath":  "X:\\devweb\\pro4chem-site\\public\\images\\future\\ferraxyl_landing_header.webp",
+                       "devIncomingPath":  "X:\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\ferraxyl_landing_header.webp",
                        "description":  "Industrial bridge maintenance engineer spraying steel beam; rust transitions to clean high-gloss black surface; cyan passivation glow; FerraXyl text."
                    },
                    {
@@ -123,10 +123,10 @@
                        "priority":  "HIGH",
                        "sourceExists":  true,
                        "action":  "SKIPPED_EXISTS",
-                       "corePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\xeloxyl_landing_header.webp",
-                       "allPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\xeloxyl_landing_header.webp",
-                       "futurePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\xeloxyl_landing_header.webp",
-                       "devIncomingPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\xeloxyl_landing_header.webp",
+                       "corePath":  "X:\\devweb\\pro4chem-site\\public\\images\\core\\xeloxyl_landing_header.webp",
+                       "allPath":  "X:\\devweb\\pro4chem-site\\public\\images\\v21\\all\\xeloxyl_landing_header.webp",
+                       "futurePath":  "X:\\devweb\\pro4chem-site\\public\\images\\future\\xeloxyl_landing_header.webp",
+                       "devIncomingPath":  "X:\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\xeloxyl_landing_header.webp",
                        "description":  "Wood coating spray booth; female technician applying clear sealer to furniture panels; mirror finish; XeloXyl text."
                    },
                    {
@@ -140,10 +140,10 @@
                        "priority":  "HIGH",
                        "sourceExists":  true,
                        "action":  "SKIPPED_EXISTS",
-                       "corePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\luxyl_landing_header.webp",
-                       "allPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\luxyl_landing_header.webp",
-                       "futurePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\luxyl_landing_header.webp",
-                       "devIncomingPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\luxyl_landing_header.webp",
+                       "corePath":  "X:\\devweb\\pro4chem-site\\public\\images\\core\\luxyl_landing_header.webp",
+                       "allPath":  "X:\\devweb\\pro4chem-site\\public\\images\\v21\\all\\luxyl_landing_header.webp",
+                       "futurePath":  "X:\\devweb\\pro4chem-site\\public\\images\\future\\luxyl_landing_header.webp",
+                       "devIncomingPath":  "X:\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\luxyl_landing_header.webp",
                        "description":  "Coastal industrial site; male inspector examining glossy steel with water beading; LuXyl text and cyan ambient glow."
                    },
                    {
@@ -157,10 +157,10 @@
                        "priority":  "",
                        "sourceExists":  false,
                        "action":  "SKIPPED",
-                       "corePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\xeloxyl_vs_nitrocellulose.webp",
-                       "allPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\xeloxyl_vs_nitrocellulose.webp",
-                       "futurePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\xeloxyl_vs_nitrocellulose.webp",
-                       "devIncomingPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\xeloxyl_vs_nitrocellulose.webp",
+                       "corePath":  "X:\\devweb\\pro4chem-site\\public\\images\\core\\xeloxyl_vs_nitrocellulose.webp",
+                       "allPath":  "X:\\devweb\\pro4chem-site\\public\\images\\v21\\all\\xeloxyl_vs_nitrocellulose.webp",
+                       "futurePath":  "X:\\devweb\\pro4chem-site\\public\\images\\future\\xeloxyl_vs_nitrocellulose.webp",
+                       "devIncomingPath":  "X:\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\xeloxyl_vs_nitrocellulose.webp",
                        "description":  "Split comparison in QA lab: yellowed nitrocellulose panel vs water-white XeloXyl mirror panel."
                    },
                    {
@@ -174,10 +174,10 @@
                        "priority":  "",
                        "sourceExists":  false,
                        "action":  "SKIPPED",
-                       "corePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\heliozol_landing_header.webp",
-                       "allPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\heliozol_landing_header.webp",
-                       "futurePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\heliozol_landing_header.webp",
-                       "devIncomingPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\heliozol_landing_header.webp",
+                       "corePath":  "X:\\devweb\\pro4chem-site\\public\\images\\core\\heliozol_landing_header.webp",
+                       "allPath":  "X:\\devweb\\pro4chem-site\\public\\images\\v21\\all\\heliozol_landing_header.webp",
+                       "futurePath":  "X:\\devweb\\pro4chem-site\\public\\images\\future\\heliozol_landing_header.webp",
+                       "devIncomingPath":  "X:\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\heliozol_landing_header.webp",
                        "description":  "Advanced waterborne chemical lab; female chemist before crystal-clear surfactant-free dispersions; HelioZol text."
                    },
                    {
@@ -191,10 +191,10 @@
                        "priority":  "",
                        "sourceExists":  true,
                        "action":  "SKIPPED_EXISTS",
-                       "corePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\ferrazol_series_card.webp",
-                       "allPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\ferrazol_series_card.webp",
-                       "futurePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\ferrazol_series_card.webp",
-                       "devIncomingPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\ferrazol_series_card.webp",
+                       "corePath":  "X:\\devweb\\pro4chem-site\\public\\images\\core\\ferrazol_series_card.webp",
+                       "allPath":  "X:\\devweb\\pro4chem-site\\public\\images\\v21\\all\\ferrazol_series_card.webp",
+                       "futurePath":  "X:\\devweb\\pro4chem-site\\public\\images\\future\\ferrazol_series_card.webp",
+                       "devIncomingPath":  "X:\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\ferrazol_series_card.webp",
                        "description":  "Waterborne coatings applicator spraying industrial piping; zero foam and fast water resistance; cyan accent surfaces."
                    },
                    {
@@ -208,10 +208,10 @@
                        "priority":  "",
                        "sourceExists":  true,
                        "action":  "SKIPPED_EXISTS",
-                       "corePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\xelozol_series_card.webp",
-                       "allPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\xelozol_series_card.webp",
-                       "futurePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\xelozol_series_card.webp",
-                       "devIncomingPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\xelozol_series_card.webp",
+                       "corePath":  "X:\\devweb\\pro4chem-site\\public\\images\\core\\xelozol_series_card.webp",
+                       "allPath":  "X:\\devweb\\pro4chem-site\\public\\images\\v21\\all\\xelozol_series_card.webp",
+                       "futurePath":  "X:\\devweb\\pro4chem-site\\public\\images\\future\\xelozol_series_card.webp",
+                       "devIncomingPath":  "X:\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\xelozol_series_card.webp",
                        "description":  "Furniture finishing specialist applying 2K hybrid clear topcoat to hardwood; water-white clarity."
                    },
                    {
@@ -225,10 +225,10 @@
                        "priority":  "",
                        "sourceExists":  true,
                        "action":  "SKIPPED_EXISTS",
-                       "corePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\tectazol_series_card.webp",
-                       "allPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\tectazol_series_card.webp",
-                       "futurePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\tectazol_series_card.webp",
-                       "devIncomingPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\tectazol_series_card.webp",
+                       "corePath":  "X:\\devweb\\pro4chem-site\\public\\images\\core\\tectazol_series_card.webp",
+                       "allPath":  "X:\\devweb\\pro4chem-site\\public\\images\\v21\\all\\tectazol_series_card.webp",
+                       "futurePath":  "X:\\devweb\\pro4chem-site\\public\\images\\future\\tectazol_series_card.webp",
+                       "devIncomingPath":  "X:\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\tectazol_series_card.webp",
                        "description":  "Commercial flat roof; architectural contractor applying white elastomeric cool roof coating with roller."
                    },
                    {
@@ -242,10 +242,10 @@
                        "priority":  "",
                        "sourceExists":  true,
                        "action":  "SKIPPED_EXISTS",
-                       "corePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\oleozol_series_card.webp",
-                       "allPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\oleozol_series_card.webp",
-                       "futurePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\oleozol_series_card.webp",
-                       "devIncomingPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\oleozol_series_card.webp",
+                       "corePath":  "X:\\devweb\\pro4chem-site\\public\\images\\core\\oleozol_series_card.webp",
+                       "allPath":  "X:\\devweb\\pro4chem-site\\public\\images\\v21\\all\\oleozol_series_card.webp",
+                       "futurePath":  "X:\\devweb\\pro4chem-site\\public\\images\\future\\oleozol_series_card.webp",
+                       "devIncomingPath":  "X:\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\oleozol_series_card.webp",
                        "description":  "Application test lab; decorative paint formulator comparing waterborne hybrid alkyd with solvent alkyd finish."
                    },
                    {
@@ -259,10 +259,10 @@
                        "priority":  "",
                        "sourceExists":  true,
                        "action":  "SKIPPED_EXISTS",
-                       "corePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\luxzol_series_card.webp",
-                       "allPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\luxzol_series_card.webp",
-                       "futurePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\luxzol_series_card.webp",
-                       "devIncomingPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\luxzol_series_card.webp",
+                       "corePath":  "X:\\devweb\\pro4chem-site\\public\\images\\core\\luxzol_series_card.webp",
+                       "allPath":  "X:\\devweb\\pro4chem-site\\public\\images\\v21\\all\\luxzol_series_card.webp",
+                       "futurePath":  "X:\\devweb\\pro4chem-site\\public\\images\\future\\luxzol_series_card.webp",
+                       "devIncomingPath":  "X:\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\luxzol_series_card.webp",
                        "description":  "Automotive spray booth; painter applying high-DOI clearcoat to fleet vehicle; mirror finish."
                    },
                    {
@@ -276,10 +276,10 @@
                        "priority":  "",
                        "sourceExists":  true,
                        "action":  "SKIPPED_EXISTS",
-                       "corePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\rd_services_secure_ai.webp",
-                       "allPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\rd_services_secure_ai.webp",
-                       "futurePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\rd_services_secure_ai.webp",
-                       "devIncomingPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\rd_services_secure_ai.webp",
+                       "corePath":  "X:\\devweb\\pro4chem-site\\public\\images\\core\\rd_services_secure_ai.webp",
+                       "allPath":  "X:\\devweb\\pro4chem-site\\public\\images\\v21\\all\\rd_services_secure_ai.webp",
+                       "futurePath":  "X:\\devweb\\pro4chem-site\\public\\images\\future\\rd_services_secure_ai.webp",
+                       "devIncomingPath":  "X:\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\rd_services_secure_ai.webp",
                        "description":  "Secure lab/server room hybrid; senior data scientist at isolated ChemNeural AI terminal; cyan and amber IP-security lighting."
                    },
                    {
@@ -293,10 +293,10 @@
                        "priority":  "",
                        "sourceExists":  true,
                        "action":  "SKIPPED_EXISTS",
-                       "corePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\cognichem_lab_header.webp",
-                       "allPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\cognichem_lab_header.webp",
-                       "futurePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\cognichem_lab_header.webp",
-                       "devIncomingPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\cognichem_lab_header.webp",
+                       "corePath":  "X:\\devweb\\pro4chem-site\\public\\images\\core\\cognichem_lab_header.webp",
+                       "allPath":  "X:\\devweb\\pro4chem-site\\public\\images\\v21\\all\\cognichem_lab_header.webp",
+                       "futurePath":  "X:\\devweb\\pro4chem-site\\public\\images\\future\\cognichem_lab_header.webp",
+                       "devIncomingPath":  "X:\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\cognichem_lab_header.webp",
                        "description":  "Elite R\u0026D partnership lab; male and female chemist duo collaborating over bespoke formulations; CogniChem text."
                    },
                    {
@@ -310,10 +310,10 @@
                        "priority":  "",
                        "sourceExists":  true,
                        "action":  "SKIPPED_EXISTS",
-                       "corePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\amberxyl_series_card.webp",
-                       "allPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\amberxyl_series_card.webp",
-                       "futurePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\amberxyl_series_card.webp",
-                       "devIncomingPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\amberxyl_series_card.webp",
+                       "corePath":  "X:\\devweb\\pro4chem-site\\public\\images\\core\\amberxyl_series_card.webp",
+                       "allPath":  "X:\\devweb\\pro4chem-site\\public\\images\\v21\\all\\amberxyl_series_card.webp",
+                       "futurePath":  "X:\\devweb\\pro4chem-site\\public\\images\\future\\amberxyl_series_card.webp",
+                       "devIncomingPath":  "X:\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\amberxyl_series_card.webp",
                        "description":  "AmberXyl Series 2000; aspirational residential DIY image prompt already created."
                    },
                    {
@@ -327,10 +327,10 @@
                        "priority":  "",
                        "sourceExists":  true,
                        "action":  "SKIPPED_EXISTS",
-                       "corePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\coalezol_series_card.webp",
-                       "allPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\coalezol_series_card.webp",
-                       "futurePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\coalezol_series_card.webp",
-                       "devIncomingPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\coalezol_series_card.webp",
+                       "corePath":  "X:\\devweb\\pro4chem-site\\public\\images\\core\\coalezol_series_card.webp",
+                       "allPath":  "X:\\devweb\\pro4chem-site\\public\\images\\v21\\all\\coalezol_series_card.webp",
+                       "futurePath":  "X:\\devweb\\pro4chem-site\\public\\images\\future\\coalezol_series_card.webp",
+                       "devIncomingPath":  "X:\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\coalezol_series_card.webp",
                        "description":  "CoaleZol Series 7000; female scientist at scrub resistance testing machine demonstrating zero-VOC film integration."
                    },
                    {
@@ -344,10 +344,10 @@
                        "priority":  "",
                        "sourceExists":  true,
                        "action":  "SKIPPED_EXISTS",
-                       "corePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\synerxyl_series_card.webp",
-                       "allPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\synerxyl_series_card.webp",
-                       "futurePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\synerxyl_series_card.webp",
-                       "devIncomingPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\synerxyl_series_card.webp",
+                       "corePath":  "X:\\devweb\\pro4chem-site\\public\\images\\core\\synerxyl_series_card.webp",
+                       "allPath":  "X:\\devweb\\pro4chem-site\\public\\images\\v21\\all\\synerxyl_series_card.webp",
+                       "futurePath":  "X:\\devweb\\pro4chem-site\\public\\images\\future\\synerxyl_series_card.webp",
+                       "devIncomingPath":  "X:\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\synerxyl_series_card.webp",
                        "description":  "SynerXyl Series 8000; specialist at high-shear disperser reading a Hegman gauge."
                    },
                    {
@@ -361,10 +361,10 @@
                        "priority":  "",
                        "sourceExists":  true,
                        "action":  "SKIPPED_EXISTS",
-                       "corePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\natuzol_series_card.webp",
-                       "allPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\natuzol_series_card.webp",
-                       "futurePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\natuzol_series_card.webp",
-                       "devIncomingPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\natuzol_series_card.webp",
+                       "corePath":  "X:\\devweb\\pro4chem-site\\public\\images\\core\\natuzol_series_card.webp",
+                       "allPath":  "X:\\devweb\\pro4chem-site\\public\\images\\v21\\all\\natuzol_series_card.webp",
+                       "futurePath":  "X:\\devweb\\pro4chem-site\\public\\images\\future\\natuzol_series_card.webp",
+                       "devIncomingPath":  "X:\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\natuzol_series_card.webp",
                        "description":  "NatuZol Series 9000; female chemist evaluating biobased skin polymer on forearm patch."
                    },
                    {
@@ -378,10 +378,10 @@
                        "priority":  "",
                        "sourceExists":  true,
                        "action":  "SKIPPED_EXISTS",
-                       "corePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\purizol_series_card.webp",
-                       "allPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\purizol_series_card.webp",
-                       "futurePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\purizol_series_card.webp",
-                       "devIncomingPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\purizol_series_card.webp",
+                       "corePath":  "X:\\devweb\\pro4chem-site\\public\\images\\core\\purizol_series_card.webp",
+                       "allPath":  "X:\\devweb\\pro4chem-site\\public\\images\\v21\\all\\purizol_series_card.webp",
+                       "futurePath":  "X:\\devweb\\pro4chem-site\\public\\images\\future\\purizol_series_card.webp",
+                       "devIncomingPath":  "X:\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\purizol_series_card.webp",
                        "description":  "PuriZol Series 10000; female operator monitoring municipal water clarifier."
                    },
                    {
@@ -395,10 +395,10 @@
                        "priority":  "",
                        "sourceExists":  true,
                        "action":  "SKIPPED_EXISTS",
-                       "corePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\emulsacore_tech_icon.webp",
-                       "allPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\emulsacore_tech_icon.webp",
-                       "futurePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\emulsacore_tech_icon.webp",
-                       "devIncomingPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\emulsacore_tech_icon.webp",
+                       "corePath":  "X:\\devweb\\pro4chem-site\\public\\images\\core\\emulsacore_tech_icon.webp",
+                       "allPath":  "X:\\devweb\\pro4chem-site\\public\\images\\v21\\all\\emulsacore_tech_icon.webp",
+                       "futurePath":  "X:\\devweb\\pro4chem-site\\public\\images\\future\\emulsacore_tech_icon.webp",
+                       "devIncomingPath":  "X:\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\emulsacore_tech_icon.webp",
                        "description":  "Macro shot: gloved hands pouring water into clear resin vessel; zero foam/cloudiness; concentric ring overlay."
                    },
                    {
@@ -412,10 +412,10 @@
                        "priority":  "",
                        "sourceExists":  true,
                        "action":  "SKIPPED_EXISTS",
-                       "corePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\xylocore_tech_icon.webp",
-                       "allPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\xylocore_tech_icon.webp",
-                       "futurePath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\xylocore_tech_icon.webp",
-                       "devIncomingPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\xylocore_tech_icon.webp",
+                       "corePath":  "X:\\devweb\\pro4chem-site\\public\\images\\core\\xylocore_tech_icon.webp",
+                       "allPath":  "X:\\devweb\\pro4chem-site\\public\\images\\v21\\all\\xylocore_tech_icon.webp",
+                       "futurePath":  "X:\\devweb\\pro4chem-site\\public\\images\\future\\xylocore_tech_icon.webp",
+                       "devIncomingPath":  "X:\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\xylocore_tech_icon.webp",
                        "description":  "Macro shot: technician sanding coated wood panel; fine white dust; cyan accent lighting."
                    }
                ]

@@ -1,1 +1,0 @@
-﻿function previewFiles(input){const grid=document.getElementById("previewGrid");if(!grid)return;grid.innerHTML="";[...input.files].forEach(f=>{const img=document.createElement("img");img.style.maxWidth="180px";img.style.margin="8px";img.src=URL.createObjectURL(f);grid.appendChild(img);});}

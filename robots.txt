@@ -1,5 +1,5 @@
-﻿User-agent: *
+User-agent: *
 Allow: /
 Disallow: /management/
 Disallow: /stats.html
-Sitemap: https://pro4chem.com/sitemap.xml
+Sitemap: https://www.pro4chem.com/sitemap.xml
