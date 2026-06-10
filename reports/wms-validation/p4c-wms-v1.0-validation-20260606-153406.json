@@ -1,0 +1,2002 @@
+﻿{
+    "catalogVersion":  "P4C-WMS-V1.0",
+    "platformVersion":  "P4C-WMS-V1.0",
+    "siteRoot":  "M:\\Mi unidad\\devweb\\pro4chem-site",
+    "devRoot":  "M:\\Mi unidad\\devweb\\pro4chem-dev",
+    "sourceImages":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images",
+    "requiredPagesAndAssets":  [
+                                   {
+                                       "timestamp":  "2026-06-06T15:34:06",
+                                       "catalogVersion":  "P4C-WMS-V1.0",
+                                       "platformVersion":  "P4C-WMS-V1.0",
+                                       "item":  "management\\index.html",
+                                       "exists":  true,
+                                       "fullPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\management\\index.html"
+                                   },
+                                   {
+                                       "timestamp":  "2026-06-06T15:34:06",
+                                       "catalogVersion":  "P4C-WMS-V1.0",
+                                       "platformVersion":  "P4C-WMS-V1.0",
+                                       "item":  "management\\pages\\page-factory.html",
+                                       "exists":  true,
+                                       "fullPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\management\\pages\\page-factory.html"
+                                   },
+                                   {
+                                       "timestamp":  "2026-06-06T15:34:06",
+                                       "catalogVersion":  "P4C-WMS-V1.0",
+                                       "platformVersion":  "P4C-WMS-V1.0",
+                                       "item":  "management\\pages\\prompt-lab.html",
+                                       "exists":  true,
+                                       "fullPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\management\\pages\\prompt-lab.html"
+                                   },
+                                   {
+                                       "timestamp":  "2026-06-06T15:34:06",
+                                       "catalogVersion":  "P4C-WMS-V1.0",
+                                       "platformVersion":  "P4C-WMS-V1.0",
+                                       "item":  "management\\pages\\stage1-review.html",
+                                       "exists":  true,
+                                       "fullPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\management\\pages\\stage1-review.html"
+                                   },
+                                   {
+                                       "timestamp":  "2026-06-06T15:34:06",
+                                       "catalogVersion":  "P4C-WMS-V1.0",
+                                       "platformVersion":  "P4C-WMS-V1.0",
+                                       "item":  "management\\pages\\stage3-review.html",
+                                       "exists":  true,
+                                       "fullPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\management\\pages\\stage3-review.html"
+                                   },
+                                   {
+                                       "timestamp":  "2026-06-06T15:34:06",
+                                       "catalogVersion":  "P4C-WMS-V1.0",
+                                       "platformVersion":  "P4C-WMS-V1.0",
+                                       "item":  "management\\pages\\website-graphics-review.html",
+                                       "exists":  true,
+                                       "fullPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\management\\pages\\website-graphics-review.html"
+                                   },
+                                   {
+                                       "timestamp":  "2026-06-06T15:34:06",
+                                       "catalogVersion":  "P4C-WMS-V1.0",
+                                       "platformVersion":  "P4C-WMS-V1.0",
+                                       "item":  "management\\pages\\image-catalog.html",
+                                       "exists":  true,
+                                       "fullPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\management\\pages\\image-catalog.html"
+                                   },
+                                   {
+                                       "timestamp":  "2026-06-06T15:34:06",
+                                       "catalogVersion":  "P4C-WMS-V1.0",
+                                       "platformVersion":  "P4C-WMS-V1.0",
+                                       "item":  "management\\pages\\cli-authentication.html",
+                                       "exists":  true,
+                                       "fullPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\management\\pages\\cli-authentication.html"
+                                   },
+                                   {
+                                       "timestamp":  "2026-06-06T15:34:06",
+                                       "catalogVersion":  "P4C-WMS-V1.0",
+                                       "platformVersion":  "P4C-WMS-V1.0",
+                                       "item":  "management\\pages\\release-gates.html",
+                                       "exists":  true,
+                                       "fullPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\management\\pages\\release-gates.html"
+                                   },
+                                   {
+                                       "timestamp":  "2026-06-06T15:34:06",
+                                       "catalogVersion":  "P4C-WMS-V1.0",
+                                       "platformVersion":  "P4C-WMS-V1.0",
+                                       "item":  "management\\pages\\deploy.html",
+                                       "exists":  true,
+                                       "fullPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\management\\pages\\deploy.html"
+                                   },
+                                   {
+                                       "timestamp":  "2026-06-06T15:34:06",
+                                       "catalogVersion":  "P4C-WMS-V1.0",
+                                       "platformVersion":  "P4C-WMS-V1.0",
+                                       "item":  "management\\assets\\p4c-wms.css",
+                                       "exists":  true,
+                                       "fullPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\management\\assets\\p4c-wms.css"
+                                   },
+                                   {
+                                       "timestamp":  "2026-06-06T15:34:06",
+                                       "catalogVersion":  "P4C-WMS-V1.0",
+                                       "platformVersion":  "P4C-WMS-V1.0",
+                                       "item":  "management\\assets\\p4c-wms.js",
+                                       "exists":  true,
+                                       "fullPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\management\\assets\\p4c-wms.js"
+                                   },
+                                   {
+                                       "timestamp":  "2026-06-06T15:34:06",
+                                       "catalogVersion":  "P4C-WMS-V1.0",
+                                       "platformVersion":  "P4C-WMS-V1.0",
+                                       "item":  "config\\image-catalog-p4c-wms-v1.0.json",
+                                       "exists":  true,
+                                       "fullPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\config\\image-catalog-p4c-wms-v1.0.json"
+                                   },
+                                   {
+                                       "timestamp":  "2026-06-06T15:34:06",
+                                       "catalogVersion":  "P4C-WMS-V1.0",
+                                       "platformVersion":  "P4C-WMS-V1.0",
+                                       "item":  "config\\image-catalog-p4c-wms-v1.0.csv",
+                                       "exists":  true,
+                                       "fullPath":  "M:\\Mi unidad\\devweb\\pro4chem-site\\config\\image-catalog-p4c-wms-v1.0.csv"
+                                   }
+                               ],
+    "baseDirectories":  [
+                            {
+                                "timestamp":  "2026-06-06T15:34:06",
+                                "catalogVersion":  "P4C-WMS-V1.0",
+                                "platformVersion":  "P4C-WMS-V1.0",
+                                "item":  "M:\\Mi unidad\\devweb\\pro4chem-site\\management",
+                                "exists":  true
+                            },
+                            {
+                                "timestamp":  "2026-06-06T15:34:06",
+                                "catalogVersion":  "P4C-WMS-V1.0",
+                                "platformVersion":  "P4C-WMS-V1.0",
+                                "item":  "M:\\Mi unidad\\devweb\\pro4chem-site\\management\\pages",
+                                "exists":  true
+                            },
+                            {
+                                "timestamp":  "2026-06-06T15:34:06",
+                                "catalogVersion":  "P4C-WMS-V1.0",
+                                "platformVersion":  "P4C-WMS-V1.0",
+                                "item":  "M:\\Mi unidad\\devweb\\pro4chem-site\\management\\assets",
+                                "exists":  true
+                            },
+                            {
+                                "timestamp":  "2026-06-06T15:34:06",
+                                "catalogVersion":  "P4C-WMS-V1.0",
+                                "platformVersion":  "P4C-WMS-V1.0",
+                                "item":  "M:\\Mi unidad\\devweb\\pro4chem-site\\assets",
+                                "exists":  true
+                            },
+                            {
+                                "timestamp":  "2026-06-06T15:34:06",
+                                "catalogVersion":  "P4C-WMS-V1.0",
+                                "platformVersion":  "P4C-WMS-V1.0",
+                                "item":  "M:\\Mi unidad\\devweb\\pro4chem-site\\assets\\css",
+                                "exists":  true
+                            },
+                            {
+                                "timestamp":  "2026-06-06T15:34:06",
+                                "catalogVersion":  "P4C-WMS-V1.0",
+                                "platformVersion":  "P4C-WMS-V1.0",
+                                "item":  "M:\\Mi unidad\\devweb\\pro4chem-site\\assets\\js",
+                                "exists":  true
+                            },
+                            {
+                                "timestamp":  "2026-06-06T15:34:06",
+                                "catalogVersion":  "P4C-WMS-V1.0",
+                                "platformVersion":  "P4C-WMS-V1.0",
+                                "item":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public",
+                                "exists":  true
+                            },
+                            {
+                                "timestamp":  "2026-06-06T15:34:06",
+                                "catalogVersion":  "P4C-WMS-V1.0",
+                                "platformVersion":  "P4C-WMS-V1.0",
+                                "item":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images",
+                                "exists":  true
+                            },
+                            {
+                                "timestamp":  "2026-06-06T15:34:06",
+                                "catalogVersion":  "P4C-WMS-V1.0",
+                                "platformVersion":  "P4C-WMS-V1.0",
+                                "item":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core",
+                                "exists":  true
+                            },
+                            {
+                                "timestamp":  "2026-06-06T15:34:06",
+                                "catalogVersion":  "P4C-WMS-V1.0",
+                                "platformVersion":  "P4C-WMS-V1.0",
+                                "item":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21",
+                                "exists":  true
+                            },
+                            {
+                                "timestamp":  "2026-06-06T15:34:06",
+                                "catalogVersion":  "P4C-WMS-V1.0",
+                                "platformVersion":  "P4C-WMS-V1.0",
+                                "item":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all",
+                                "exists":  true
+                            },
+                            {
+                                "timestamp":  "2026-06-06T15:34:06",
+                                "catalogVersion":  "P4C-WMS-V1.0",
+                                "platformVersion":  "P4C-WMS-V1.0",
+                                "item":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future",
+                                "exists":  true
+                            },
+                            {
+                                "timestamp":  "2026-06-06T15:34:06",
+                                "catalogVersion":  "P4C-WMS-V1.0",
+                                "platformVersion":  "P4C-WMS-V1.0",
+                                "item":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\staging",
+                                "exists":  true
+                            },
+                            {
+                                "timestamp":  "2026-06-06T15:34:06",
+                                "catalogVersion":  "P4C-WMS-V1.0",
+                                "platformVersion":  "P4C-WMS-V1.0",
+                                "item":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\marketing",
+                                "exists":  true
+                            },
+                            {
+                                "timestamp":  "2026-06-06T15:34:06",
+                                "catalogVersion":  "P4C-WMS-V1.0",
+                                "platformVersion":  "P4C-WMS-V1.0",
+                                "item":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\marketing\\monthly",
+                                "exists":  true
+                            },
+                            {
+                                "timestamp":  "2026-06-06T15:34:06",
+                                "catalogVersion":  "P4C-WMS-V1.0",
+                                "platformVersion":  "P4C-WMS-V1.0",
+                                "item":  "M:\\Mi unidad\\devweb\\pro4chem-site\\config",
+                                "exists":  true
+                            },
+                            {
+                                "timestamp":  "2026-06-06T15:34:06",
+                                "catalogVersion":  "P4C-WMS-V1.0",
+                                "platformVersion":  "P4C-WMS-V1.0",
+                                "item":  "M:\\Mi unidad\\devweb\\pro4chem-site\\logs",
+                                "exists":  true
+                            },
+                            {
+                                "timestamp":  "2026-06-06T15:34:06",
+                                "catalogVersion":  "P4C-WMS-V1.0",
+                                "platformVersion":  "P4C-WMS-V1.0",
+                                "item":  "M:\\Mi unidad\\devweb\\pro4chem-site\\programs",
+                                "exists":  true
+                            },
+                            {
+                                "timestamp":  "2026-06-06T15:34:06",
+                                "catalogVersion":  "P4C-WMS-V1.0",
+                                "platformVersion":  "P4C-WMS-V1.0",
+                                "item":  "M:\\Mi unidad\\devweb\\pro4chem-site\\programs\\integrations",
+                                "exists":  true
+                            },
+                            {
+                                "timestamp":  "2026-06-06T15:34:06",
+                                "catalogVersion":  "P4C-WMS-V1.0",
+                                "platformVersion":  "P4C-WMS-V1.0",
+                                "item":  "M:\\Mi unidad\\devweb\\pro4chem-site\\programs\\integrations\\P4C-WMS-V1.0",
+                                "exists":  true
+                            },
+                            {
+                                "timestamp":  "2026-06-06T15:34:06",
+                                "catalogVersion":  "P4C-WMS-V1.0",
+                                "platformVersion":  "P4C-WMS-V1.0",
+                                "item":  "M:\\Mi unidad\\devweb\\pro4chem-site\\reports",
+                                "exists":  true
+                            },
+                            {
+                                "timestamp":  "2026-06-06T15:34:06",
+                                "catalogVersion":  "P4C-WMS-V1.0",
+                                "platformVersion":  "P4C-WMS-V1.0",
+                                "item":  "M:\\Mi unidad\\devweb\\pro4chem-site\\reports\\wms-validation",
+                                "exists":  true
+                            },
+                            {
+                                "timestamp":  "2026-06-06T15:34:06",
+                                "catalogVersion":  "P4C-WMS-V1.0",
+                                "platformVersion":  "P4C-WMS-V1.0",
+                                "item":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public",
+                                "exists":  true
+                            },
+                            {
+                                "timestamp":  "2026-06-06T15:34:06",
+                                "catalogVersion":  "P4C-WMS-V1.0",
+                                "platformVersion":  "P4C-WMS-V1.0",
+                                "item":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images",
+                                "exists":  true
+                            },
+                            {
+                                "timestamp":  "2026-06-06T15:34:06",
+                                "catalogVersion":  "P4C-WMS-V1.0",
+                                "platformVersion":  "P4C-WMS-V1.0",
+                                "item":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming",
+                                "exists":  true
+                            },
+                            {
+                                "timestamp":  "2026-06-06T15:34:06",
+                                "catalogVersion":  "P4C-WMS-V1.0",
+                                "platformVersion":  "P4C-WMS-V1.0",
+                                "item":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21",
+                                "exists":  true
+                            },
+                            {
+                                "timestamp":  "2026-06-06T15:34:06",
+                                "catalogVersion":  "P4C-WMS-V1.0",
+                                "platformVersion":  "P4C-WMS-V1.0",
+                                "item":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\generated",
+                                "exists":  true
+                            },
+                            {
+                                "timestamp":  "2026-06-06T15:34:06",
+                                "catalogVersion":  "P4C-WMS-V1.0",
+                                "platformVersion":  "P4C-WMS-V1.0",
+                                "item":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\generated\\drafts",
+                                "exists":  true
+                            },
+                            {
+                                "timestamp":  "2026-06-06T15:34:06",
+                                "catalogVersion":  "P4C-WMS-V1.0",
+                                "platformVersion":  "P4C-WMS-V1.0",
+                                "item":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\generated\\drafts\\stage1",
+                                "exists":  true
+                            },
+                            {
+                                "timestamp":  "2026-06-06T15:34:06",
+                                "catalogVersion":  "P4C-WMS-V1.0",
+                                "platformVersion":  "P4C-WMS-V1.0",
+                                "item":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\generated\\drafts\\stage3",
+                                "exists":  true
+                            },
+                            {
+                                "timestamp":  "2026-06-06T15:34:06",
+                                "catalogVersion":  "P4C-WMS-V1.0",
+                                "platformVersion":  "P4C-WMS-V1.0",
+                                "item":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\approved-dev",
+                                "exists":  true
+                            },
+                            {
+                                "timestamp":  "2026-06-06T15:34:06",
+                                "catalogVersion":  "P4C-WMS-V1.0",
+                                "platformVersion":  "P4C-WMS-V1.0",
+                                "item":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\logs",
+                                "exists":  true
+                            }
+                        ],
+    "copyLog":  [
+                    {
+                        "timestamp":  "2026-06-06T15:34:03",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "impenetra_tech_icon.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\impenetra_tech_icon.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\impenetra_tech_icon.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:03",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "impenetra_tech_icon.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\impenetra_tech_icon.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\impenetra_tech_icon.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:03",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "impenetra_tech_icon.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\impenetra_tech_icon.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\impenetra_tech_icon.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:03",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "corroguard_comparison.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\corroguard_comparison.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\corroguard_comparison.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:03",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "corroguard_comparison.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\corroguard_comparison.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\corroguard_comparison.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:03",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "corroguard_comparison.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\corroguard_comparison.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\corroguard_comparison.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:03",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "ai_research_laboratory.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\ai_research_laboratory.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\ai_research_laboratory.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:03",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "ai_research_laboratory.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\ai_research_laboratory.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\ai_research_laboratory.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:03",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "ai_research_laboratory.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\ai_research_laboratory.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\ai_research_laboratory.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:03",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "ferraxyl_landing_header.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\ferraxyl_landing_header.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\ferraxyl_landing_header.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:03",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "ferraxyl_landing_header.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\ferraxyl_landing_header.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\ferraxyl_landing_header.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:03",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "ferraxyl_landing_header.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\ferraxyl_landing_header.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\ferraxyl_landing_header.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:03",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "green_bridge_homepage.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\green_bridge_homepage.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\green_bridge_homepage.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:03",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "green_bridge_homepage.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\green_bridge_homepage.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\green_bridge_homepage.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:03",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "green_bridge_homepage.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\green_bridge_homepage.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\green_bridge_homepage.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:03",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "homepage_paradigm_shift_hero.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\homepage_paradigm_shift_hero.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\homepage_paradigm_shift_hero.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:03",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "homepage_paradigm_shift_hero.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\homepage_paradigm_shift_hero.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\homepage_paradigm_shift_hero.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:03",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "homepage_paradigm_shift_hero.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\homepage_paradigm_shift_hero.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\homepage_paradigm_shift_hero.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:03",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "luxyl_landing_header.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\luxyl_landing_header.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\luxyl_landing_header.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:03",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "luxyl_landing_header.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\luxyl_landing_header.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\luxyl_landing_header.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:03",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "luxyl_landing_header.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\luxyl_landing_header.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\luxyl_landing_header.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:03",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "nitrocellolose_vs_Xeloxyl.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\nitrocellolose_vs_Xeloxyl.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\nitrocellolose_vs_Xeloxyl.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:03",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "nitrocellolose_vs_Xeloxyl.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\nitrocellolose_vs_Xeloxyl.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\nitrocellolose_vs_Xeloxyl.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:03",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "nitrocellolose_vs_Xeloxyl.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\nitrocellolose_vs_Xeloxyl.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\nitrocellolose_vs_Xeloxyl.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "quality_control_research.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\quality_control_research.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\quality_control_research.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "quality_control_research.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\quality_control_research.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\quality_control_research.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "quality_control_research.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\quality_control_research.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\quality_control_research.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "rd_services_secure_ai.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\rd_services_secure_ai.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\rd_services_secure_ai.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "rd_services_secure_ai.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\rd_services_secure_ai.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\rd_services_secure_ai.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "rd_services_secure_ai.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\rd_services_secure_ai.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\rd_services_secure_ai.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "xeloxyl_landing_header.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\xeloxyl_landing_header.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\xeloxyl_landing_header.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "xeloxyl_landing_header.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\xeloxyl_landing_header.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\xeloxyl_landing_header.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "xeloxyl_landing_header.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\xeloxyl_landing_header.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\xeloxyl_landing_header.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "adhexyl_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\adhexyl_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\adhexyl_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "adhexyl_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\adhexyl_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\adhexyl_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "adhexyl_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\adhexyl_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\adhexyl_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "amberXyl_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\amberXyl_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\amberXyl_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "amberXyl_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\amberXyl_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\amberXyl_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "amberXyl_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\amberXyl_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\amberXyl_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "corroguard_tech_icon.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\corroguard_tech_icon.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\corroguard_tech_icon.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "corroguard_tech_icon.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\corroguard_tech_icon.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\corroguard_tech_icon.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "corroguard_tech_icon.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\corroguard_tech_icon.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\corroguard_tech_icon.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "emulsacore_tech_icon.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\emulsacore_tech_icon.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\emulsacore_tech_icon.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "emulsacore_tech_icon.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\emulsacore_tech_icon.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\emulsacore_tech_icon.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "emulsacore_tech_icon.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\emulsacore_tech_icon.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\emulsacore_tech_icon.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "lumacore_tech_icon.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\lumacore_tech_icon.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\lumacore_tech_icon.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "lumacore_tech_icon.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\lumacore_tech_icon.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\lumacore_tech_icon.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "lumacore_tech_icon.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\lumacore_tech_icon.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\lumacore_tech_icon.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "tds_document_cta.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\tds_document_cta.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\tds_document_cta.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "tds_document_cta.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\tds_document_cta.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\tds_document_cta.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "tds_document_cta.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\tds_document_cta.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\tds_document_cta.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "titanxyl_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\titanxyl_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\titanxyl_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "titanxyl_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\titanxyl_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\titanxyl_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "titanxyl_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\titanxyl_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\titanxyl_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "velocyl_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\velocyl_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\velocyl_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "velocyl_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\velocyl_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\velocyl_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "velocyl_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\velocyl_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\velocyl_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "xdry_tech_icon.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\xdry_tech_icon.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\xdry_tech_icon.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "xdry_tech_icon.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\xdry_tech_icon.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\xdry_tech_icon.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "xdry_tech_icon.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\xdry_tech_icon.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\xdry_tech_icon.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "xylocore_tech_icon.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\xylocore_tech_icon.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\xylocore_tech_icon.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "xylocore_tech_icon.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\xylocore_tech_icon.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\xylocore_tech_icon.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "xylocore_tech_icon.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\xylocore_tech_icon.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\xylocore_tech_icon.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "solvent_polymers_header.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\solvent_polymers_header.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\solvent_polymers_header.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "solvent_polymers_header.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\solvent_polymers_header.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\solvent_polymers_header.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "solvent_polymers_header.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\solvent_polymers_header.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\solvent_polymers_header.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "logo-transparent.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\logo-transparent.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\logo-transparent.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "logo-transparent.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\logo-transparent.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\logo-transparent.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "logo-transparent.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\logo-transparent.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\logo-transparent.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "logo-large-transparent.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\logo-large-transparent.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\logo-large-transparent.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "logo-large-transparent.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\logo-large-transparent.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\logo-large-transparent.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "logo-large-transparent.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\logo-large-transparent.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\logo-large-transparent.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "Pro4Chem Visual Asset Inventory Report V2.gdoc",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\Pro4Chem Visual Asset Inventory Report V2.gdoc",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\Pro4Chem Visual Asset Inventory Report V2.gdoc",
+                        "action":  "SKIPPED",
+                        "reason":  "Google Workspace shortcut/metadata or system file"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "Pro4Chem Visual Asset Inventory Report V2.gdoc",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\Pro4Chem Visual Asset Inventory Report V2.gdoc",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\Pro4Chem Visual Asset Inventory Report V2.gdoc",
+                        "action":  "SKIPPED",
+                        "reason":  "Google Workspace shortcut/metadata or system file"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "Pro4Chem Visual Asset Inventory Report V2.gdoc",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\Pro4Chem Visual Asset Inventory Report V2.gdoc",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\Pro4Chem Visual Asset Inventory Report V2.gdoc",
+                        "action":  "SKIPPED",
+                        "reason":  "Google Workspace shortcut/metadata or system file"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "ferrazol_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\ferrazol_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\ferrazol_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "ferrazol_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\ferrazol_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\ferrazol_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "ferrazol_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\ferrazol_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\ferrazol_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "oleozol_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\oleozol_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\oleozol_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "oleozol_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\oleozol_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\oleozol_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "oleozol_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\oleozol_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\oleozol_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "biosustainability_pillar.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\biosustainability_pillar.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\biosustainability_pillar.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "biosustainability_pillar.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\biosustainability_pillar.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\biosustainability_pillar.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "biosustainability_pillar.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\biosustainability_pillar.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\biosustainability_pillar.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "coalezol_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\coalezol_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\coalezol_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "coalezol_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\coalezol_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\coalezol_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "coalezol_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\coalezol_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\coalezol_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "cognichem_lab_header.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\cognichem_lab_header.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\cognichem_lab_header.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "cognichem_lab_header.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\cognichem_lab_header.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\cognichem_lab_header.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "cognichem_lab_header.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\cognichem_lab_header.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\cognichem_lab_header.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "gated_portal_login.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\gated_portal_login.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\gated_portal_login.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "gated_portal_login.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\gated_portal_login.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\gated_portal_login.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "gated_portal_login.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\gated_portal_login.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\gated_portal_login.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "global_infrastructure_map.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\global_infrastructure_map.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\global_infrastructure_map.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "global_infrastructure_map.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\global_infrastructure_map.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\global_infrastructure_map.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "global_infrastructure_map.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\global_infrastructure_map.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\global_infrastructure_map.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "luxzol_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\luxzol_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\luxzol_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:04",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "luxzol_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\luxzol_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\luxzol_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "luxzol_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\luxzol_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\luxzol_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "market_architectural_hero.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\market_architectural_hero.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\market_architectural_hero.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "market_architectural_hero.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\market_architectural_hero.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\market_architectural_hero.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "market_architectural_hero.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\market_architectural_hero.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\market_architectural_hero.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "market_automotive_refinish_hero.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\market_automotive_refinish_hero.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\market_automotive_refinish_hero.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "market_automotive_refinish_hero.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\market_automotive_refinish_hero.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\market_automotive_refinish_hero.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "market_automotive_refinish_hero.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\market_automotive_refinish_hero.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\market_automotive_refinish_hero.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "market_cosmetics_hero.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\market_cosmetics_hero.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\market_cosmetics_hero.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "market_cosmetics_hero.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\market_cosmetics_hero.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\market_cosmetics_hero.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "market_cosmetics_hero.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\market_cosmetics_hero.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\market_cosmetics_hero.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "market_industrial_maintenance_hero.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\market_industrial_maintenance_hero.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\market_industrial_maintenance_hero.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "market_industrial_maintenance_hero.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\market_industrial_maintenance_hero.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\market_industrial_maintenance_hero.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "market_industrial_maintenance_hero.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\market_industrial_maintenance_hero.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\market_industrial_maintenance_hero.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "market_plastics_composites_hero.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\market_plastics_composites_hero.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\market_plastics_composites_hero.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "market_plastics_composites_hero.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\market_plastics_composites_hero.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\market_plastics_composites_hero.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "market_plastics_composites_hero.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\market_plastics_composites_hero.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\market_plastics_composites_hero.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "market_wood_furniture_hero.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\market_wood_furniture_hero.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\market_wood_furniture_hero.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "market_wood_furniture_hero.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\market_wood_furniture_hero.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\market_wood_furniture_hero.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "market_wood_furniture_hero.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\market_wood_furniture_hero.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\market_wood_furniture_hero.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "natuzol_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\natuzol_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\natuzol_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "natuzol_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\natuzol_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\natuzol_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "natuzol_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\natuzol_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\natuzol_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "xelozol_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\xelozol_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\xelozol_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "xelozol_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\xelozol_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\xelozol_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "xelozol_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\xelozol_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\xelozol_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "promo_tca_advantage_visual.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\promo_tca_advantage_visual.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\promo_tca_advantage_visual.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "promo_tca_advantage_visual.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\promo_tca_advantage_visual.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\promo_tca_advantage_visual.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "promo_tca_advantage_visual.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\promo_tca_advantage_visual.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\promo_tca_advantage_visual.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "tectazol_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\tectazol_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\tectazol_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "tectazol_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\tectazol_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\tectazol_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "tectazol_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\tectazol_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\tectazol_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "synerxyl_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\synerxyl_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\synerxyl_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "synerxyl_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\synerxyl_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\synerxyl_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "synerxyl_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\synerxyl_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\synerxyl_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "purizol_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\purizol_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\purizol_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "purizol_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\purizol_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\purizol_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "purizol_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\purizol_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\purizol_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "team_rnd_lab.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\team_rnd_lab.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\team_rnd_lab.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "team_rnd_lab.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\team_rnd_lab.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\team_rnd_lab.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "team_rnd_lab.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\team_rnd_lab.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\team_rnd_lab.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "Pro4Chem Visual Asset Inventory Report V4.gdoc",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\Pro4Chem Visual Asset Inventory Report V4.gdoc",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\v21\\all\\Pro4Chem Visual Asset Inventory Report V4.gdoc",
+                        "action":  "SKIPPED",
+                        "reason":  "Google Workspace shortcut/metadata or system file"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "Pro4Chem Visual Asset Inventory Report V4.gdoc",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\Pro4Chem Visual Asset Inventory Report V4.gdoc",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\future\\Pro4Chem Visual Asset Inventory Report V4.gdoc",
+                        "action":  "SKIPPED",
+                        "reason":  "Google Workspace shortcut/metadata or system file"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "Pro4Chem Visual Asset Inventory Report V4.gdoc",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\Pro4Chem Visual Asset Inventory Report V4.gdoc",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\public\\images\\incoming\\v21\\Pro4Chem Visual Asset Inventory Report V4.gdoc",
+                        "action":  "SKIPPED",
+                        "reason":  "Google Workspace shortcut/metadata or system file"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "homepage_paradigm_shift_hero.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\homepage_paradigm_shift_hero.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\homepage_paradigm_shift_hero.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "green_bridge_homepage.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\green_bridge_homepage.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\green_bridge_homepage.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "ai_dfss_research_team.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\ai_dfss_research_team.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\ai_dfss_research_team.webp",
+                        "action":  "SKIPPED",
+                        "reason":  "Source file is not a local leaf file or is unavailable"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "quality_testing_certification.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\quality_testing_certification.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\quality_testing_certification.webp",
+                        "action":  "SKIPPED",
+                        "reason":  "Source file is not a local leaf file or is unavailable"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "biosustainability_pillar.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\biosustainability_pillar.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\biosustainability_pillar.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "ferraxyl_landing_header.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\ferraxyl_landing_header.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\ferraxyl_landing_header.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "xeloxyl_landing_header.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\xeloxyl_landing_header.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\xeloxyl_landing_header.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "luxyl_landing_header.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\luxyl_landing_header.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\luxyl_landing_header.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "xeloxyl_vs_nitrocellulose.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\xeloxyl_vs_nitrocellulose.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\xeloxyl_vs_nitrocellulose.webp",
+                        "action":  "SKIPPED",
+                        "reason":  "Source file is not a local leaf file or is unavailable"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "heliozol_landing_header.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\heliozol_landing_header.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\heliozol_landing_header.webp",
+                        "action":  "SKIPPED",
+                        "reason":  "Source file is not a local leaf file or is unavailable"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "ferrazol_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\ferrazol_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\ferrazol_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "xelozol_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\xelozol_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\xelozol_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "tectazol_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\tectazol_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\tectazol_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "oleozol_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\oleozol_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\oleozol_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "luxzol_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\luxzol_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\luxzol_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "rd_services_secure_ai.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\rd_services_secure_ai.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\rd_services_secure_ai.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "cognichem_lab_header.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\cognichem_lab_header.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\cognichem_lab_header.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "amberxyl_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\amberxyl_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\amberxyl_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "coalezol_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\coalezol_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\coalezol_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "synerxyl_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\synerxyl_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\synerxyl_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "natuzol_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\natuzol_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\natuzol_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "purizol_series_card.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\purizol_series_card.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\purizol_series_card.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "emulsacore_tech_icon.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\emulsacore_tech_icon.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\emulsacore_tech_icon.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    },
+                    {
+                        "timestamp":  "2026-06-06T15:34:05",
+                        "catalogVersion":  "P4C-WMS-V1.0",
+                        "platformVersion":  "P4C-WMS-V1.0",
+                        "fileName":  "xylocore_tech_icon.webp",
+                        "source":  "M:\\Mi unidad\\Pro4Chem-Web-Ai\\Images\\v21\\Images\\xylocore_tech_icon.webp",
+                        "destination":  "M:\\Mi unidad\\devweb\\pro4chem-site\\public\\images\\core\\xylocore_tech_icon.webp",
+                        "action":  "SKIPPED_EXISTS",
+                        "reason":  "Destination already exists; use -OverwriteImages to replace"
+                    }
+                ],
+    "stage1Focus":  "Homepage creation and review",
+    "stage3Focus":  "Market, series, service, product finder expansion pages",
+    "deploymentStatus":  "Core scripts executed except deployment"
+}

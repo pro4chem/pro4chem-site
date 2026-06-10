@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="seo.title">Pro4Chem Specialty Resins — Hybrid Resin Technologies</title>
+  <meta name="description" content="Pro4Chem Specialty Resins: Industrial science meets polymer innovation. Explore our high-performance Series 3000 hybrid resins, custom formulations, and secure client R&D services." data-i18n-attr="content:seo.description">
+  
+  <link rel="canonical" href="https://pro4chem.com/">
+  <link rel="alternate" hreflang="en" href="https://pro4chem.com/">
+  <link rel="alternate" hreflang="es" href="https://pro4chem.com/es/">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Pro4Chem Specialty Resins — Hybrid Resin Technologies" data-i18n-attr="content:seo.title">
+  <meta property="og:description" content="Pro4Chem Specialty Resins: Industrial science meets polymer innovation. Explore our high-performance Series 3000 hybrid resins." data-i18n-attr="content:seo.description">
+  <meta property="og:image" content="public/images/core/homepage_paradigm_shift_hero.webp">
+  <meta property="og:url" content="https://pro4chem.com/">
+  <meta property="og:type" content="website">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/pro4chem-tokens.css">
+  
+  <style>
+    /* Model B Specific Styles: Glows, Fluid Glassmorphism, Floating Layouts */
+    .hero-section {
+      position: relative;
+      min-height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: radial-gradient(circle at 50% 30%, rgba(0, 212, 255, 0.22) 0%, transparent 60%), 
+                  linear-gradient(180deg, rgba(5, 12, 26, 0.85) 0%, rgba(5, 12, 26, 0.98) 100%),
+                  url('public/images/core/homepage_paradigm_shift_hero.webp') no-repeat center center / cover;
+      padding: 9rem 0 5rem 0;
+      text-align: center;
+    }
+
+    .hero-content {
+      max-width: 850px;
+      margin: 0 auto;
+    }
+
+    .hero-tag {
+      font-family: 'JetBrains Mono', monospace;
+      color: var(--p4c-accent);
+      background: rgba(0, 212, 255, 0.08);
+      border: 1px solid rgba(0, 212, 255, 0.2);
+      padding: 0.4rem 1.2rem;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      letter-spacing: 0.12em;
+      display: inline-block;
+      margin-bottom: 1.5rem;
+      text-transform: uppercase;
+    }
+
+    .hero-title {
+      font-size: 3.8rem;
+      line-height: 1.1;
+      font-weight: 800;
+      margin-bottom: 1.5rem;
+      background: linear-gradient(180deg, #FFFFFF 50%, #BBE7FF 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-subtitle {
+      font-size: 1.25rem;
+      color: var(--p4c-text-secondary);
+      margin-bottom: 3rem;
+    }
+
+    /* Sticky Nav Bar */
+    .header-bar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+      background: rgba(5, 12, 26, 0.85);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid rgba(0, 212, 255, 0.15);
+      padding: 0.9rem 0;
+    }
+
+    .nav-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .brand-logo {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      text-decoration: none;
+      color: var(--p4c-text-primary);
+      font-weight: 800;
+      font-size: 1.35rem;
+      letter-spacing: 0.05em;
+    }
+
+    .brand-logo img {
+      height: 36px;
+      width: auto;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 2.2rem;
+    }
+
+    .nav-links a {
+      color: var(--p4c-text-secondary);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+      transition: color var(--p4c-transition-fast), transform var(--p4c-transition-fast);
+    }
+
+    .nav-links a:hover {
+      color: var(--p4c-accent);
+      transform: translateY(-1px);
+    }
+
+    .lang-btn {
+      background: linear-gradient(90deg, rgba(0,212,255,0.1) 0%, rgba(0,212,255,0.2) 100%);
+      border: 1px solid var(--p4c-accent);
+      color: #FFF;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 700;
+      cursor: pointer;
+      font-size: 0.85rem;
+      transition: all var(--p4c-transition-fast);
+    }
+
+    .lang-btn:hover {
+      background: var(--p4c-accent);
+      color: var(--p4c-bg-base);
+      box-shadow: 0 0 14px rgba(0, 212, 255, 0.4);
+    }
+
+    /* Grids */
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2.5rem;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 3.5rem;
+      align-items: center;
+    }
+
+    .grid-6 {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 1.5rem;
+    }
+
+    @media (max-width: 1023px) {
+      .grid-3 { grid-template-columns: repeat(2, 1fr); }
+      .grid-6 { grid-template-columns: repeat(3, 1fr); }
+      .grid-2 { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 767px) {
+      .grid-3 { grid-template-columns: 1fr; }
+      .grid-6 { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    /* Section Headers */
+    .section-title {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      text-align: center;
+      background: linear-gradient(180deg, #FFFFFF 40%, rgba(255,255,255,0.7) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    
+    .section-subtitle {
+      color: var(--p4c-text-secondary);
+      text-align: center;
+      max-width: 750px;
+      margin: 0 auto 4rem auto;
+      font-size: 1.1rem;
+    }
+
+    /* Core Tech Cards */
+    .tech-card {
+      position: relative;
+      text-align: center;
+      padding: 2.5rem 1.5rem;
+      border: 1px solid var(--p4c-glass-border);
+      border-radius: 12px;
+      background: rgba(255,255,255,0.02);
+      backdrop-filter: blur(8px);
+      transition: all var(--p4c-transition-normal);
+    }
+
+    .tech-card:hover {
+      border-color: var(--p4c-accent);
+      background: rgba(0, 212, 255, 0.05);
+      box-shadow: 0 10px 30px rgba(0, 212, 255, 0.1);
+      transform: translateY(-3px);
+    }
+
+    .tech-icon {
+      height: 56px;
+      margin-bottom: 1.25rem;
+    }
+
+    .tech-card h3 {
+      font-size: 1.3rem;
+      margin-bottom: 0.5rem;
+      color: #fff;
+    }
+
+    .tech-card p {
+      font-size: 0.85rem;
+      color: var(--p4c-text-secondary);
+    }
+
+    /* Product Cards with Shimmer and Accents */
+    .product-card {
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid var(--p4c-glass-border);
+      background: linear-gradient(180deg, rgba(12, 30, 58, 0.5) 0%, rgba(10, 22, 40, 0.8) 100%);
+      transition: all var(--p4c-transition-normal);
+    }
+
+    .product-card:hover {
+      transform: translateY(-8px);
+      border-color: var(--p4c-accent);
+      box-shadow: 0 12px 40px rgba(0, 212, 255, 0.15);
+    }
+
+    .product-header-img {
+      height: 200px;
+      width: 100%;
+      object-fit: cover;
+      border-bottom: 1px solid var(--p4c-glass-border);
+    }
+
+    .product-content {
+      padding: 2.5rem;
+    }
+
+    .sku-badge {
+      display: inline-block;
+      padding: 0.3rem 0.75rem;
+      background: rgba(0, 212, 255, 0.12);
+      border: 1px solid rgba(0, 212, 255, 0.3);
+      color: var(--p4c-accent);
+      border-radius: 50px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      margin-bottom: 1.25rem;
+    }
+
+    .product-title {
+      font-size: 1.7rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .product-desc {
+      font-size: 0.92rem;
+      color: var(--p4c-text-secondary);
+      margin-bottom: 2rem;
+      height: 70px;
+    }
+
+    .product-specs {
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      padding-top: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .product-spec-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.88rem;
+      margin-bottom: 0.6rem;
+    }
+
+    .product-spec-row span:first-child {
+      color: var(--p4c-text-secondary);
+    }
+
+    .product-spec-row span:last-child {
+      color: #fff;
+      font-weight: 600;
+    }
+
+    /* Metric Strip */
+    .metric-strip {
+      background: radial-gradient(ellipse at center, rgba(12, 30, 58, 0.8) 0%, rgba(5, 12, 26, 1) 100%);
+      border-top: 1px solid var(--p4c-glass-border);
+      border-bottom: 1px solid var(--p4c-glass-border);
+      padding: 4rem 0;
+    }
+
+    .metric-item {
+      text-align: center;
+    }
+
+    .metric-value {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 3.5rem;
+      font-weight: 800;
+      color: var(--p4c-accent);
+      text-shadow: 0 0 15px rgba(0, 212, 255, 0.3);
+      margin-bottom: 0.5rem;
+    }
+
+    .metric-label {
+      font-size: 0.95rem;
+      color: var(--p4c-text-secondary);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    /* Green Bridge Split Section */
+    .green-bridge-box {
+      border-radius: 20px;
+      overflow: hidden;
+      background: linear-gradient(135deg, rgba(16, 185, 129, 0.06) 0%, rgba(5, 12, 26, 0.95) 100%);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      box-shadow: 0 8px 32px rgba(16, 185, 129, 0.08);
+    }
+
+    .green-bridge-content {
+      padding: 5rem;
+    }
+
+    .green-bridge-img-box {
+      height: 100%;
+      min-height: 400px;
+      background: url('public/images/core/green_bridge_homepage.webp') no-repeat center center / cover;
+    }
+
+    /* Service Splits */
+    .service-box {
+      padding: 3.5rem;
+      background: rgba(255, 255, 255, 0.03);
+      border-radius: 16px;
+      border: 1px solid var(--p4c-glass-border);
+      transition: all var(--p4c-transition-normal);
+    }
+
+    .service-box:hover {
+      box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+      transform: translateY(-2px);
+    }
+
+    .service-box.purple-glow {
+      border-color: rgba(167, 139, 250, 0.3);
+      background: linear-gradient(180deg, rgba(167, 139, 250, 0.04) 0%, transparent 100%);
+    }
+
+    .service-box.purple-glow:hover {
+      border-color: var(--p4c-purple);
+      box-shadow: 0 8px 32px rgba(167, 139, 250, 0.15);
+    }
+
+    .service-tag {
+      font-family: 'JetBrains Mono', monospace;
+      color: var(--p4c-accent);
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+      display: inline-block;
+    }
+
+    .purple-glow .service-tag {
+      color: var(--p4c-purple);
+    }
+
+    /* Market Grid */
+    .market-card {
+      position: relative;
+      height: 280px;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--p4c-glass-border);
+      cursor: pointer;
+    }
+
+    .market-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform var(--p4c-transition-normal);
+    }
+
+    .market-card:hover img {
+      transform: scale(1.08);
+    }
+
+    .market-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 2rem;
+      background: linear-gradient(0deg, rgba(5, 12, 26, 0.95) 0%, transparent 100%);
+    }
+
+    .market-card h3 {
+      font-size: 1.3rem;
+      color: #fff;
+    }
+
+    /* Form Styles */
+    .contact-form {
+      max-width: 650px;
+      margin: 0 auto;
+      background: rgba(12, 30, 58, 0.4);
+      padding: 3.5rem;
+      border-radius: 16px;
+      border: 1px solid var(--p4c-glass-border);
+    }
+
+    .form-group {
+      margin-bottom: 1.75rem;
+    }
+
+    .form-label {
+      display: block;
+      margin-bottom: 0.6rem;
+      font-weight: 600;
+      font-size: 0.9rem;
+      color: var(--p4c-text-secondary);
+    }
+
+    .form-control {
+      width: 100%;
+      padding: 0.9rem;
+      border: 1px solid var(--p4c-glass-border);
+      background: rgba(5, 12, 26, 0.4);
+      color: #fff;
+      border-radius: 8px;
+      font-family: 'Exo 2', sans-serif;
+    }
+
+    .form-control:focus {
+      outline: none;
+      border-color: var(--p4c-accent);
+      box-shadow: 0 0 10px rgba(0, 212, 255, 0.35);
+    }
+
+    /* Footer styling */
+    .footer-bar {
+      border-top: 1px solid var(--p4c-glass-border);
+      padding: 6rem 0 4rem 0;
+      background: #02050b;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr;
+      gap: 5rem;
+      margin-bottom: 5rem;
+    }
+
+    @media (max-width: 767px) {
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+      }
+    }
+
+    .footer-logo {
+      height: 52px;
+      margin-bottom: 1.5rem;
+    }
+
+    .footer-links h4 {
+      margin-bottom: 1.75rem;
+      color: var(--p4c-text-primary);
+      text-transform: uppercase;
+      font-size: 0.95rem;
+      letter-spacing: 0.08em;
+    }
+
+    .footer-links ul {
+      list-style: none;
+    }
+
+    .footer-links ul li {
+      margin-bottom: 0.9rem;
+    }
+
+    .footer-links ul li a {
+      color: var(--p4c-text-secondary);
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: color var(--p4c-transition-fast);
+    }
+
+    .footer-links ul li a:hover {
+      color: var(--p4c-accent);
+    }
+
+    .footer-bottom {
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+      padding-top: 2.5rem;
+      display: flex;
+      justify-content: space-between;
+      color: var(--p4c-text-muted);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 767px) {
+      .footer-bottom {
+        flex-direction: column;
+        gap: 1.5rem;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sticky Header -->
+  <header class="header-bar">
+    <div class="container nav-container">
+      <a href="/" class="brand-logo">
+        <img src="public/images/core/logo-transparent.webp" alt="Pro4Chem logo">
+        <span>PRO4CHEM</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#products" data-i18n="nav.products">Products</a>
+        <a href="#technology" data-i18n="nav.technology">Technology</a>
+        <a href="#markets" data-i18n="nav.markets">Markets</a>
+        <a href="#services" data-i18n="nav.services">Services</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+        <button class="lang-btn" onclick="toggleLanguage()">EN / ES</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Cinematic Hero (Vivid Center Glow) -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="hero-content">
+        <span class="hero-tag" data-i18n="hero.tag">Hybrid Resin Technologies</span>
+        <h1 class="hero-title" data-i18n="hero.title">Adaptation and Innovation by Design</h1>
+        <p class="hero-subtitle" data-i18n="hero.subtitle">Pro4Chem engineering bridges legacy limitations with hybrid polymer science. Series 3000 represents the pinnacle of performance, speed, and ecological responsibility.</p>
+        <div style="display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap;">
+          <a href="#products" class="btn btn-primary" data-i18n="hero.ctaPrimary">Explore Series 3000</a>
+          <a href="#contact" class="btn btn-secondary" data-i18n="hero.ctaSecondary">Request Technical Consultation</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technology Ticker -->
+  <div class="ticker-wrap">
+    <div class="ticker">
+      <div class="ticker-item">VeloXyl</div>
+      <div class="ticker-item">FerraXyl</div>
+      <div class="ticker-item">XeloXyl</div>
+      <div class="ticker-item">LuXyl</div>
+      <div class="ticker-item">Xdry</div>
+      <div class="ticker-item">CorroGuard</div>
+      <div class="ticker-item">LumaCore</div>
+      <div class="ticker-item">XyloCore</div>
+      <div class="ticker-item">EmulsaCore</div>
+      <div class="ticker-item">Impenetra</div>
+      <!-- Duplicate for marquee effect -->
+      <div class="ticker-item">VeloXyl</div>
+      <div class="ticker-item">FerraXyl</div>
+      <div class="ticker-item">XeloXyl</div>
+      <div class="ticker-item">LuXyl</div>
+      <div class="ticker-item">Xdry</div>
+      <div class="ticker-item">CorroGuard</div>
+      <div class="ticker-item">LumaCore</div>
+      <div class="ticker-item">XyloCore</div>
+      <div class="ticker-item">EmulsaCore</div>
+      <div class="ticker-item">Impenetra</div>
+    </div>
+  </div>
+
+  <!-- Strategic Pillars -->
+  <section class="section-alt" id="pillars">
+    <div class="container">
+      <h2 class="section-title" data-i18n="pillars.title">Strategic Pillars</h2>
+      <p class="section-subtitle" data-i18n="pillars.subtitle">Industrial-grade polymer science engineered to modernize chemical supply chains.</p>
+      
+      <div class="grid-3">
+        <div class="glass-card">
+          <h3 style="margin-bottom: 1.25rem;" data-i18n="pillars.p1.title">Predictive Innovation Engineering</h3>
+          <p style="font-size: 0.95rem; color: var(--p4c-text-secondary);" data-i18n="pillars.p1.desc">Synthesized data analytics combined with lab prototyping ensures predictable performance under extreme industrial conditions.</p>
+        </div>
+        <div class="glass-card">
+          <h3 style="margin-bottom: 1.25rem;" data-i18n="pillars.p2.title">Technology Migration Leadership</h3>
+          <p style="font-size: 0.95rem; color: var(--p4c-text-secondary);" data-i18n="pillars.p2.desc">Easing transitions from hazardous solvent systems to next-generation waterborne solutions without losing application efficiency.</p>
+        </div>
+        <div class="glass-card">
+          <h3 style="margin-bottom: 1.25rem;" data-i18n="pillars.p3.title">Optimized Performance/Cost</h3>
+          <p style="font-size: 0.95rem; color: var(--p4c-text-secondary);" data-i18n="pillars.p3.desc">Engineering single system integrations that replace multi-coat processes, slashing material and application costs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Technologies Showcase -->
+  <section id="technology">
+    <div class="container">
+      <h2 class="section-title" data-i18n="tech.title">Pro4Chem Core Technologies</h2>
+      <p class="section-subtitle" data-i18n="tech.subtitle">Advanced molecular platforms driving global industry sectors.</p>
+      
+      <div class="grid-6">
+        <div class="tech-card">
+          <img src="public/images/core/xdry_tech_icon.webp" alt="Xdry technology icon" class="tech-icon" loading="lazy">
+          <h3>Xdry</h3>
+          <p data-i18n="tech.xdry">Ultra-fast moisture cure</p>
+        </div>
+        <div class="tech-card">
+          <img src="public/images/core/lumacore_tech_icon.webp" alt="LumaCore technology icon" class="tech-icon" loading="lazy">
+          <h3>LumaCore</h3>
+          <p data-i18n="tech.lumacore">UV reflect & cure tech</p>
+        </div>
+        <div class="tech-card">
+          <img src="public/images/core/corroguard_tech_icon.webp" alt="CorroGuard technology icon" class="tech-icon" loading="lazy">
+          <h3>CorroGuard</h3>
+          <p data-i18n="tech.corroguard">Corrosion mitigation backbone</p>
+        </div>
+        <div class="tech-card">
+          <img src="public/images/core/emulsacore_tech_icon.webp" alt="EmulsaCore technology icon" class="tech-icon" loading="lazy">
+          <h3>EmulsaCore</h3>
+          <p data-i18n="tech.emulsacore">Self-emulsified micro-resins</p>
+        </div>
+        <div class="tech-card">
+          <img src="public/images/core/xylocore_tech_icon.webp" alt="XyloCore technology icon" class="tech-icon" loading="lazy">
+          <h3>XyloCore</h3>
+          <p data-i18n="tech.xylocore">Wood-structure cell bonding</p>
+        </div>
+        <div class="tech-card">
+          <img src="public/images/core/impenetra_tech_icon.webp" alt="Impenetra technology icon" class="tech-icon" loading="lazy">
+          <h3>Impenetra</h3>
+          <p data-i18n="tech.impenetra">Scratch & impact block</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Series 3000 Promotional Block -->
+  <section class="section-alt" id="products">
+    <div class="container">
+      <h2 class="section-title" data-i18n="products.title">Series 3000 Hybrid Resins</h2>
+      <p class="section-subtitle" data-i18n="products.subtitle">VeloXyl hybrid platform offers tailored formulations designed for rapid integration.</p>
+      
+      <div class="grid-3">
+        <!-- FerraXyl Card -->
+        <div class="product-card">
+          <img src="public/images/core/ferraxyl_landing_header.webp" alt="FerraXyl header" class="product-header-img" loading="lazy">
+          <div class="product-content">
+            <span class="sku-badge tech-mono">SERIES-3100 / FERRAXYL</span>
+            <h3 class="product-title">FerraXyl</h3>
+            <p class="product-desc" data-i18n="products.ferraxyl.desc">High-build DTM anti-corrosive system designed as a single-coat replacement for multi-step coating chains.</p>
+            <div class="product-specs">
+              <div class="product-spec-row">
+                <span data-i18n="products.spec.tech">Backbone Technology</span>
+                <span>CorroGuard</span>
+              </div>
+              <div class="product-spec-row">
+                <span data-i18n="products.spec.voc">VOC Level</span>
+                <span>&lt; 100 g/L</span>
+              </div>
+              <div class="product-spec-row">
+                <span data-i18n="products.spec.gloss">Gloss Retention</span>
+                <span>92% @ 1000 hrs</span>
+              </div>
+            </div>
+            <a href="#contact" class="btn btn-primary" style="width: 100%;" data-i18n="products.cta">Request Technical Data Sheet</a>
+          </div>
+        </div>
+        
+        <!-- XeloXyl Card -->
+        <div class="product-card">
+          <img src="public/images/core/xeloxyl_landing_header.webp" alt="XeloXyl header" class="product-header-img" loading="lazy">
+          <div class="product-content">
+            <span class="sku-badge tech-mono">SERIES-3200 / XELOXYL</span>
+            <h3 class="product-title">XeloXyl</h3>
+            <p class="product-desc" data-i18n="products.xeloxyl.desc">Zero-nitrocellulose wood lacquer replacement offering rapid physical dry speed and zero CAB pricing constraints.</p>
+            <div class="product-specs">
+              <div class="product-spec-row">
+                <span data-i18n="products.spec.tech">Backbone Technology</span>
+                <span>XyloCore</span>
+              </div>
+              <div class="product-spec-row">
+                <span data-i18n="products.spec.voc">VOC Level</span>
+                <span>Ultra-Low</span>
+              </div>
+              <div class="product-spec-row">
+                <span data-i18n="products.spec.gloss">Dry Time</span>
+                <span>10 mins (Touch)</span>
+              </div>
+            </div>
+            <a href="#contact" class="btn btn-primary" style="width: 100%;" data-i18n="products.cta">Request Technical Data Sheet</a>
+          </div>
+        </div>
+
+        <!-- LuXyl Card -->
+        <div class="product-card">
+          <img src="public/images/core/luxyl_landing_header.webp" alt="LuXyl header" class="product-header-img" loading="lazy">
+          <div class="product-content">
+            <span class="sku-badge tech-mono">SERIES-3300 / LUXYL</span>
+            <h3 class="product-title">LuXyl</h3>
+            <p class="product-desc" data-i18n="products.luxyl.desc">Premium exterior protective resin ensuring mirror-finish brilliance and outstanding ultraviolet defense.</p>
+            <div class="product-specs">
+              <div class="product-spec-row">
+                <span data-i18n="products.spec.tech">Backbone Technology</span>
+                <span>Impenetra</span>
+              </div>
+              <div class="product-spec-row">
+                <span data-i18n="products.spec.voc">VOC Level</span>
+                <span>&lt; 50 g/L</span>
+              </div>
+              <div class="product-spec-row">
+                <span data-i18n="products.spec.gloss">UV Resistance</span>
+                <span>AAMA 2605 level</span>
+              </div>
+            </div>
+            <a href="#contact" class="btn btn-primary" style="width: 100%;" data-i18n="products.cta">Request Technical Data Sheet</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Performance Proof Strip -->
+  <div class="metric-strip">
+    <div class="container grid-3">
+      <div class="metric-item">
+        <div class="metric-value">3-4</div>
+        <div class="metric-label" data-i18n="metrics.m1">Coatings Replaced</div>
+      </div>
+      <div class="metric-item">
+        <div class="metric-value">25-35%</div>
+        <div class="metric-label" data-i18n="metrics.m2">Application Cost Saved</div>
+      </div>
+      <div class="metric-item">
+        <div class="metric-value">&lt; 10m</div>
+        <div class="metric-label" data-i18n="metrics.m3">Physical Tack-Free</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Green Bridge Section -->
+  <section id="green-bridge">
+    <div class="container">
+      <div class="green-bridge-box grid-2">
+        <div class="green-bridge-content">
+          <span style="color: var(--p4c-green); font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; text-transform: uppercase; font-weight: 700;" data-i18n="bridge.tag">Eco-Innovation Migration</span>
+          <h2 style="font-size: 2.2rem; margin: 1rem 0;" data-i18n="bridge.title">The Green Bridge Initiative</h2>
+          <p style="color: var(--p4c-text-secondary); margin-bottom: 2.5rem;" data-i18n="bridge.desc">Pro4Chem assists customers in moving seamlessly from traditional solvent-borne systems to high-solids waterborne technologies, lowering compliance friction and carbon impact without compromising mechanical limits.</p>
+          <a href="#contact" class="btn btn-primary" style="background-color: var(--p4c-green); border-color: var(--p4c-green);" data-i18n="bridge.cta">Download Migration Blueprint</a>
+        </div>
+        <div class="green-bridge-img-box"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services + AI Promotion Block -->
+  <section class="section-layer" id="services">
+    <div class="container">
+      <h2 class="section-title" data-i18n="services.title">Custom Development Platforms</h2>
+      <p class="section-subtitle" data-i18n="services.subtitle">We deliver client-specific polymer platforms, distinct from standard resin catalogs.</p>
+      
+      <div class="grid-2">
+        <div class="service-box">
+          <span class="service-tag">R&D Lab Platform</span>
+          <h3 style="font-size: 1.6rem; margin-bottom: 1.25rem;" data-i18n="services.lab.title">CogniChem Private Labs</h3>
+          <p style="color: var(--p4c-text-secondary); font-size: 0.95rem; margin-bottom: 1.5rem;" data-i18n="services.lab.desc">Access dedicated, secure physical and synthetic lab tracks for custom chemical development. All formulations are proprietary, protected under strict intellectual fences, and engineered to client-specified performance mandates.</p>
+          <ul style="color: var(--p4c-text-primary); font-size: 0.9rem; list-style-position: inside; margin-bottom: 2rem;">
+            <li data-i18n="services.lab.l1">Custom synthesis & scale-up</li>
+            <li data-i18n="services.lab.l2">Secure client-specific IP</li>
+            <li data-i18n="services.lab.l3">Direct technology transfer tracks</li>
+          </ul>
+          <a href="#contact" class="btn btn-secondary" data-i18n="services.cta">Request Private Lab Brief</a>
+        </div>
+        
+        <div class="service-box purple-glow">
+          <span class="service-tag">Predictive Optimization</span>
+          <h3 style="font-size: 1.6rem; margin-bottom: 1.25rem; color: var(--p4c-purple);" data-i18n="services.ai.title">ChemNeural AI Synthesis</h3>
+          <p style="color: var(--p4c-text-secondary); font-size: 0.95rem; margin-bottom: 1.5rem;" data-i18n="services.ai.desc">Accelerate formulation schedules using ChemNeural AI modeling. By analyzing mechanical, chemical resistance, and cost parameters, our proprietary agents target optimum polymer structures before wet lab validation commences.</p>
+          <ul style="color: var(--p4c-text-primary); font-size: 0.9rem; list-style-position: inside; margin-bottom: 2rem;">
+            <li data-i18n="services.ai.l1">Predictive solubility modeling</li>
+            <li data-i18n="services.ai.l2">Automated cost/performance optimization</li>
+            <li data-i18n="services.ai.l3">Fast-track regulatory compliance estimation</li>
+          </ul>
+          <a href="#contact" class="btn btn-secondary" style="border-color: var(--p4c-purple); color: var(--p4c-purple);" data-i18n="services.cta">Schedule AI Consultation</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Market CTA Grid -->
+  <section id="markets">
+    <div class="container">
+      <h2 class="section-title" data-i18n="markets.title">Industry Sectors</h2>
+      <p class="section-subtitle" data-i18n="markets.subtitle">Engineered options serving demanding global environments.</p>
+      
+      <div class="grid-3" style="grid-template-columns: repeat(4, 1fr);">
+        <div class="market-card">
+          <img src="public/images/core/market_industrial_maintenance_hero.webp" alt="Industrial and Protective resin applications" loading="lazy">
+          <div class="market-overlay">
+            <h3 data-i18n="markets.m1.title">Industrial & Protective</h3>
+          </div>
+        </div>
+        <div class="market-card">
+          <img src="public/images/core/market_wood_furniture_hero.webp" alt="Wood and Furniture resin applications" loading="lazy">
+          <div class="market-overlay">
+            <h3 data-i18n="markets.m2.title">Wood & Furniture</h3>
+          </div>
+        </div>
+        <div class="market-card">
+          <img src="public/images/core/market_automotive_refinish_hero.webp" alt="Automotive resin applications" loading="lazy">
+          <div class="market-overlay">
+            <h3 data-i18n="markets.m3.title">Automotive Refinish</h3>
+          </div>
+        </div>
+        <div class="market-card">
+          <img src="public/images/core/market_architectural_hero.webp" alt="Architectural resin applications" loading="lazy">
+          <div class="market-overlay">
+            <h3 data-i18n="markets.m4.title">Architectural & Construction</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA Form -->
+  <section class="section-alt" id="contact">
+    <div class="container">
+      <h2 class="section-title" data-i18n="contact.title">Technical Collaboration</h2>
+      <p class="section-subtitle" data-i18n="contact.subtitle">Submit your performance targets to access technical datasheets, samples, or to initiate a private lab sprint.</p>
+      
+      <form class="contact-form" onsubmit="event.preventDefault(); alert('Form submitted successfully!');">
+        <div class="form-group">
+          <label class="form-label" data-i18n="contact.form.name">Name / Company</label>
+          <input type="text" class="form-control" placeholder="Company Name" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" data-i18n="contact.form.email">Corporate Email</label>
+          <input type="email" class="form-control" placeholder="name@company.com" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" data-i18n="contact.form.interest">Primary Interest</label>
+          <select class="form-control">
+            <option data-i18n="contact.form.opt1">Request TDS (Series 3000)</option>
+            <option data-i18n="contact.form.opt2">Request Lab Synthesis Consultation</option>
+            <option data-i18n="contact.form.opt3">Request Product Sample</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label" data-i18n="contact.form.notes">Performance Targets & Requirements</label>
+          <textarea class="form-control" rows="4" placeholder="Describe mechanical limits, VOC regulations, dry speed requirements..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;" data-i18n="contact.form.submit">Initiate R&D Request</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-bar">
+    <div class="container footer-grid">
+      <div>
+        <img src="public/images/core/logo-large-transparent.webp" alt="Pro4Chem Large logo" class="footer-logo">
+        <p style="color: var(--p4c-text-secondary); font-size: 0.95rem; max-width: 320px;" data-i18n="footer.about">High-performance polymer networks developed through predictive science and automated formulation systems.</p>
+      </div>
+      <div class="footer-links">
+        <h4 data-i18n="footer.h1">Platforms</h4>
+        <ul>
+          <li><a href="#products">Series 3000 VeloXyl</a></li>
+          <li><a href="#technology">Core Technologies</a></li>
+          <li><a href="#services">CogniChem Private Labs</a></li>
+          <li><a href="#services">ChemNeural AI</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4 data-i18n="footer.h2">Locations</h4>
+        <p style="font-size: 0.9rem; color: var(--p4c-text-secondary); margin-bottom: 0.6rem;" data-i18n="footer.loc1"><strong>Miami Headquarters</strong><br>Miami, FL, United States</p>
+        <p style="font-size: 0.9rem; color: var(--p4c-text-secondary);" data-i18n="footer.loc2"><strong>R&D Hub</strong><br>Heredia, Costa Rica</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 Pro4Chem Specialty Resins. All rights reserved.</p>
+      <p>sales@pro4chem.com · <a href="#privacy" style="color: var(--p4c-text-muted); text-decoration: none;">Privacy Policy</a></p>
+    </div>
+  </footer>
+
+  <!-- Translation & Auto-Path Scripts -->
+  <script>
+    const TRANSLATIONS = {
+      en: {
+        "seo.title": "Pro4Chem Specialty Resins — Hybrid Resin Technologies",
+        "seo.description": "Pro4Chem Specialty Resins: Industrial science meets polymer innovation. Explore our high-performance Series 3000 hybrid resins, custom formulations, and secure client R&D services.",
+        "nav.products": "Products",
+        "nav.technology": "Technology",
+        "nav.markets": "Markets",
+        "nav.services": "Services",
+        "nav.contact": "Contact",
+        "hero.tag": "Hybrid Resin Technologies",
+        "hero.title": "Adaptation and Innovation by Design",
+        "hero.subtitle": "Pro4Chem engineering bridges legacy limitations with hybrid polymer science. Series 3000 represents the pinnacle of performance, speed, and ecological responsibility.",
+        "hero.ctaPrimary": "Explore Series 3000",
+        "hero.ctaSecondary": "Request Technical Consultation",
+        "pillars.title": "Strategic Pillars",
+        "pillars.subtitle": "Industrial-grade polymer science engineered to modernize chemical supply chains.",
+        "pillars.p1.title": "Predictive Innovation Engineering",
+        "pillars.p1.desc": "Synthesized data analytics combined with lab prototyping ensures predictable performance under extreme industrial conditions.",
+        "pillars.p2.title": "Technology Migration Leadership",
+        "pillars.p2.desc": "Easing transitions from hazardous solvent systems to next-generation waterborne solutions without losing application efficiency.",
+        "pillars.p3.title": "Optimized Performance/Cost",
+        "pillars.p3.desc": "Engineering single system integrations that replace multi-coat processes, slashing material and application costs.",
+        "tech.title": "Pro4Chem Core Technologies",
+        "tech.subtitle": "Advanced molecular platforms driving global industry sectors.",
+        "tech.xdry": "Ultra-fast moisture cure",
+        "tech.lumacore": "UV reflect & cure tech",
+        "tech.corroguard": "Corrosion mitigation backbone",
+        "tech.emulsacore": "Self-emulsified micro-resins",
+        "tech.xylocore": "Wood-structure cell bonding",
+        "tech.impenetra": "Scratch & impact block",
+        "products.title": "Series 3000 Hybrid Resins",
+        "products.subtitle": "VeloXyl hybrid platform offers tailored formulations designed for rapid integration.",
+        "products.ferraxyl.desc": "High-build DTM anti-corrosive system designed as a single-coat replacement for multi-step coating chains.",
+        "products.spec.tech": "Backbone Technology",
+        "products.spec.voc": "VOC Level",
+        "products.spec.gloss": "Gloss Retention",
+        "products.xeloxyl.desc": "Zero-nitrocellulose wood lacquer replacement offering rapid physical dry speed and zero CAB pricing constraints.",
+        "products.luxyl.desc": "Premium exterior protective resin ensuring mirror-finish brilliance and outstanding ultraviolet defense.",
+        "products.cta": "Request Technical Data Sheet",
+        "metrics.m1": "Coatings Replaced",
+        "metrics.m2": "Application Cost Saved",
+        "metrics.m3": "Physical Tack-Free",
+        "bridge.tag": "Eco-Innovation Migration",
+        "bridge.title": "The Green Bridge Initiative",
+        "bridge.desc": "Pro4Chem assists customers in moving seamlessly from traditional solvent-borne systems to high-solids waterborne technologies, lowering compliance friction and carbon impact without compromising mechanical limits.",
+        "bridge.cta": "Download Migration Blueprint",
+        "services.title": "Custom Development Platforms",
+        "services.subtitle": "We deliver client-specific polymer platforms, distinct from standard resin catalogs.",
+        "services.lab.title": "CogniChem Private Labs",
+        "services.lab.desc": "Access dedicated, secure physical and synthetic lab tracks for custom chemical development. All formulations are proprietary, protected under strict intellectual fences, and engineered to client-specified performance mandates.",
+        "services.lab.l1": "Custom synthesis & scale-up",
+        "services.lab.l2": "Secure client-specific IP",
+        "services.lab.l3": "Direct technology transfer tracks",
+        "services.ai.title": "ChemNeural AI Synthesis",
+        "services.ai.desc": "Accelerate formulation schedules using ChemNeural AI modeling. By analyzing mechanical, chemical resistance, and cost parameters, our proprietary agents target optimum polymer structures before wet lab validation commences.",
+        "services.ai.l1": "Predictive solubility modeling",
+        "services.ai.l2": "Automated cost/performance optimization",
+        "services.ai.l3": "Fast-track regulatory compliance estimation",
+        "services.cta": "Request Program Brief",
+        "markets.title": "Industry Sectors",
+        "markets.subtitle": "Engineered options serving demanding global environments.",
+        "markets.m1.title": "Industrial & Protective",
+        "markets.m2.title": "Wood & Furniture",
+        "markets.m3.title": "Automotive Refinish",
+        "markets.m4.title": "Architectural & Construction",
+        "contact.title": "Technical Collaboration",
+        "contact.subtitle": "Submit your performance targets to access technical datasheets, samples, or to initiate a private lab sprint.",
+        "contact.form.name": "Name / Company",
+        "contact.form.email": "Corporate Email",
+        "contact.form.interest": "Primary Interest",
+        "contact.form.opt1": "Request TDS (Series 3000)",
+        "contact.form.opt2": "Request Lab Synthesis Consultation",
+        "contact.form.opt3": "Request Product Sample",
+        "contact.form.notes": "Performance Targets & Requirements",
+        "contact.form.submit": "Initiate R&D Request",
+        "footer.about": "High-performance polymer networks developed through predictive science and automated formulation systems.",
+        "footer.h1": "Platforms",
+        "footer.h2": "Locations",
+        "footer.loc1": "Miami Headquarters - Miami, FL, United States",
+        "footer.loc2": "R&D Hub - Heredia, Costa Rica"
+      },
+      es: {
+        "seo.title": "Resinas Especiales Pro4Chem — Tecnologías de Resina Híbrida",
+        "seo.description": "Resinas Especiales Pro4Chem: La ciencia industrial al servicio de la innovación de polímeros. Conozca la plataforma de resinas híbridas Serie 3000 de alto rendimiento.",
+        "nav.products": "Productos",
+        "nav.technology": "Tecnología",
+        "nav.markets": "Mercados",
+        "nav.services": "Servicios",
+        "nav.contact": "Contacto",
+        "hero.tag": "Tecnologías de Resina Híbrida",
+        "hero.title": "Adaptación e Innovación por Diseño",
+        "hero.subtitle": "La ingeniería de Pro4Chem supera los límites de los sistemas tradicionales. La Serie 3000 representa la cumbre del rendimiento, velocidad y responsabilidad ecológica.",
+        "hero.ctaPrimary": "Explorar Serie 3000",
+        "hero.ctaSecondary": "Solicitar Asesoría Técnica",
+        "pillars.title": "Pilares Estratégicos",
+        "pillars.subtitle": "Ciencia de polímeros de grado industrial diseñada para modernizar las cadenas de suministro químicas.",
+        "pillars.p1.title": "Ingeniería de Innovación Predictiva",
+        "pillars.p1.desc": "El análisis sintético de datos en combinación con prototipos reales garantiza un rendimiento predecible bajo condiciones extremas.",
+        "pillars.p2.title": "Liderazgo en Migración Tecnológica",
+        "pillars.p2.desc": "Facilitamos la transición de sistemas basados en solventes a soluciones base agua de última generación, sin sacrificar la eficiencia.",
+        "pillars.p3.title": "Rendimiento y Costo Optimizados",
+        "pillars.p3.desc": "Ingeniería de sistemas integrados de capa única que reemplazan procesos multicapa, reduciendo costos de material y aplicación.",
+        "tech.title": "Tecnologías Clave Pro4Chem",
+        "tech.subtitle": "Plataformas moleculares de nivel avanzado que impulsan sectores industriales globales.",
+        "tech.xdry": "Curado por humedad ultra veloz",
+        "tech.lumacore": "Cura UV de alta reflexión",
+        "tech.corroguard": "Núcleo de mitigación de corrosión",
+        "tech.emulsacore": "Microresinas autoemulsionadas",
+        "tech.xylocore": "Enlaces celulares para madera",
+        "tech.impenetra": "Barrera de impacto y rayado",
+        "products.title": "Resinas Híbridas Serie 3000",
+        "products.subtitle": "La plataforma híbrida VeloXyl ofrece formulaciones personalizadas para una rápida integración.",
+        "products.ferraxyl.desc": "Sistema anticorrosivo directo a metal (DTM) de altos sólidos formulado como reemplazo de una sola capa en cadenas de recubrimientos.",
+        "products.spec.tech": "Tecnología de Respaldo",
+        "products.spec.voc": "Nivel de COV",
+        "products.spec.gloss": "Retención de Brillo",
+        "products.xeloxyl.desc": "Reemplazo de laca para madera libre de nitrocelulosa, ofrece un curado físico rápido sin las limitaciones de costo del CAB.",
+        "products.luxyl.desc": "Resina de protección exterior de alta gama que garantiza un acabado espejo brillante y una defensa superior contra rayos UV.",
+        "products.cta": "Solicitar Ficha Técnica (TDS)",
+        "metrics.m1": "Capas Reemplazadas",
+        "metrics.m2": "Ahorro en Costo de Aplicación",
+        "metrics.m3": "Curado Físico al Tacto",
+        "bridge.tag": "Migración hacia Eco-Innovación",
+        "bridge.title": "La Iniciativa Puente Verde",
+        "bridge.desc": "Pro4Chem apoya a sus clientes en la migración de sistemas solventes hacia tecnologías base agua de alta densidad, disminuyendo el impacto ecológico sin perder resistencia mecánica.",
+        "bridge.cta": "Descargar Plan de Migración",
+        "services.title": "Plataformas de Desarrollo a la Medida",
+        "services.subtitle": "Desarrollamos soluciones químicas exclusivas para clientes, fuera del catálogo estándar.",
+        "services.lab.title": "Laboratorios Privados CogniChem",
+        "services.lab.desc": "Acceso a pistas de investigación física y de síntesis exclusivas y seguras. Todas las formulaciones son de propiedad del cliente, protegidas bajo convenios de confidencialidad estrictos.",
+        "services.lab.l1": "Síntesis a medida y escalamiento",
+        "services.lab.l2": "Propiedad Intelectual exclusiva",
+        "services.lab.l3": "Pistas directas de transferencia tecnológica",
+        "services.ai.title": "Síntesis AI ChemNeural",
+        "services.ai.desc": "Optimice sus ciclos de formulación con el modelado de ChemNeural AI. Analizamos variables de resistencia mecánica, resistencia química y costos para hallar la resina perfecta antes de iniciar pruebas de laboratorio.",
+        "services.ai.l1": "Modelado predictivo de solubilidad",
+        "services.ai.l2": "Optimización automatizada costo-desempeño",
+        "services.ai.l3": "Evaluación rápida de cumplimiento regulatorio",
+        "services.cta": "Solicitar Información del Programa",
+        "markets.title": "Sectores Industriales",
+        "markets.subtitle": "Fórmulas de ingeniería especializadas para entornos de alta exigencia global.",
+        "markets.m1.title": "Industrial y Protección",
+        "markets.m2.title": "Madera y Muebles",
+        "markets.m3.title": "Repintado Automotriz",
+        "markets.m4.title": "Arquitectónico y Construcción",
+        "contact.title": "Colaboración Técnica",
+        "contact.subtitle": "Envíe sus metas de desempeño para obtener hojas técnicas, muestras o iniciar una sesión de desarrollo privado.",
+        "contact.form.name": "Nombre / Compañía",
+        "contact.form.email": "Correo Corporativo",
+        "contact.form.interest": "Interés Principal",
+        "contact.form.opt1": "Solicitar TDS (Serie 3000)",
+        "contact.form.opt2": "Solicitar Consulta de Laboratorio Privado",
+        "contact.form.opt3": "Solicitar Muestra de Producto",
+        "contact.form.notes": "Requisitos y Objetivos de Desempeño",
+        "contact.form.submit": "Enviar Solicitud de Desarrollo",
+        "footer.about": "Redes de polímeros de alto desempeño fabricadas mediante ciencia predictiva y formulación automatizada.",
+        "footer.h1": "Plataformas",
+        "footer.h2": "Oficinas",
+        "footer.loc1": "Sede Miami - Miami, FL, Estados Unidos",
+        "footer.loc2": "Centro de R&D - Heredia, Costa Rica"
+      }
+    };
+
+    let currentLang = localStorage.getItem("p4c-lang") || "en";
+
+    function setLanguage(l) {
+      currentLang = l;
+      localStorage.setItem("p4c-lang", l);
+      
+      // Update HTML lang attribute
+      document.documentElement.setAttribute('lang', l);
+      
+      // Update text contents
+      document.querySelectorAll("[data-i18n]").forEach(el => {
+        const k = el.getAttribute("data-i18n");
+        if (TRANSLATIONS[l] && TRANSLATIONS[l][k]) {
+          el.textContent = TRANSLATIONS[l][k];
+        }
+      });
+
+      // Update attributes (meta description, alt texts)
+      document.querySelectorAll("[data-i18n-attr]").forEach(el => {
+        const attrExpr = el.getAttribute("data-i18n-attr");
+        const parts = attrExpr.split(':');
+        const attrName = parts[0];
+        const key = parts[1];
+        if (TRANSLATIONS[l] && TRANSLATIONS[l][key]) {
+          el.setAttribute(attrName, TRANSLATIONS[l][key]);
+        }
+      });
+    }
+
+    function toggleLanguage() {
+      setLanguage(currentLang === "en" ? "es" : "en");
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      setLanguage(currentLang);
+    });
+
+    // Smart Base Path Auto-Resolver for review files loaded from subfolders
+    if (window.location.protocol === 'file:' || window.location.pathname.includes('/model-tests/')) {
+      const depth = '../../../../../';
+      
+      // Fix stylesheets
+      document.querySelectorAll('link[rel="stylesheet"]').forEach(link => {
+        const href = link.getAttribute('href');
+        if (href && !href.startsWith('http') && !href.startsWith('/')) {
+          link.setAttribute('href', depth + href);
+        }
+      });
+
+      // Fix images
+      document.querySelectorAll('img').forEach(img => {
+        const src = img.getAttribute('src');
+        if (src && !src.startsWith('http') && !src.startsWith('data:') && !src.startsWith('/')) {
+          img.setAttribute('src', depth + src);
+        }
+      });
+    }
+  </script>
+</body>
+</html>

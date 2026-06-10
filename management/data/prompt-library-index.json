@@ -1,0 +1,169 @@
+﻿{
+    "generatedAt":  "2026-06-07T02:41:59",
+    "mode":  "safe-v6-bounded-scan",
+    "promptRoot":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\prompts\\library",
+    "foldersVisited":  46,
+    "maxFolders":  80,
+    "maxDepth":  4,
+    "maxPromptFiles":  120,
+    "previewMode":  "safe-limited",
+    "prompts":  [
+                    {
+                        "fileName":  "code-review-agent.prompt",
+                        "fullPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\prompts\\library\\maintenance\\code-review-agent.prompt",
+                        "relativePath":  "maintenance\\code-review-agent.prompt",
+                        "lastModified":  "2026-06-06T14:19:37",
+                        "size":  433,
+                        "preview":  "Use Pro4Chem Final Deployment Plan V9. Do not eliminate previous details; reconcile and append changes. Maintain EN/ES parity, Series 3000 priority, VeloXyl launch positioning, shared header/footer, image registry, and staging-first governance.\nReview design tokens, header/footer injection, font lock, color compliance, links, image paths, i18n, SEO, schema, responsiveness, performance, accessibility, and namespace isolation.\r\n",
+                        "associations":  [
+
+                                         ]
+                    },
+                    {
+                        "fileName":  "graphics-review.prompt",
+                        "fullPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\prompts\\library\\maintenance\\graphics-review.prompt",
+                        "relativePath":  "maintenance\\graphics-review.prompt",
+                        "lastModified":  "2026-06-06T14:19:37",
+                        "size":  369,
+                        "preview":  "Use Pro4Chem Final Deployment Plan V9. Do not eliminate previous details; reconcile and append changes. Maintain EN/ES parity, Series 3000 priority, VeloXyl launch positioning, shared header/footer, image registry, and staging-first governance.\nReview selected image files, target page, target section, EN/ES alt text, registry update, staging-vs-main path safety.\r\n",
+                        "associations":  [
+
+                                         ]
+                    },
+                    {
+                        "fileName":  "monthly-marketing-header.prompt",
+                        "fullPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\prompts\\library\\maintenance\\monthly-marketing-header.prompt",
+                        "relativePath":  "maintenance\\monthly-marketing-header.prompt",
+                        "lastModified":  "2026-06-06T14:19:37",
+                        "size":  351,
+                        "preview":  "Use Pro4Chem Final Deployment Plan V9. Do not eliminate previous details; reconcile and append changes. Maintain EN/ES parity, Series 3000 priority, VeloXyl launch positioning, shared header/footer, image registry, and staging-first governance.\nCreate or review monthly header campaign assets ordered by date and separated from core web graphics.\r\n",
+                        "associations":  [
+
+                                         ]
+                    },
+                    {
+                        "fileName":  "web-statistics-review.prompt",
+                        "fullPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\prompts\\library\\maintenance\\web-statistics-review.prompt",
+                        "relativePath":  "maintenance\\web-statistics-review.prompt",
+                        "lastModified":  "2026-06-06T14:19:37",
+                        "size":  368,
+                        "preview":  "Use Pro4Chem Final Deployment Plan V9. Do not eliminate previous details; reconcile and append changes. Maintain EN/ES parity, Series 3000 priority, VeloXyl launch positioning, shared header/footer, image registry, and staging-first governance.\nReview web statistics notes, Cloudflare beacon configuration, monthly observations, and recommended marketing updates.\r\n",
+                        "associations":  [
+
+                                         ]
+                    },
+                    {
+                        "fileName":  "release-gate-review.prompt",
+                        "fullPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\prompts\\library\\governance\\release-gate-review.prompt",
+                        "relativePath":  "governance\\release-gate-review.prompt",
+                        "lastModified":  "2026-06-06T14:19:37",
+                        "size":  359,
+                        "preview":  "Use Pro4Chem Final Deployment Plan V9. Do not eliminate previous details; reconcile and append changes. Maintain EN/ES parity, Series 3000 priority, VeloXyl launch positioning, shared header/footer, image registry, and staging-first governance.\nConfirm only locally approved files in approved-dev can promote to staging; prepare staging to main PR notes.\r\n",
+                        "associations":  [
+
+                                         ]
+                    },
+                    {
+                        "fileName":  "homepage-commercial-landing.prompt",
+                        "fullPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\prompts\\library\\main\\index\\homepage-commercial-landing.prompt",
+                        "relativePath":  "main\\index\\homepage-commercial-landing.prompt",
+                        "lastModified":  "2026-06-06T14:19:37",
+                        "size":  360,
+                        "preview":  "Use Pro4Chem Final Deployment Plan V9. Do not eliminate previous details; reconcile and append changes. Maintain EN/ES parity, Series 3000 priority, VeloXyl launch positioning, shared header/footer, image registry, and staging-first governance.\nGenerate index.html with 11 homepage sections, Series 3000 VeloXyl focus, and required Stage 1 image manifest.\r\n",
+                        "associations":  [
+
+                                         ]
+                    },
+                    {
+                        "fileName":  "landing-page-main-qwen37max.prompt.md",
+                        "fullPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\prompts\\library\\main\\index\\landing-page-main-qwen37max.prompt.md",
+                        "relativePath":  "main\\index\\landing-page-main-qwen37max.prompt.md",
+                        "lastModified":  "2026-06-06T17:09:37",
+                        "size":  509,
+                        "preview":  "# Landing Page Main Prompt\nPrompt Type: Web Page\nPage: index\nCLI: qwen\nModel: Qwen3.7-Max\nContext: Use header, footer, language, SEO, security, image catalog, and marketing strategy files listed in management/data/context-files.json.\nOutput: Return affected files, change summary, validation checklist, and do not deploy automatically.\nPreservation: Do not eliminate previous details; append and reconcile changes.\n\n## Objective\nCreate or review the index page for Pro4Chem using P4C-WMS-V1.0 governance.\r\n",
+                        "associations":  [
+
+                                         ]
+                    },
+                    {
+                        "fileName":  "landing-page-main-v1-claude-sonnet4.6.prompt.md",
+                        "fullPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\prompts\\library\\main\\index\\landing-page-main-v1-claude-sonnet4.6.prompt.md",
+                        "relativePath":  "main\\index\\landing-page-main-v1-claude-sonnet4.6.prompt.md",
+                        "lastModified":  "2026-06-06T23:47:52",
+                        "size":  6695,
+                        "preview":  "# Pro4Chem Landing Page Prompt — Version 1 — Claude Sonnet 4.6\n\nPrompt Type: Web Page\nPage: index\nPage Name: Landing Page / Homepage\nCLI: claude\nModel: Claude Sonnet 4.6\nVersion: 1\nTarget File: M:\\Mi unidad\\devweb\\pro4chem-site\\index.html\nPrompt Library Path: M:\\Mi unidad\\devweb\\pro4chem-dev\\prompts\\library\\main\\index\\landing-page-main-v1-claude-sonnet4.6.prompt.md\nSource Plan: Pro4Chem_Deployment_Plan_v3_0.html\nStatus: CREATED\n\n## Objective\nCreate or update the Pro4Chem Specialty Resins landing page using the V3.0 deployment plan as the baseline. The page must be a production-ready, bilingual",
+                        "associations":  [
+
+                                         ]
+                    },
+                    {
+                        "fileName":  "about-page-main-qwen37max.prompt.md",
+                        "fullPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\prompts\\library\\main\\about\\about-page-main-qwen37max.prompt.md",
+                        "relativePath":  "main\\about\\about-page-main-qwen37max.prompt.md",
+                        "lastModified":  "2026-06-06T17:09:37",
+                        "size":  507,
+                        "preview":  "# About Page Main Prompt\nPrompt Type: Web Page\nPage: about\nCLI: qwen\nModel: Qwen3.7-Max\nContext: Use header, footer, language, SEO, security, image catalog, and marketing strategy files listed in management/data/context-files.json.\nOutput: Return affected files, change summary, validation checklist, and do not deploy automatically.\nPreservation: Do not eliminate previous details; append and reconcile changes.\n\n## Objective\nCreate or review the about page for Pro4Chem using P4C-WMS-V1.0 governance.\r\n",
+                        "associations":  [
+
+                                         ]
+                    },
+                    {
+                        "fileName":  "portfolio-page-main-qwen37max.prompt.md",
+                        "fullPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\prompts\\library\\main\\portfolio\\portfolio-page-main-qwen37max.prompt.md",
+                        "relativePath":  "main\\portfolio\\portfolio-page-main-qwen37max.prompt.md",
+                        "lastModified":  "2026-06-06T17:09:37",
+                        "size":  519,
+                        "preview":  "# Portfolio Page Main Prompt\nPrompt Type: Web Page\nPage: portfolio\nCLI: qwen\nModel: Qwen3.7-Max\nContext: Use header, footer, language, SEO, security, image catalog, and marketing strategy files listed in management/data/context-files.json.\nOutput: Return affected files, change summary, validation checklist, and do not deploy automatically.\nPreservation: Do not eliminate previous details; append and reconcile changes.\n\n## Objective\nCreate or review the portfolio page for Pro4Chem using P4C-WMS-V1.0 governance.\r\n",
+                        "associations":  [
+
+                                         ]
+                    },
+                    {
+                        "fileName":  "technology-page-main-qwen37max.prompt.md",
+                        "fullPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\prompts\\library\\main\\technology\\technology-page-main-qwen37max.prompt.md",
+                        "relativePath":  "main\\technology\\technology-page-main-qwen37max.prompt.md",
+                        "lastModified":  "2026-06-06T17:09:37",
+                        "size":  522,
+                        "preview":  "# Technology Page Main Prompt\nPrompt Type: Web Page\nPage: technology\nCLI: qwen\nModel: Qwen3.7-Max\nContext: Use header, footer, language, SEO, security, image catalog, and marketing strategy files listed in management/data/context-files.json.\nOutput: Return affected files, change summary, validation checklist, and do not deploy automatically.\nPreservation: Do not eliminate previous details; append and reconcile changes.\n\n## Objective\nCreate or review the technology page for Pro4Chem using P4C-WMS-V1.0 governance.\r\n",
+                        "associations":  [
+
+                                         ]
+                    },
+                    {
+                        "fileName":  "markets-page-main-qwen37max.prompt.md",
+                        "fullPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\prompts\\library\\main\\markets\\markets-page-main-qwen37max.prompt.md",
+                        "relativePath":  "main\\markets\\markets-page-main-qwen37max.prompt.md",
+                        "lastModified":  "2026-06-06T17:09:37",
+                        "size":  513,
+                        "preview":  "# Markets Page Main Prompt\nPrompt Type: Web Page\nPage: markets\nCLI: qwen\nModel: Qwen3.7-Max\nContext: Use header, footer, language, SEO, security, image catalog, and marketing strategy files listed in management/data/context-files.json.\nOutput: Return affected files, change summary, validation checklist, and do not deploy automatically.\nPreservation: Do not eliminate previous details; append and reconcile changes.\n\n## Objective\nCreate or review the markets page for Pro4Chem using P4C-WMS-V1.0 governance.\r\n",
+                        "associations":  [
+
+                                         ]
+                    },
+                    {
+                        "fileName":  "contact-page-main-qwen37max.prompt.md",
+                        "fullPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\prompts\\library\\main\\contact\\contact-page-main-qwen37max.prompt.md",
+                        "relativePath":  "main\\contact\\contact-page-main-qwen37max.prompt.md",
+                        "lastModified":  "2026-06-06T17:09:37",
+                        "size":  513,
+                        "preview":  "# Contact Page Main Prompt\nPrompt Type: Web Page\nPage: contact\nCLI: qwen\nModel: Qwen3.7-Max\nContext: Use header, footer, language, SEO, security, image catalog, and marketing strategy files listed in management/data/context-files.json.\nOutput: Return affected files, change summary, validation checklist, and do not deploy automatically.\nPreservation: Do not eliminate previous details; append and reconcile changes.\n\n## Objective\nCreate or review the contact page for Pro4Chem using P4C-WMS-V1.0 governance.\r\n",
+                        "associations":  [
+
+                                         ]
+                    },
+                    {
+                        "fileName":  "batch-stage2.prompt",
+                        "fullPath":  "M:\\Mi unidad\\devweb\\pro4chem-dev\\prompts\\library\\main\\general\\batch-stage2.prompt",
+                        "relativePath":  "main\\general\\batch-stage2.prompt",
+                        "lastModified":  "2026-06-06T14:19:37",
+                        "size":  382,
+                        "preview":  "Use Pro4Chem Final Deployment Plan V9. Do not eliminate previous details; reconcile and append changes. Maintain EN/ES parity, Series 3000 priority, VeloXyl launch positioning, shared header/footer, image registry, and staging-first governance.\nGenerate about.html, portfolio.html, technology.html, markets.html, contact.html using shared components and unique i18n namespaces.\r\n",
+                        "associations":  [
+
+                                         ]
+                    }
+                ],
+    "associations":  [
+
+                     ]
+}

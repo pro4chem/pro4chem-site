@@ -1,0 +1,1 @@
+﻿const FOOTER_HTML=`<footer class="site-footer"><strong>Pro4Chem Specialty Resins</strong><p>Miami FL · Heredia Costa Rica · sales@pro4chem.com</p></footer>`;function injectFooter(){const el=document.getElementById("footer-container");if(el)el.innerHTML=FOOTER_HTML}document.addEventListener("DOMContentLoaded",injectFooter);

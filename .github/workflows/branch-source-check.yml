@@ -1,0 +1,14 @@
+﻿name: Main Branch Source Check
+on:
+  pull_request:
+    branches: [main]
+jobs:
+  check-source:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Allow staging or hotfix only
+        run: |
+          if [[ "${GITHUB_HEAD_REF}" != "staging" ]] && ! [[ "${GITHUB_HEAD_REF}" =~ ^hotfix/ ]]; then
+            echo "PR into main must come from staging or hotfix/*"
+            exit 1
+          fi

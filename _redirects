@@ -1,0 +1,7 @@
+﻿https://www.pro4chem.com/*  https://pro4chem.com/:splat  301
+/series/* /portfolio.html 302
+/resins/* /portfolio.html 302
+/tds/* /contact.html 302
+/sds/* /contact.html 302
+/docs/* /contact.html 302
+/* /index.html 404

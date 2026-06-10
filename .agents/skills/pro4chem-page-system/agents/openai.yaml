@@ -1,0 +1,9 @@
+interface:
+  display_name: "Pro4Chem Page System"
+  short_description: "Planner-first Pro4Chem page workflow from pro4chem-site, routed through the pro4chem-dev control repo."
+  brand_color: "#00D4FF"
+  default_prompt: |
+    Use the Pro4Chem page system from pro4chem-site. Treat pro4chem-dev as the planning and WMS control repo. Plan first, edit only approved files, validate, refresh WMS status, and do not directly modify pro4chem-site or promote without explicit approval.
+
+policy:
+  allow_implicit_invocation: true

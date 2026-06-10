@@ -1,0 +1,86 @@
+﻿M:\Mi unidad\devweb\pro4chem-dev\
+├── .github\
+│   └── workflows\
+├── agents\
+├── approved-dev\
+├── assets\
+│   ├── css\
+│   └── js\
+├── config\
+│   ├── agent-program-registry.json
+│   ├── image-registry.json
+│   ├── marketing-header-registry.json
+│   ├── p4c-wms-context-files.csv
+│   ├── p4c-wms-prompt-registry.csv
+│   └── web-statistics.json
+├── generated\
+│   ├── comparisons\
+│   ├── drafts\
+│   │   ├── p4c-wms-v1.0\
+│   │   ├── stage1\
+│   │   └── stage3\
+│   └── selected\
+├── logs\
+│   ├── cms-audit-log.csv
+│   ├── graphics-review-log.csv
+│   ├── marketing-header-log.csv
+│   ├── p4c-wms-prompt-builder-optimization-validation.csv
+│   ├── p4c-wms-prompt-migration-log.csv
+│   ├── p4c-wms-script-review-latest.json
+│   ├── p4c-wms-v1.0-dev-management-validation.csv
+│   ├── p4c-wms-v1.0-operational-validation.csv
+│   ├── p4c-wms-v1.3-stuck-diagnostic-log.txt
+│   └── web-statistics-log.csv
+├── management\
+│   ├── assets\
+│   │   ├── management.css
+│   │   ├── management.js
+│   │   ├── p4c-wms.css
+│   │   ├── p4c-wms.js
+│   │   ├── p4c-wms-app.js
+│   │   └── p4c-wms-prompt-builder.js
+│   ├── data\
+│   │   ├── context-files.json
+│   │   └── prompt-index.json
+│   ├── pages\
+│   │   ├── approval.html
+│   │   ├── cli-authentication.html
+│   │   ├── cli-models.html
+│   │   ├── deploy.html
+│   │   ├── edit-pages.html
+│   │   ├── header-footer.html
+│   │   ├── image-catalog.html
+│   │   ├── local-assets.html
+│   │   ├── marketing-headers.html
+│   │   ├── page-factory.html
+│   │   ├── prompt-lab.html
+│   │   ├── prompt-review.html
+│   │   ├── release-gates.html
+│   │   ├── review-approval.html
+│   │   ├── settings.html
+│   │   ├── stage1-review.html
+│   │   ├── stage3-review.html
+│   │   ├── validation.html
+│   │   ├── version-control.html
+│   │   ├── website-graphics-review.html
+│   │   └── web-statistics.html
+│   └── index.html
+├── programs\
+│   └── integrations\
+│       └── P4C-WMS-V1.0\
+├── prompts\
+│   └── library\
+│       ├── governance\
+│       ├── main\
+│       ├── maintenance\
+│       ├── marketing-strategy\
+│       ├── p4c-wms-v1.0\
+│       ├── stage1\
+│       ├── stage2\
+│       └── system\
+└── public\
+    └── images\
+        ├── core\
+        ├── incoming\
+        ├── marketing\
+        └── staging\
