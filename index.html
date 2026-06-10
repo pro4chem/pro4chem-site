@@ -1,1129 +1,506 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title data-i18n="seo.title">Pro4Chem Specialty Resins — Hybrid Resin Technologies</title>
-  <meta name="description" content="Pro4Chem Specialty Resins: Industrial science meets polymer innovation. Explore our high-performance Series 3000 hybrid resins, custom formulations, and secure client R&D services." data-i18n-attr="content:seo.description">
-  
-  <link rel="canonical" href="https://pro4chem.com/">
-  <link rel="alternate" hreflang="en" href="https://pro4chem.com/">
-  <link rel="alternate" hreflang="es" href="https://pro4chem.com/es/">
-  
-  <!-- Open Graph -->
-  <meta property="og:title" content="Pro4Chem Specialty Resins — Hybrid Resin Technologies" data-i18n-attr="content:seo.title">
-  <meta property="og:description" content="Pro4Chem Specialty Resins: Industrial science meets polymer innovation. Explore our high-performance Series 3000 hybrid resins." data-i18n-attr="content:seo.description">
-  <meta property="og:image" content="public/images/core/homepage_paradigm_shift_hero.webp">
-  <meta property="og:url" content="https://pro4chem.com/">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pro4Chem Specialty Resins | Hybrid Resin Technologies</title>
+  <meta name="description" content="Series 3000 VeloXyl hybrid resin launch, waterborne migration, AI-enabled R&amp;D, and specialty resin portfolio.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.pro4chem.com/">
+  <link rel="alternate" hreflang="en" href="https://www.pro4chem.com/">
+  <link rel="alternate" hreflang="es" href="https://www.pro4chem.com/es/">
+  <link rel="alternate" hreflang="x-default" href="https://www.pro4chem.com/">
   <meta property="og:type" content="website">
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="assets/css/pro4chem-tokens.css">
-  
+  <meta property="og:title" content="Pro4Chem Specialty Resins | Hybrid Resin Technologies">
+  <meta property="og:description" content="Series 3000 VeloXyl hybrid resin launch, waterborne migration, AI-enabled R&amp;D, and specialty resin portfolio.">
+  <meta property="og:image" content="https://www.pro4chem.com/public/images/core/homepage_paradigm_shift_hero.webp">
+  <meta property="og:url" content="https://www.pro4chem.com/">
+  <link rel="stylesheet" href="../../../../../assets/css/pro4chem-tokens.css">
   <style>
-    /* Model B Specific Styles: Glows, Fluid Glassmorphism, Floating Layouts */
-    .hero-section {
-      position: relative;
-      min-height: 90vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: radial-gradient(circle at 50% 30%, rgba(0, 212, 255, 0.22) 0%, transparent 60%), 
-                  linear-gradient(180deg, rgba(5, 12, 26, 0.85) 0%, rgba(5, 12, 26, 0.98) 100%),
-                  url('public/images/core/homepage_paradigm_shift_hero.webp') no-repeat center center / cover;
-      padding: 9rem 0 5rem 0;
-      text-align: center;
-    }
-
-    .hero-content {
-      max-width: 850px;
-      margin: 0 auto;
-    }
-
-    .hero-tag {
-      font-family: 'JetBrains Mono', monospace;
-      color: var(--p4c-accent);
-      background: rgba(0, 212, 255, 0.08);
-      border: 1px solid rgba(0, 212, 255, 0.2);
-      padding: 0.4rem 1.2rem;
-      border-radius: 50px;
-      font-size: 0.85rem;
-      letter-spacing: 0.12em;
-      display: inline-block;
-      margin-bottom: 1.5rem;
-      text-transform: uppercase;
-    }
-
-    .hero-title {
-      font-size: 3.8rem;
-      line-height: 1.1;
-      font-weight: 800;
-      margin-bottom: 1.5rem;
-      background: linear-gradient(180deg, #FFFFFF 50%, #BBE7FF 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-
-    .hero-subtitle {
-      font-size: 1.25rem;
-      color: var(--p4c-text-secondary);
-      margin-bottom: 3rem;
-    }
-
-    /* Sticky Nav Bar */
-    .header-bar {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      z-index: 1000;
-      background: rgba(5, 12, 26, 0.85);
-      backdrop-filter: blur(16px);
-      border-bottom: 1px solid rgba(0, 212, 255, 0.15);
-      padding: 0.9rem 0;
-    }
-
-    .nav-container {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    .brand-logo {
-      display: flex;
-      align-items: center;
-      gap: 0.6rem;
-      text-decoration: none;
-      color: var(--p4c-text-primary);
-      font-weight: 800;
-      font-size: 1.35rem;
-      letter-spacing: 0.05em;
-    }
-
-    .brand-logo img {
-      height: 36px;
-      width: auto;
-    }
-
-    .nav-links {
-      display: flex;
-      align-items: center;
-      gap: 2.2rem;
-    }
-
-    .nav-links a {
-      color: var(--p4c-text-secondary);
-      text-decoration: none;
-      font-weight: 600;
-      font-size: 0.9rem;
-      transition: color var(--p4c-transition-fast), transform var(--p4c-transition-fast);
-    }
-
-    .nav-links a:hover {
-      color: var(--p4c-accent);
-      transform: translateY(-1px);
-    }
-
-    .lang-btn {
-      background: linear-gradient(90deg, rgba(0,212,255,0.1) 0%, rgba(0,212,255,0.2) 100%);
-      border: 1px solid var(--p4c-accent);
-      color: #FFF;
-      padding: 0.5rem 1rem;
-      border-radius: 6px;
-      font-family: 'JetBrains Mono', monospace;
-      font-weight: 700;
-      cursor: pointer;
-      font-size: 0.85rem;
-      transition: all var(--p4c-transition-fast);
-    }
-
-    .lang-btn:hover {
-      background: var(--p4c-accent);
-      color: var(--p4c-bg-base);
-      box-shadow: 0 0 14px rgba(0, 212, 255, 0.4);
-    }
-
-    /* Grids */
-    .grid-3 {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 2.5rem;
-    }
-
-    .grid-2 {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 3.5rem;
-      align-items: center;
-    }
-
-    .grid-6 {
-      display: grid;
-      grid-template-columns: repeat(6, 1fr);
-      gap: 1.5rem;
-    }
-
-    @media (max-width: 1023px) {
-      .grid-3 { grid-template-columns: repeat(2, 1fr); }
-      .grid-6 { grid-template-columns: repeat(3, 1fr); }
-      .grid-2 { grid-template-columns: 1fr; }
-    }
-
-    @media (max-width: 767px) {
-      .grid-3 { grid-template-columns: 1fr; }
-      .grid-6 { grid-template-columns: repeat(2, 1fr); }
-    }
-
-    /* Section Headers */
-    .section-title {
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
-      text-align: center;
-      background: linear-gradient(180deg, #FFFFFF 40%, rgba(255,255,255,0.7) 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    
-    .section-subtitle {
-      color: var(--p4c-text-secondary);
-      text-align: center;
-      max-width: 750px;
-      margin: 0 auto 4rem auto;
-      font-size: 1.1rem;
-    }
-
-    /* Core Tech Cards */
-    .tech-card {
-      position: relative;
-      text-align: center;
-      padding: 2.5rem 1.5rem;
-      border: 1px solid var(--p4c-glass-border);
-      border-radius: 12px;
-      background: rgba(255,255,255,0.02);
-      backdrop-filter: blur(8px);
-      transition: all var(--p4c-transition-normal);
-    }
-
-    .tech-card:hover {
-      border-color: var(--p4c-accent);
-      background: rgba(0, 212, 255, 0.05);
-      box-shadow: 0 10px 30px rgba(0, 212, 255, 0.1);
-      transform: translateY(-3px);
-    }
-
-    .tech-icon {
-      height: 56px;
-      margin-bottom: 1.25rem;
-    }
-
-    .tech-card h3 {
-      font-size: 1.3rem;
-      margin-bottom: 0.5rem;
-      color: #fff;
-    }
-
-    .tech-card p {
-      font-size: 0.85rem;
-      color: var(--p4c-text-secondary);
-    }
-
-    /* Product Cards with Shimmer and Accents */
-    .product-card {
-      border-radius: 16px;
-      overflow: hidden;
-      border: 1px solid var(--p4c-glass-border);
-      background: linear-gradient(180deg, rgba(12, 30, 58, 0.5) 0%, rgba(10, 22, 40, 0.8) 100%);
-      transition: all var(--p4c-transition-normal);
-    }
-
-    .product-card:hover {
-      transform: translateY(-8px);
-      border-color: var(--p4c-accent);
-      box-shadow: 0 12px 40px rgba(0, 212, 255, 0.15);
-    }
-
-    .product-header-img {
-      height: 200px;
-      width: 100%;
-      object-fit: cover;
-      border-bottom: 1px solid var(--p4c-glass-border);
-    }
-
-    .product-content {
-      padding: 2.5rem;
-    }
-
-    .sku-badge {
-      display: inline-block;
-      padding: 0.3rem 0.75rem;
-      background: rgba(0, 212, 255, 0.12);
-      border: 1px solid rgba(0, 212, 255, 0.3);
-      color: var(--p4c-accent);
-      border-radius: 50px;
-      font-size: 0.75rem;
-      font-weight: 700;
-      margin-bottom: 1.25rem;
-    }
-
-    .product-title {
-      font-size: 1.7rem;
-      margin-bottom: 0.75rem;
-    }
-
-    .product-desc {
-      font-size: 0.92rem;
-      color: var(--p4c-text-secondary);
-      margin-bottom: 2rem;
-      height: 70px;
-    }
-
-    .product-specs {
-      border-top: 1px solid rgba(255, 255, 255, 0.08);
-      padding-top: 1.5rem;
-      margin-bottom: 2rem;
-    }
-
-    .product-spec-row {
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.88rem;
-      margin-bottom: 0.6rem;
-    }
-
-    .product-spec-row span:first-child {
-      color: var(--p4c-text-secondary);
-    }
-
-    .product-spec-row span:last-child {
-      color: #fff;
-      font-weight: 600;
-    }
-
-    /* Metric Strip */
-    .metric-strip {
-      background: radial-gradient(ellipse at center, rgba(12, 30, 58, 0.8) 0%, rgba(5, 12, 26, 1) 100%);
-      border-top: 1px solid var(--p4c-glass-border);
-      border-bottom: 1px solid var(--p4c-glass-border);
-      padding: 4rem 0;
-    }
-
-    .metric-item {
-      text-align: center;
-    }
-
-    .metric-value {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 3.5rem;
-      font-weight: 800;
-      color: var(--p4c-accent);
-      text-shadow: 0 0 15px rgba(0, 212, 255, 0.3);
-      margin-bottom: 0.5rem;
-    }
-
-    .metric-label {
-      font-size: 0.95rem;
-      color: var(--p4c-text-secondary);
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-    }
-
-    /* Green Bridge Split Section */
-    .green-bridge-box {
-      border-radius: 20px;
-      overflow: hidden;
-      background: linear-gradient(135deg, rgba(16, 185, 129, 0.06) 0%, rgba(5, 12, 26, 0.95) 100%);
-      border: 1px solid rgba(16, 185, 129, 0.3);
-      box-shadow: 0 8px 32px rgba(16, 185, 129, 0.08);
-    }
-
-    .green-bridge-content {
-      padding: 5rem;
-    }
-
-    .green-bridge-img-box {
-      height: 100%;
-      min-height: 400px;
-      background: url('public/images/core/green_bridge_homepage.webp') no-repeat center center / cover;
-    }
-
-    /* Service Splits */
-    .service-box {
-      padding: 3.5rem;
-      background: rgba(255, 255, 255, 0.03);
-      border-radius: 16px;
-      border: 1px solid var(--p4c-glass-border);
-      transition: all var(--p4c-transition-normal);
-    }
-
-    .service-box:hover {
-      box-shadow: 0 8px 30px rgba(0,0,0,0.4);
-      transform: translateY(-2px);
-    }
-
-    .service-box.purple-glow {
-      border-color: rgba(167, 139, 250, 0.3);
-      background: linear-gradient(180deg, rgba(167, 139, 250, 0.04) 0%, transparent 100%);
-    }
-
-    .service-box.purple-glow:hover {
-      border-color: var(--p4c-purple);
-      box-shadow: 0 8px 32px rgba(167, 139, 250, 0.15);
-    }
-
-    .service-tag {
-      font-family: 'JetBrains Mono', monospace;
-      color: var(--p4c-accent);
-      font-size: 0.8rem;
-      font-weight: 700;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      margin-bottom: 1rem;
-      display: inline-block;
-    }
-
-    .purple-glow .service-tag {
-      color: var(--p4c-purple);
-    }
-
-    /* Market Grid */
-    .market-card {
-      position: relative;
-      height: 280px;
-      border-radius: 12px;
-      overflow: hidden;
-      border: 1px solid var(--p4c-glass-border);
-      cursor: pointer;
-    }
-
-    .market-card img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      transition: transform var(--p4c-transition-normal);
-    }
-
-    .market-card:hover img {
-      transform: scale(1.08);
-    }
-
-    .market-overlay {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      padding: 2rem;
-      background: linear-gradient(0deg, rgba(5, 12, 26, 0.95) 0%, transparent 100%);
-    }
-
-    .market-card h3 {
-      font-size: 1.3rem;
-      color: #fff;
-    }
-
-    /* Form Styles */
-    .contact-form {
-      max-width: 650px;
-      margin: 0 auto;
-      background: rgba(12, 30, 58, 0.4);
-      padding: 3.5rem;
-      border-radius: 16px;
-      border: 1px solid var(--p4c-glass-border);
-    }
-
-    .form-group {
-      margin-bottom: 1.75rem;
-    }
-
-    .form-label {
-      display: block;
-      margin-bottom: 0.6rem;
-      font-weight: 600;
-      font-size: 0.9rem;
-      color: var(--p4c-text-secondary);
-    }
-
-    .form-control {
-      width: 100%;
-      padding: 0.9rem;
-      border: 1px solid var(--p4c-glass-border);
-      background: rgba(5, 12, 26, 0.4);
-      color: #fff;
-      border-radius: 8px;
-      font-family: 'Exo 2', sans-serif;
-    }
-
-    .form-control:focus {
-      outline: none;
-      border-color: var(--p4c-accent);
-      box-shadow: 0 0 10px rgba(0, 212, 255, 0.35);
-    }
-
-    /* Footer styling */
-    .footer-bar {
-      border-top: 1px solid var(--p4c-glass-border);
-      padding: 6rem 0 4rem 0;
-      background: #02050b;
-    }
-
-    .footer-grid {
-      display: grid;
-      grid-template-columns: 1.5fr 1fr 1fr;
-      gap: 5rem;
-      margin-bottom: 5rem;
-    }
-
-    @media (max-width: 767px) {
-      .footer-grid {
-        grid-template-columns: 1fr;
-        gap: 2.5rem;
-      }
-    }
-
-    .footer-logo {
-      height: 52px;
-      margin-bottom: 1.5rem;
-    }
-
-    .footer-links h4 {
-      margin-bottom: 1.75rem;
-      color: var(--p4c-text-primary);
-      text-transform: uppercase;
-      font-size: 0.95rem;
-      letter-spacing: 0.08em;
-    }
-
-    .footer-links ul {
-      list-style: none;
-    }
-
-    .footer-links ul li {
-      margin-bottom: 0.9rem;
-    }
-
-    .footer-links ul li a {
-      color: var(--p4c-text-secondary);
-      text-decoration: none;
-      font-size: 0.95rem;
-      transition: color var(--p4c-transition-fast);
-    }
-
-    .footer-links ul li a:hover {
-      color: var(--p4c-accent);
-    }
-
-    .footer-bottom {
-      border-top: 1px solid rgba(255, 255, 255, 0.06);
-      padding-top: 2.5rem;
-      display: flex;
-      justify-content: space-between;
-      color: var(--p4c-text-muted);
-      font-size: 0.9rem;
-    }
-
-    @media (max-width: 767px) {
-      .footer-bottom {
-        flex-direction: column;
-        gap: 1.5rem;
-        text-align: center;
-      }
-    }
+    html,body{max-width:100%;overflow-x:hidden} body{background:#050c1a;color:var(--p4c-text-primary);margin:0} section{padding:0;margin:0}
+    .header-bar{position:sticky;top:0;width:100%;background:rgba(5,12,26,.97);backdrop-filter:blur(18px);border-bottom:1px solid rgba(0,212,255,.12);box-shadow:0 1px 30px rgba(0,212,255,.06);padding:.75rem clamp(1rem,4vw,4rem);display:flex;align-items:center;justify-content:space-between;z-index:1000}
+    .header-bar:after{content:"";position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(0,212,255,.4),rgba(16,185,129,.4),transparent)} .brand-logo img{height:48px;width:auto;opacity:.94;filter:drop-shadow(0 0 12px rgba(0,212,255,.34))}
+    .nav-menu{display:flex;align-items:center;gap:1.2rem;list-style:none;margin:0;padding:0} .nav-menu a,.nav-drawer a,.text-link{color:var(--p4c-text-secondary);text-decoration:none} .nav-menu a:hover,.nav-drawer a:hover,.text-link:hover{color:var(--p4c-accent)}
+    .has-menu{position:relative} .submenu{display:none;position:absolute;top:100%;left:0;min-width:240px;background:rgba(5,12,26,.98);border:1px solid rgba(0,212,255,.18);border-radius:10px;padding:.7rem;box-shadow:0 18px 50px rgba(0,0,0,.38)} .has-menu:hover .submenu,.has-menu:focus-within .submenu{display:grid;gap:.35rem} .submenu a{display:block;padding:.55rem .65rem;border-radius:7px} .submenu a:hover{background:rgba(0,212,255,.08)}
+    .nav-cta a{color:var(--p4c-accent);font-weight:700} .btn-lang,.hamburger{border:1px solid rgba(0,212,255,.45);background:rgba(0,212,255,.04);color:var(--p4c-accent);border-radius:8px;min-height:44px;padding:.55rem .8rem;cursor:pointer} .hamburger{display:none;flex-direction:column;gap:5px;justify-content:center} .hamburger span{display:block;width:24px;height:2px;background:#fff;border-radius:2px}
+    .nav-drawer{display:none;position:fixed;inset:0;background:rgba(5,12,26,.98);z-index:1200;align-items:center;justify-content:center;flex-direction:column;gap:1.4rem} .nav-drawer.open{display:flex} .nav-drawer-close{position:absolute;top:1rem;right:1rem;background:none;border:0;color:#fff;font-size:2rem;min-width:44px;min-height:44px}
+    .main-content{max-width:1480px;margin:0 auto;width:100%;padding:0 clamp(1rem,3vw,2rem)} .container{max-width:1280px;margin:0 auto;width:100%} .section-block{padding:4.5rem 0} .section-alt{background:linear-gradient(180deg,rgba(255,255,255,.025),rgba(0,212,255,.025));border-top:1px solid rgba(255,255,255,.05);border-bottom:1px solid rgba(255,255,255,.05)}
+    .hero-section{min-height:82vh;display:flex;align-items:center;position:relative;border-radius:12px;overflow:hidden;margin-top:1.25rem} .hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.42} .hero-content{position:relative;z-index:1;width:100%;padding:clamp(2rem,6vw,5rem);background:linear-gradient(90deg,rgba(5,12,26,.96),rgba(5,12,26,.55));display:flex;flex-direction:column;justify-content:center;min-height:82vh}
+    .hero-mark{width:min(230px,58vw);height:auto;margin-bottom:1rem;opacity:.56;filter:drop-shadow(0 0 18px rgba(0,212,255,.22))} .hero-title{font-size:clamp(2.25rem,6vw,5.6rem);line-height:1.02;margin:.5rem 0 1.2rem;color:#fff;max-width:940px} .hero-subtitle{font-size:clamp(1rem,2vw,1.35rem);color:var(--p4c-text-secondary);line-height:1.65;max-width:780px}
+    .section-title{font-size:clamp(1.65rem,3vw,3rem);color:#fff;margin:0 0 1rem} .section-subtitle{color:var(--p4c-text-secondary);font-size:1.05rem;line-height:1.7;max-width:860px;margin:0 0 2rem} .cta-row{display:flex;gap:1rem;flex-wrap:wrap;margin-top:2rem}
+    .card-grid,.division-grid,.priority-grid,.pillar-grid,.page-hub-grid,.family-stack{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.2rem} .proof-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.2rem} .tech-icon-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:1rem} .p4c-card,.proof-panel,.division-card,.priority-card,.pillar-card,.link-group,.template-note,.tech-icon-card{background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.1);border-radius:12px;box-shadow:0 18px 50px rgba(0,0,0,.28);overflow:hidden} .media-card{display:flex;flex-direction:column;background:linear-gradient(135deg,rgba(0,212,255,.06),rgba(16,185,129,.025))} .media-frame,.family-media{display:block;aspect-ratio:16/9;overflow:hidden;background:rgba(0,212,255,.035)} .media-frame img,.family-media img{width:100%;height:100%;aspect-ratio:16/9;object-fit:cover;display:block} .tech-icon-card{display:flex;flex-direction:column;min-height:100%;background:linear-gradient(180deg,rgba(0,212,255,.07),rgba(255,255,255,.035))} .tech-icon-frame{display:grid;place-items:center;aspect-ratio:1/1;background:radial-gradient(circle at 50% 36%,rgba(56,217,255,.22),rgba(5,12,26,.65));padding:1.1rem} .tech-icon-frame img{width:100%;height:100%;object-fit:cover;border-radius:8px} .tech-icon-copy{padding:1rem} .tech-icon-copy h3{font-size:1.08rem;margin:.1rem 0 .55rem;color:#fff} .tech-icon-copy p{font-size:.94rem;color:var(--p4c-text-secondary);line-height:1.55} .p4c-card-body,.proof-panel,.division-card div,.priority-card .p4c-card-body,.pillar-card .p4c-card-body,.link-group{padding:clamp(1.1rem,2vw,1.6rem)} .card-kicker,.proof-panel span,.priority-card span,.tech-mono{color:var(--p4c-accent);font-size:.76rem;text-transform:uppercase;letter-spacing:.08em} .product-name{color:#38d9ff;text-shadow:0 0 12px rgba(56,217,255,.55),0 0 30px rgba(16,185,129,.18);font-weight:800} .tm-mark{font-size:.38em;vertical-align:super;margin-left:.08em;color:#8ff3ff;text-shadow:0 0 8px rgba(56,217,255,.5);letter-spacing:0} .p4c-card p,.proof-panel p,.division-card p,.priority-card p,.pillar-card p,.link-group small{color:var(--p4c-text-secondary);line-height:1.7} .media-card p,.family-copy p,.division-card p,.priority-card p,.pillar-card p{font-size:clamp(1.08rem,1.55vw,1.28rem)}
+    .brand-divider{display:grid;grid-template-columns:1fr auto 1fr;gap:1rem;align-items:center;max-width:960px;margin:0 auto;padding:1.8rem 1rem} .brand-divider:before,.brand-divider:after{content:"";height:1px;background:linear-gradient(90deg,transparent,var(--p4c-accent),transparent)} .brand-divider span{display:none} .brand-divider img{width:72px;height:auto;filter:drop-shadow(0 0 18px rgba(0,212,255,.35))} .section-logo-mark{display:flex;align-items:center;margin:0 0 .8rem} .section-logo-mark img{width:96px;height:auto;opacity:.72;filter:drop-shadow(0 0 14px rgba(0,212,255,.28))}
+    .logo-panel{display:grid;grid-template-columns:auto 1fr;gap:2rem;align-items:center;margin-bottom:2rem} .logo-panel img{width:min(300px,75vw);height:auto;filter:drop-shadow(0 0 24px rgba(0,212,255,.35))} .product-family-banner{background:linear-gradient(135deg,rgba(0,212,255,.075),rgba(16,185,129,.035));border:1px solid rgba(0,212,255,.18);border-radius:12px;overflow:hidden;box-shadow:0 18px 55px rgba(0,0,0,.3)} .family-copy{padding:clamp(1.2rem,2.2vw,1.7rem)} .family-copy h3,.media-card h3{font-size:clamp(1.45rem,2.6vw,2.4rem);margin:.1rem 0 .75rem;line-height:1.05} .family-copy p{color:var(--p4c-text-secondary);line-height:1.65;max-width:720px} .priority-card strong,.metric-row strong{display:block;color:var(--p4c-amber);font-size:clamp(1.35rem,2.7vw,2.2rem);line-height:1.08;margin:.7rem 0} .product-line-card strong{overflow-wrap:break-word} .product-line-card h3{color:#fff} .tca-band{padding:4.5rem 0;background:rgba(245,158,11,.05)} .tca-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:2rem;align-items:center} .tca-grid img{width:100%;border-radius:12px;display:block;box-shadow:0 18px 60px rgba(0,0,0,.35)} .metric-row{display:flex;align-items:end;gap:1rem;flex-wrap:wrap;margin-top:1.5rem;color:var(--p4c-text-secondary)}
+    .link-chip-grid{display:grid;gap:.6rem} .link-chip{display:flex;justify-content:space-between;gap:1rem;align-items:center;border:1px solid rgba(255,255,255,.08);border-radius:8px;padding:.75rem .85rem;color:#fff;text-decoration:none;background:rgba(0,212,255,.035)} .link-chip:hover{border-color:rgba(0,212,255,.4);background:rgba(0,212,255,.08)} .template-note{padding:1.25rem;border-color:rgba(245,158,11,.45);color:var(--p4c-amber);margin-bottom:1.2rem} .spec-table{width:100%;border-collapse:collapse;background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.1);border-radius:12px;overflow:hidden;display:table;box-shadow:0 18px 50px rgba(0,0,0,.28)} .spec-table th,.spec-table td{padding:1.1rem;border-bottom:1px solid rgba(255,255,255,.08);vertical-align:top;text-align:left} .spec-table th{width:230px;color:#fff;background:rgba(0,212,255,.055)} .spec-table td{color:var(--p4c-text-secondary);line-height:1.65} .request-form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.1);border-radius:12px;padding:1.35rem;box-shadow:0 18px 50px rgba(0,0,0,.28)} .request-form label{display:grid;gap:.45rem;color:#fff;font-weight:700} .request-form span{font-size:.78rem;text-transform:uppercase;letter-spacing:.12em;color:var(--p4c-accent)} .request-form input,.request-form select,.request-form textarea{width:100%;box-sizing:border-box;border:1px solid rgba(255,255,255,.14);border-radius:8px;background:rgba(5,12,26,.72);color:#fff;padding:.8rem;font:inherit} .request-form textarea,.request-form .full{grid-column:1/-1} .contact-list{display:grid;gap:.65rem;margin-top:1rem} .contact-list a,.contact-list p{color:var(--p4c-text-secondary);margin:0} .contact-panel{background:rgba(0,212,255,.035);border:1px solid rgba(0,212,255,.14);border-radius:12px;padding:1.35rem}
+    footer{background:linear-gradient(180deg,#050c1a,#030712);border-top:1px solid rgba(0,212,255,.12);margin-top:0} .footer-brand-strip{display:flex;flex-direction:column;align-items:center;gap:.75rem;padding:2.2rem 1rem;border-bottom:1px solid rgba(255,255,255,.06)} .footer-brand-strip img{height:112px;width:auto;filter:drop-shadow(0 0 24px rgba(0,212,255,.34))} .footer-brand-tagline{font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.55);text-align:center} .footer-columns{padding:2.5rem clamp(1rem,4vw,4rem);max-width:1480px;margin:0 auto} .footer-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2rem} .footer-heading{color:#fff;text-transform:uppercase;letter-spacing:.12em;font-size:.72rem} .footer-grid a{color:var(--p4c-text-secondary);text-decoration:none;display:block;margin:.45rem 0} .footer-grid a:hover{color:var(--p4c-accent)} .footer-copyright{border-top:1px solid rgba(255,255,255,.06);text-align:center;color:rgba(255,255,255,.45);font-size:.82rem;padding:1.3rem}
+    @media(max-width:900px){.brand-logo img{height:40px}.footer-brand-strip img{height:92px}.nav-menu{display:none}.hamburger{display:flex}.hero-section,.hero-content{min-height:auto}.hero-content{padding:2.5rem 1.4rem}.tca-grid,.logo-panel,.request-form{grid-template-columns:1fr}.card-grid,.division-grid,.priority-grid,.pillar-grid,.page-hub-grid,.family-stack{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr 1fr}} @media(max-width:560px){.main-content{padding:0 .85rem}.section-block{padding:3.2rem 0}.section-logo-mark img{width:78px}.cta-row{flex-direction:column}.btn{width:100%;text-align:center}.footer-grid{grid-template-columns:1fr;text-align:center}}
   </style>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "Pro4Chem Specialty Resins", "description": "Series 3000 VeloXyl hybrid resin launch, waterborne migration, AI-enabled R&D, and specialty resin portfolio.", "url": "https://www.pro4chem.com", "publisher": {"@type": "Organization", "name": "Pro4Chem Specialty Resins", "url": "https://www.pro4chem.com", "email": "gabriela@pro4chem.com", "telephone": "+50688147777", "address": [{"@type": "PostalAddress", "streetAddress": "3563 Loquat Ave, Miami, Florida", "addressLocality": "Miami", "addressRegion": "Florida", "addressCountry": "US"}, {"@type": "PostalAddress", "streetAddress": "La Asunción de Belen, De Amanco 200 oeste 150 Norte, Frente Ramstack, Belen, Heredia", "addressLocality": "Belen", "addressRegion": "Heredia", "addressCountry": "CR"}], "contactPoint": {"@type": "ContactPoint", "email": "gabriela@pro4chem.com", "telephone": "+50688147777", "contactType": "technical sales", "availableLanguage": ["English", "Spanish"]}}, "email": "gabriela@pro4chem.com", "telephone": "+50688147777", "address": [{"@type": "PostalAddress", "streetAddress": "3563 Loquat Ave, Miami, Florida", "addressLocality": "Miami", "addressRegion": "Florida", "addressCountry": "US"}, {"@type": "PostalAddress", "streetAddress": "La Asunción de Belen, De Amanco 200 oeste 150 Norte, Frente Ramstack, Belen, Heredia", "addressLocality": "Belen", "addressRegion": "Heredia", "addressCountry": "CR"}], "contactPoint": {"@type": "ContactPoint", "email": "gabriela@pro4chem.com", "telephone": "+50688147777", "contactType": "technical sales", "availableLanguage": ["English", "Spanish"]}}</script>
 </head>
-<body>
-
-  <!-- Sticky Header -->
+<body data-page-id="index" data-stage="Stage 1" data-model-route="codex:gpt-5-codex">
+  <nav class="nav-drawer" id="navDrawer" aria-label="Mobile navigation">
+    <button class="nav-drawer-close" type="button" onclick="document.getElementById('navDrawer').classList.remove('open')" aria-label="Close menu">&times;</button>
+    <a href="index.html" onclick="document.getElementById('navDrawer').classList.remove('open')" data-en="Home" data-es="Inicio">Home</a>
+      <a href="../../../portfolio/v3.0/codex/portfolio.html" onclick="document.getElementById('navDrawer').classList.remove('open')" data-en="Products" data-es="Productos">Products</a>
+      <a href="../../../stage2/series/v3.0/codex/index.html" onclick="document.getElementById('navDrawer').classList.remove('open')" data-en="Series Product Lines" data-es="Lineas por serie">Series Product Lines</a>
+      <a href="../../../stage2/services/v3.0/codex/index.html" onclick="document.getElementById('navDrawer').classList.remove('open')" data-en="Services" data-es="Servicios">Services</a>
+      <a href="../../../technology/v3.0/codex/technology.html" onclick="document.getElementById('navDrawer').classList.remove('open')" data-en="Technology" data-es="Tecnologia">Technology</a>
+      <a href="../../../markets/v3.0/codex/markets.html" onclick="document.getElementById('navDrawer').classList.remove('open')" data-en="Markets" data-es="Mercados">Markets</a>
+      <a href="../../../about/v3.0/codex/about.html" onclick="document.getElementById('navDrawer').classList.remove('open')" data-en="About" data-es="Acerca">About</a>
+      <a href="../../../contact/v3.0/codex/contact.html" onclick="document.getElementById('navDrawer').classList.remove('open')" data-en="Contact" data-es="Contacto">Contact</a>
+  </nav>
   <header class="header-bar">
-    <div class="container nav-container">
-      <a href="/" class="brand-logo">
-        <img src="public/images/core/logo-transparent.webp" alt="Pro4Chem logo">
-        <span>PRO4CHEM</span>
-      </a>
-      <nav class="nav-links">
-        <a href="#products" data-i18n="nav.products">Products</a>
-        <a href="#technology" data-i18n="nav.technology">Technology</a>
-        <a href="#markets" data-i18n="nav.markets">Markets</a>
-        <a href="#services" data-i18n="nav.services">Services</a>
-        <a href="#contact" data-i18n="nav.contact">Contact</a>
-        <button class="lang-btn" onclick="toggleLanguage()">EN / ES</button>
-      </nav>
+    <a href="index.html" class="brand-logo" aria-label="Pro4Chem home">
+      <img src="../../../../../public/images/core/logo-transparent.webp" alt="Pro4Chem logo" width="96" height="48">
+    </a>
+    <ul class="nav-menu" role="navigation" aria-label="Main navigation">
+      <li><a href="index.html" data-en="Home" data-es="Inicio">Home</a></li>
+      <li class="has-menu"><a href="../../../portfolio/v3.0/codex/portfolio.html" data-en="Products" data-es="Productos">Products</a><div class="submenu"><a href="../../../portfolio/v3.0/codex/portfolio.html" data-en="Products Overview" data-es="Resumen productos">Products Overview</a>
+        <a href="../../../stage2/series/v3.0/codex/index.html" data-en="Series Product Lines" data-es="Lineas por serie">Series Product Lines</a>
+        <a href="../../../stage2/series/v3.0/codex/3000-veloxyl/index.html" data-en="Series 3000 VeloXyl" data-es="Series 3000 VeloXyl">Series 3000 VeloXyl</a>
+        <a href="../../../stage2/series/v3.0/codex/ferraxyl/index.html" data-en="FerraXyl Family" data-es="Familia FerraXyl">FerraXyl Family</a>
+        <a href="../../../stage2/series/v3.0/codex/xeloxyl/index.html" data-en="XeloXyl Family" data-es="Familia XeloXyl">XeloXyl Family</a>
+        <a href="../../../stage2/series/v3.0/codex/luxyl/index.html" data-en="LuXyl Family" data-es="Familia LuXyl">LuXyl Family</a>
+        <a href="../../../stage2/series/v3.0/codex/6000-heliozol/index.html" data-en="Series 6000 HelioZol" data-es="Series 6000 HelioZol">Series 6000 HelioZol</a>
+        <a href="../../../stage2/resins/v3.0/codex/price-performance/index.html" data-en="Price / Performance" data-es="Precio / desempeno">Price / Performance</a></div></li>
+      <li class="has-menu"><a href="../../../stage2/services/v3.0/codex/index.html" data-en="Services" data-es="Servicios">Services</a><div class="submenu"><a href="../../../stage2/services/v3.0/codex/index.html" data-en="Services Overview" data-es="Resumen servicios">Services Overview</a>
+        <a href="../../../stage2/services/v3.0/codex/cognichem/index.html" data-en="CogniChem Private Labs" data-es="CogniChem Private Labs">CogniChem Private Labs</a>
+        <a href="../../../stage2/services/v3.0/codex/chemneural/index.html" data-en="ChemNeural Formulation AI" data-es="ChemNeural Formulation AI">ChemNeural Formulation AI</a>
+        <a href="../../../contact/v3.0/codex/contact.html#contact-form" data-en="Contact Services" data-es="Contactar servicios">Contact Services</a></div></li>
+      <li><a href="../../../technology/v3.0/codex/technology.html" data-en="Technology" data-es="Tecnologia">Technology</a></li>
+      <li><a href="../../../markets/v3.0/codex/markets.html" data-en="Markets" data-es="Mercados">Markets</a></li>
+      <li><a href="../../../about/v3.0/codex/about.html" data-en="About" data-es="Acerca">About</a></li>
+      <li><a href="../../../contact/v3.0/codex/contact.html" data-en="Contact" data-es="Contacto">Contact</a></li>
+    </ul>
+    <div style="display:flex;align-items:center;gap:.75rem">
+      <button class="btn-lang" type="button" onclick="toggleLanguage()" aria-label="Toggle language">EN / ES</button>
+      <button class="hamburger" type="button" aria-label="Open menu" onclick="document.getElementById('navDrawer').classList.add('open')"><span></span><span></span><span></span></button>
     </div>
   </header>
-
-  <!-- Cinematic Hero (Vivid Center Glow) -->
-  <section class="hero-section">
-    <div class="container">
-      <div class="hero-content">
-        <span class="hero-tag" data-i18n="hero.tag">Hybrid Resin Technologies</span>
-        <h1 class="hero-title" data-i18n="hero.title">Adaptation and Innovation by Design</h1>
-        <p class="hero-subtitle" data-i18n="hero.subtitle">Pro4Chem engineering bridges legacy limitations with hybrid polymer science. Series 3000 represents the pinnacle of performance, speed, and ecological responsibility.</p>
-        <div style="display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap;">
-          <a href="#products" class="btn btn-primary" data-i18n="hero.ctaPrimary">Explore Series 3000</a>
-          <a href="#contact" class="btn btn-secondary" data-i18n="hero.ctaSecondary">Request Technical Consultation</a>
+  
+    <main class="main-content">
+      <section class="hero-section">
+        <img src="../../../../../public/images/core/homepage_paradigm_shift_hero.webp" alt="Pro4Chem hybrid resin technology" class="hero-bg" width="1600" height="1000" loading="eager">
+        <div class="hero-content">
+          <img class="hero-mark" src="../../../../../public/images/core/logo-large-transparent.webp" alt="Pro4Chem Specialty Resins" width="420" height="140">
+          <h1 class="hero-title" data-en="Adaptation and Innovation by Design" data-es="Adaptacion e innovacion por diseno">Adaptation and Innovation by Design</h1>
+          <p class="hero-subtitle" data-en="Pro4Chem Specialty Resins turns legacy coating limitations into modern hybrid polymer systems, led by the Series 3000 VeloXyl launch." data-es="Pro4Chem Specialty Resins transforma las limitaciones de recubrimientos tradicionales en sistemas hibridos modernos, liderados por Series 3000 VeloXyl.">Pro4Chem Specialty Resins turns legacy coating limitations into modern hybrid polymer systems, led by the Series 3000 VeloXyl launch.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="../../../stage2/series/v3.0/codex/3000-veloxyl/index.html" data-en="Explore Series 3000" data-es="Explorar Series 3000">Explore Series 3000</a>
+            <a class="btn btn-secondary" href="../../../contact/v3.0/codex/contact.html" data-en="Request Technical Consultation" data-es="Solicitar consulta tecnica">Request Technical Consultation</a>
+          </div>
         </div>
-      </div>
-    </div>
-  </section>
+      </section>
 
-  <!-- Technology Ticker -->
-  <div class="ticker-wrap">
-    <div class="ticker">
-      <div class="ticker-item">VeloXyl</div>
-      <div class="ticker-item">FerraXyl</div>
-      <div class="ticker-item">XeloXyl</div>
-      <div class="ticker-item">LuXyl</div>
-      <div class="ticker-item">Xdry</div>
-      <div class="ticker-item">CorroGuard</div>
-      <div class="ticker-item">LumaCore</div>
-      <div class="ticker-item">XyloCore</div>
-      <div class="ticker-item">EmulsaCore</div>
-      <div class="ticker-item">Impenetra</div>
-      <!-- Duplicate for marquee effect -->
-      <div class="ticker-item">VeloXyl</div>
-      <div class="ticker-item">FerraXyl</div>
-      <div class="ticker-item">XeloXyl</div>
-      <div class="ticker-item">LuXyl</div>
-      <div class="ticker-item">Xdry</div>
-      <div class="ticker-item">CorroGuard</div>
-      <div class="ticker-item">LumaCore</div>
-      <div class="ticker-item">XyloCore</div>
-      <div class="ticker-item">EmulsaCore</div>
-      <div class="ticker-item">Impenetra</div>
-    </div>
-  </div>
-
-  <!-- Strategic Pillars -->
-  <section class="section-alt" id="pillars">
-    <div class="container">
-      <h2 class="section-title" data-i18n="pillars.title">Strategic Pillars</h2>
-      <p class="section-subtitle" data-i18n="pillars.subtitle">Industrial-grade polymer science engineered to modernize chemical supply chains.</p>
+      <section class="section-block section-alt" id="key-hybrid-solvent-polymers">
+        <div class="container">
+          
+          <div class="section-logo-mark" aria-hidden="true">
+            <img src="../../../../../public/images/core/logo-transparent.webp" alt="" width="96" height="48" loading="lazy">
+          </div>
+          <h2 class="section-title" data-en="Key Hybrid Solvent Polymers" data-es="Polimeros hibridos solventes clave">Key Hybrid Solvent Polymers</h2>
+          <p class="section-subtitle" data-en="Start with the VeloXyl Series 3000 platform when the product need is high-performance solvent-borne anticorrosion, lacquer speed, exterior resistance, or premium 1K/2K coating design." data-es="Inicie con la plataforma VeloXyl Series 3000 cuando la necesidad del producto sea anticorrosion solvente de alto desempeno, velocidad de laca, resistencia exterior o diseno premium 1K/2K.">Start with the VeloXyl Series 3000 platform when the product need is high-performance solvent-borne anticorrosion, lacquer speed, exterior resistance, or premium 1K/2K coating design.</p>
+          <div class="family-stack">
+            
+      <article class="product-family-banner media-card">
+        <a class="family-media" href="../../../stage2/series/v3.0/codex/3000-veloxyl/index.html">
+          <img src="../../../../../public/images/core/velocyl_series_card.webp" alt="VeloXyl product family" width="1600" height="900" loading="lazy">
+        </a>
+        <div class="family-copy">
+          <h3><span class="product-name">VeloXyl<small class="tm-mark">TM</small></span></h3>
+          <p data-en="Series 3000 brings FerraXyl, XeloXyl, and LuXyl into one promotional launch platform for modern solvent-borne hybrid polymer performance." data-es="Series 3000 integra FerraXyl, XeloXyl y LuXyl en una plataforma promocional de lanzamiento para desempeno moderno de polimeros hibridos solventes.">Series 3000 brings FerraXyl, XeloXyl, and LuXyl into one promotional launch platform for modern solvent-borne hybrid polymer performance.</p>
+          <a class="btn btn-primary" href="../../../stage2/series/v3.0/codex/3000-veloxyl/index.html" data-en="Open VeloXyl platform" data-es="Abrir plataforma VeloXyl">Open VeloXyl platform</a>
+        </div>
+      </article>
+            
+      <article class="product-family-banner media-card">
+        <a class="family-media" href="../../../stage2/series/v3.0/codex/ferraxyl/index.html">
+          <img src="../../../../../public/images/core/ferraxyl_landing_header.webp" alt="FerraXyl product family" width="1600" height="900" loading="lazy">
+        </a>
+        <div class="family-copy">
+          <h3><span class="product-name">FerraXyl<small class="tm-mark">TM</small></span></h3>
+          <p data-en="FerraXyl is the anticorrosive product family led by FX-3127 for DTM, primer, and premium 1K/2K protective coatings." data-es="FerraXyl es la familia anticorrosiva liderada por FX-3127 para DTM, primers y recubrimientos protectivos premium 1K/2K.">FerraXyl is the anticorrosive product family led by FX-3127 for DTM, primer, and premium 1K/2K protective coatings.</p>
+          <a class="btn btn-primary" href="../../../stage2/series/v3.0/codex/ferraxyl/index.html" data-en="Open FerraXyl family" data-es="Abrir familia FerraXyl">Open FerraXyl family</a>
+        </div>
+      </article>
+          </div>
+        </div>
+      </section>
       
-      <div class="grid-3">
-        <div class="glass-card">
-          <h3 style="margin-bottom: 1.25rem;" data-i18n="pillars.p1.title">Predictive Innovation Engineering</h3>
-          <p style="font-size: 0.95rem; color: var(--p4c-text-secondary);" data-i18n="pillars.p1.desc">Synthesized data analytics combined with lab prototyping ensures predictable performance under extreme industrial conditions.</p>
-        </div>
-        <div class="glass-card">
-          <h3 style="margin-bottom: 1.25rem;" data-i18n="pillars.p2.title">Technology Migration Leadership</h3>
-          <p style="font-size: 0.95rem; color: var(--p4c-text-secondary);" data-i18n="pillars.p2.desc">Easing transitions from hazardous solvent systems to next-generation waterborne solutions without losing application efficiency.</p>
-        </div>
-        <div class="glass-card">
-          <h3 style="margin-bottom: 1.25rem;" data-i18n="pillars.p3.title">Optimized Performance/Cost</h3>
-          <p style="font-size: 0.95rem; color: var(--p4c-text-secondary);" data-i18n="pillars.p3.desc">Engineering single system integrations that replace multi-coat processes, slashing material and application costs.</p>
-        </div>
-      </div>
+    <div class="brand-divider" aria-hidden="true">
+      <span></span><img src="../../../../../public/images/core/logo-transparent.webp" alt="" width="80" height="40" loading="lazy"><span></span>
     </div>
-  </section>
 
-  <!-- Core Technologies Showcase -->
-  <section id="technology">
-    <div class="container">
-      <h2 class="section-title" data-i18n="tech.title">Pro4Chem Core Technologies</h2>
-      <p class="section-subtitle" data-i18n="tech.subtitle">Advanced molecular platforms driving global industry sectors.</p>
-      
-      <div class="grid-6">
-        <div class="tech-card">
-          <img src="public/images/core/xdry_tech_icon.webp" alt="Xdry technology icon" class="tech-icon" loading="lazy">
-          <h3>Xdry</h3>
-          <p data-i18n="tech.xdry">Ultra-fast moisture cure</p>
-        </div>
-        <div class="tech-card">
-          <img src="public/images/core/lumacore_tech_icon.webp" alt="LumaCore technology icon" class="tech-icon" loading="lazy">
-          <h3>LumaCore</h3>
-          <p data-i18n="tech.lumacore">UV reflect & cure tech</p>
-        </div>
-        <div class="tech-card">
-          <img src="public/images/core/corroguard_tech_icon.webp" alt="CorroGuard technology icon" class="tech-icon" loading="lazy">
-          <h3>CorroGuard</h3>
-          <p data-i18n="tech.corroguard">Corrosion mitigation backbone</p>
-        </div>
-        <div class="tech-card">
-          <img src="public/images/core/emulsacore_tech_icon.webp" alt="EmulsaCore technology icon" class="tech-icon" loading="lazy">
-          <h3>EmulsaCore</h3>
-          <p data-i18n="tech.emulsacore">Self-emulsified micro-resins</p>
-        </div>
-        <div class="tech-card">
-          <img src="public/images/core/xylocore_tech_icon.webp" alt="XyloCore technology icon" class="tech-icon" loading="lazy">
-          <h3>XyloCore</h3>
-          <p data-i18n="tech.xylocore">Wood-structure cell bonding</p>
-        </div>
-        <div class="tech-card">
-          <img src="public/images/core/impenetra_tech_icon.webp" alt="Impenetra technology icon" class="tech-icon" loading="lazy">
-          <h3>Impenetra</h3>
-          <p data-i18n="tech.impenetra">Scratch & impact block</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Series 3000 Promotional Block -->
-  <section class="section-alt" id="products">
-    <div class="container">
-      <h2 class="section-title" data-i18n="products.title">Series 3000 Hybrid Resins</h2>
-      <p class="section-subtitle" data-i18n="products.subtitle">VeloXyl hybrid platform offers tailored formulations designed for rapid integration.</p>
-      
-      <div class="grid-3">
-        <!-- FerraXyl Card -->
-        <div class="product-card">
-          <img src="public/images/core/ferraxyl_landing_header.webp" alt="FerraXyl header" class="product-header-img" loading="lazy">
-          <div class="product-content">
-            <span class="sku-badge tech-mono">SERIES-3100 / FERRAXYL</span>
-            <h3 class="product-title">FerraXyl</h3>
-            <p class="product-desc" data-i18n="products.ferraxyl.desc">High-build DTM anti-corrosive system designed as a single-coat replacement for multi-step coating chains.</p>
-            <div class="product-specs">
-              <div class="product-spec-row">
-                <span data-i18n="products.spec.tech">Backbone Technology</span>
-                <span>CorroGuard</span>
-              </div>
-              <div class="product-spec-row">
-                <span data-i18n="products.spec.voc">VOC Level</span>
-                <span>&lt; 100 g/L</span>
-              </div>
-              <div class="product-spec-row">
-                <span data-i18n="products.spec.gloss">Gloss Retention</span>
-                <span>92% @ 1000 hrs</span>
-              </div>
+      <section class="section-block" id="series-3000-product-lines">
+        <div class="container">
+          
+          <div class="section-logo-mark" aria-hidden="true">
+            <img src="../../../../../public/images/core/logo-transparent.webp" alt="" width="96" height="48" loading="lazy">
+          </div>
+          <h2 class="section-title" data-en="Series 3000 VeloXyl product lines" data-es="Lineas de producto Series 3000 VeloXyl">Series 3000 VeloXyl product lines</h2>
+          <p class="section-subtitle" data-en="FerraXyl FX-3127 anchors the launch with self-crosslinking 1K/2K performance, while XeloXyl and LuXyl extend the platform into lacquer-speed productivity and premium exterior-finish quality." data-es="FerraXyl FX-3127 ancla el lanzamiento con desempeno auto-reticulante 1K/2K, mientras XeloXyl y LuXyl extienden la plataforma hacia productividad a velocidad de laca y calidad premium de acabado exterior.">FerraXyl FX-3127 anchors the launch with self-crosslinking 1K/2K performance, while XeloXyl and LuXyl extend the platform into lacquer-speed productivity and premium exterior-finish quality.</p>
+          <div class="priority-grid">
+          <article class="priority-card product-line-card media-card">
+            <a class="media-frame" href="../../../stage2/series/v3.0/codex/ferraxyl/index.html">
+              <img src="../../../../../public/images/core/ferraxyl_landing_header.webp" alt="FerraXyl" width="1600" height="900" loading="lazy">
+            </a>
+            <div class="p4c-card-body">
+              <h3><span class="product-name">FerraXyl<small class="tm-mark">TM</small></span></h3>
+              <p data-en="Next-generation self-crosslinking hybrid resin family led by FX-3127 for DTM anticorrosive systems with fast cure, molecular protection, lower resin dosage framing, and durable gloss." data-es="Familia de resinas hibridas auto-reticulantes liderada por FX-3127 para sistemas anticorrosivos DTM con curado rapido, proteccion molecular, menor dosis de resina y brillo durable.">Next-generation self-crosslinking hybrid resin family led by FX-3127 for DTM anticorrosive systems with fast cure, molecular protection, lower resin dosage framing, and durable gloss.</p>
+              <strong data-en="Your 3-product anticorrosive system just became 1." data-es="Su sistema anticorrosivo de 3 productos ahora es 1.">Your 3-product anticorrosive system just became 1.</strong>
+              <a class="text-link" href="../../../stage2/series/v3.0/codex/ferraxyl/index.html" data-en="Explore Series 3000" data-es="Explorar Series 3000">Explore Series 3000</a>
             </div>
-            <a href="#contact" class="btn btn-primary" style="width: 100%;" data-i18n="products.cta">Request Technical Data Sheet</a>
-          </div>
-        </div>
-        
-        <!-- XeloXyl Card -->
-        <div class="product-card">
-          <img src="public/images/core/xeloxyl_landing_header.webp" alt="XeloXyl header" class="product-header-img" loading="lazy">
-          <div class="product-content">
-            <span class="sku-badge tech-mono">SERIES-3200 / XELOXYL</span>
-            <h3 class="product-title">XeloXyl</h3>
-            <p class="product-desc" data-i18n="products.xeloxyl.desc">Zero-nitrocellulose wood lacquer replacement offering rapid physical dry speed and zero CAB pricing constraints.</p>
-            <div class="product-specs">
-              <div class="product-spec-row">
-                <span data-i18n="products.spec.tech">Backbone Technology</span>
-                <span>XyloCore</span>
-              </div>
-              <div class="product-spec-row">
-                <span data-i18n="products.spec.voc">VOC Level</span>
-                <span>Ultra-Low</span>
-              </div>
-              <div class="product-spec-row">
-                <span data-i18n="products.spec.gloss">Dry Time</span>
-                <span>10 mins (Touch)</span>
-              </div>
+          </article>
+
+          <article class="priority-card product-line-card media-card">
+            <a class="media-frame" href="../../../stage2/series/v3.0/codex/3000-veloxyl/index.html">
+              <img src="../../../../../public/images/core/xeloxyl_landing_header.webp" alt="XeloXyl" width="1600" height="900" loading="lazy">
+            </a>
+            <div class="p4c-card-body">
+              <h3><span class="product-name">XeloXyl<small class="tm-mark">TM</small></span></h3>
+              <p data-en="Fast lacquer-speed resin direction for wood, furniture, and refinish systems with strong color development and final hardness." data-es="Direccion de resina a velocidad de laca para madera, muebles y repintado con fuerte desarrollo de color y dureza final.">Fast lacquer-speed resin direction for wood, furniture, and refinish systems with strong color development and final hardness.</p>
+              <strong data-en="Zero Nitrocellulose. Zero CAB Cost. True Lacquer Speed." data-es="Cero Nitrocelulosa. Cero costo CAB. Verdadera velocidad de laca.">Zero Nitrocellulose. Zero CAB Cost. True Lacquer Speed.</strong>
+              <a class="text-link" href="../../../stage2/series/v3.0/codex/3000-veloxyl/index.html" data-en="Explore Series 3000" data-es="Explorar Series 3000">Explore Series 3000</a>
             </div>
-            <a href="#contact" class="btn btn-primary" style="width: 100%;" data-i18n="products.cta">Request Technical Data Sheet</a>
-          </div>
-        </div>
+          </article>
 
-        <!-- LuXyl Card -->
-        <div class="product-card">
-          <img src="public/images/core/luxyl_landing_header.webp" alt="LuXyl header" class="product-header-img" loading="lazy">
-          <div class="product-content">
-            <span class="sku-badge tech-mono">SERIES-3300 / LUXYL</span>
-            <h3 class="product-title">LuXyl</h3>
-            <p class="product-desc" data-i18n="products.luxyl.desc">Premium exterior protective resin ensuring mirror-finish brilliance and outstanding ultraviolet defense.</p>
-            <div class="product-specs">
-              <div class="product-spec-row">
-                <span data-i18n="products.spec.tech">Backbone Technology</span>
-                <span>Impenetra</span>
-              </div>
-              <div class="product-spec-row">
-                <span data-i18n="products.spec.voc">VOC Level</span>
-                <span>&lt; 50 g/L</span>
-              </div>
-              <div class="product-spec-row">
-                <span data-i18n="products.spec.gloss">UV Resistance</span>
-                <span>AAMA 2605 level</span>
-              </div>
+          <article class="priority-card product-line-card media-card">
+            <a class="media-frame" href="../../../stage2/series/v3.0/codex/3000-veloxyl/index.html">
+              <img src="../../../../../public/images/core/luxyl_landing_header.webp" alt="LuXyl" width="1600" height="900" loading="lazy">
+            </a>
+            <div class="p4c-card-body">
+              <h3><span class="product-name">LuXyl<small class="tm-mark">TM</small></span></h3>
+              <p data-en="Exterior resistance and mirror-gloss brilliance for premium industrial finishes and durable high-appearance systems." data-es="Resistencia exterior y brillo espejo para acabados industriales premium y sistemas durables de alta apariencia.">Exterior resistance and mirror-gloss brilliance for premium industrial finishes and durable high-appearance systems.</p>
+              <strong data-en="Maximum Exterior Resistance. Mirror Finish Brilliance." data-es="Maxima resistencia exterior. Brillo espejo sobresaliente.">Maximum Exterior Resistance. Mirror Finish Brilliance.</strong>
+              <a class="text-link" href="../../../stage2/series/v3.0/codex/3000-veloxyl/index.html" data-en="Explore Series 3000" data-es="Explorar Series 3000">Explore Series 3000</a>
             </div>
-            <a href="#contact" class="btn btn-primary" style="width: 100%;" data-i18n="products.cta">Request Technical Data Sheet</a>
+          </article></div>
+        </div>
+      </section>
+
+      <section class="section-block" id="portfolio-products">
+        <div class="container logo-panel">
+          <img src="../../../../../public/images/core/logo-large-transparent.webp" alt="Pro4Chem Specialty Resins" width="380" height="130" loading="lazy">
+          <div>
+            
+          <div class="section-logo-mark" aria-hidden="true">
+            <img src="../../../../../public/images/core/logo-transparent.webp" alt="" width="96" height="48" loading="lazy">
+          </div>
+            <h2 class="section-title" data-en="Pro4Chem Portfolio Products" data-es="Productos del portafolio Pro4Chem">Pro4Chem Portfolio Products</h2>
+            <p class="section-subtitle" data-en="A connected product portfolio routes buyers from high-performance solvent polymers into waterborne migration, adhesion, sealers, coalescents, specialty additives, biobased systems, and technical service support." data-es="Un portafolio conectado dirige compradores desde polimeros solventes de alto desempeno hacia migracion base agua, adhesion, selladores, coalescentes, aditivos especiales, sistemas biobasados y soporte tecnico.">A connected product portfolio routes buyers from high-performance solvent polymers into waterborne migration, adhesion, sealers, coalescents, specialty additives, biobased systems, and technical service support.</p>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
+        <div class="container division-grid">
+          <article class="division-card media-card">
+            <a class="media-frame" href="../../../portfolio/v3.0/codex/portfolio.html">
+              <img src="../../../../../public/images/core/velocyl_series_card.webp" alt="Specialty Resin Portfolio" width="1600" height="900" loading="lazy">
+            </a>
+            <div>
+              <h3 data-en="Specialty Resin Portfolio" data-es="Portafolio de resinas especiales">Specialty Resin Portfolio</h3>
+              <p data-en="Priority-ordered resin platforms led by Series 3000 VeloXyl and Series 6000 HelioZol." data-es="Plataformas priorizadas lideradas por Series 3000 VeloXyl y Series 6000 HelioZol.">Priority-ordered resin platforms led by Series 3000 VeloXyl and Series 6000 HelioZol.</p>
+              <a class="text-link" href="../../../portfolio/v3.0/codex/portfolio.html" data-en="Open division" data-es="Abrir division">Open division</a>
+            </div>
+          </article>
 
-  <!-- Performance Proof Strip -->
-  <div class="metric-strip">
-    <div class="container grid-3">
-      <div class="metric-item">
-        <div class="metric-value">3-4</div>
-        <div class="metric-label" data-i18n="metrics.m1">Coatings Replaced</div>
-      </div>
-      <div class="metric-item">
-        <div class="metric-value">25-35%</div>
-        <div class="metric-label" data-i18n="metrics.m2">Application Cost Saved</div>
-      </div>
-      <div class="metric-item">
-        <div class="metric-value">&lt; 10m</div>
-        <div class="metric-label" data-i18n="metrics.m3">Physical Tack-Free</div>
-      </div>
-    </div>
-  </div>
+          <article class="division-card media-card">
+            <a class="media-frame" href="../../../markets/v3.0/codex/markets.html">
+              <img src="../../../../../public/images/core/market_industrial_maintenance_hero.webp" alt="Market Solutions" width="1600" height="900" loading="lazy">
+            </a>
+            <div>
+              <h3 data-en="Market Solutions" data-es="Soluciones de mercado">Market Solutions</h3>
+              <p data-en="Industrial, wood, automotive, architectural, cosmetics, and composite routes matched to buyer intent." data-es="Rutas industriales, madera, automotriz, arquitectonicas, cosmeticas y composites alineadas al comprador.">Industrial, wood, automotive, architectural, cosmetics, and composite routes matched to buyer intent.</p>
+              <a class="text-link" href="../../../markets/v3.0/codex/markets.html" data-en="Open division" data-es="Abrir division">Open division</a>
+            </div>
+          </article>
 
-  <!-- Green Bridge Section -->
-  <section id="green-bridge">
-    <div class="container">
-      <div class="green-bridge-box grid-2">
-        <div class="green-bridge-content">
-          <span style="color: var(--p4c-green); font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; text-transform: uppercase; font-weight: 700;" data-i18n="bridge.tag">Eco-Innovation Migration</span>
-          <h2 style="font-size: 2.2rem; margin: 1rem 0;" data-i18n="bridge.title">The Green Bridge Initiative</h2>
-          <p style="color: var(--p4c-text-secondary); margin-bottom: 2.5rem;" data-i18n="bridge.desc">Pro4Chem assists customers in moving seamlessly from traditional solvent-borne systems to high-solids waterborne technologies, lowering compliance friction and carbon impact without compromising mechanical limits.</p>
-          <a href="#contact" class="btn btn-primary" style="background-color: var(--p4c-green); border-color: var(--p4c-green);" data-i18n="bridge.cta">Download Migration Blueprint</a>
+          <article class="division-card media-card">
+            <a class="media-frame" href="../../../stage2/services/v3.0/codex/cognichem/index.html">
+              <img src="../../../../../public/images/core/rd_services_secure_ai.webp" alt="Advanced R&amp;D Services" width="1600" height="900" loading="lazy">
+            </a>
+            <div>
+              <h3 data-en="Advanced R&amp;D Services" data-es="Servicios avanzados de I+D">Advanced R&amp;D Services</h3>
+              <p data-en="CogniChem Private Labs and ChemNeural Formulation AI extend customer R&amp;D with secure development workflows." data-es="CogniChem Private Labs y ChemNeural Formulation AI extienden el I+D del cliente con flujos seguros.">CogniChem Private Labs and ChemNeural Formulation AI extend customer R&amp;D with secure development workflows.</p>
+              <a class="text-link" href="../../../stage2/services/v3.0/codex/cognichem/index.html" data-en="Open division" data-es="Abrir division">Open division</a>
+            </div>
+          </article>
+
+          <article class="division-card media-card">
+            <a class="media-frame" href="../../../technology/v3.0/codex/technology.html">
+              <img src="../../../../../public/images/core/ai_research_laboratory.webp" alt="Technology Platforms" width="1600" height="900" loading="lazy">
+            </a>
+            <div>
+              <h3 data-en="Technology Platforms" data-es="Plataformas tecnologicas">Technology Platforms</h3>
+              <p data-en="QbD, DFSS, MFES, and core polymer technologies that drive faster curing, corrosion protection, emulsification, gloss, and finish performance." data-es="QbD, DFSS, MFES y tecnologias centrales de polimeros que impulsan curado mas rapido, proteccion anticorrosiva, emulsificacion, brillo y desempeno de acabado.">QbD, DFSS, MFES, and core polymer technologies that drive faster curing, corrosion protection, emulsification, gloss, and finish performance.</p>
+              <a class="text-link" href="../../../technology/v3.0/codex/technology.html" data-en="Open division" data-es="Abrir division">Open division</a>
+            </div>
+          </article></div>
+      </section>
+
+      <section class="section-block section-alt" id="pro4chem-services">
+        <div class="container">
+          
+          <div class="section-logo-mark" aria-hidden="true">
+            <img src="../../../../../public/images/core/logo-transparent.webp" alt="" width="96" height="48" loading="lazy">
+          </div>
+          <h2 class="section-title" data-en="Pro4Chem Services" data-es="Servicios Pro4Chem">Pro4Chem Services</h2>
+          <p class="section-subtitle" data-en="CogniChem Private Labs and ChemNeural Formulation AI connect the product portfolio to confidential development, faster candidate screening, and practical wet-lab validation." data-es="CogniChem Private Labs y ChemNeural Formulation AI conectan el portafolio con desarrollo confidencial, seleccion rapida de candidatos y validacion practica de laboratorio.">CogniChem Private Labs and ChemNeural Formulation AI connect the product portfolio to confidential development, faster candidate screening, and practical wet-lab validation.</p>
+          <div class="card-grid">
+          <article class="p4c-card media-card" id="cognichem-private-labs">
+            <a class="media-frame" href="../../../stage2/services/v3.0/codex/cognichem/index.html">
+              <img src="../../../../../public/images/core/cognichem_lab_header.webp" alt="CogniChem Private Labs visual for Pro4Chem" width="1600" height="900" loading="lazy">
+            </a>
+            <div class="p4c-card-body">
+              <span class="tech-mono card-kicker">CogniChem<small class="tm-mark">TM</small> Private Labs</span>
+              <p data-en="SRV-101 private R&amp;D workflows for secure formulation development, sample validation, and customer-specific lab execution." data-es="Flujos privados de I+D SRV-101 para desarrollo formulativo seguro, validacion de muestras y ejecucion de laboratorio especifica por cliente.">SRV-101 private R&amp;D workflows for secure formulation development, sample validation, and customer-specific lab execution.</p>
+              <a class="text-link" href="../../../stage2/services/v3.0/codex/cognichem/index.html" data-en="Explore route" data-es="Explorar ruta">Explore route</a>
+            </div>
+          </article>
+
+          <article class="p4c-card media-card" id="chemneural-formulation-ai">
+            <a class="media-frame" href="../../../stage2/services/v3.0/codex/chemneural/index.html">
+              <img src="../../../../../public/images/core/rd_services_secure_ai.webp" alt="ChemNeural Formulation AI visual for Pro4Chem" width="1600" height="900" loading="lazy">
+            </a>
+            <div class="p4c-card-body">
+              <span class="tech-mono card-kicker">ChemNeural<small class="tm-mark">TM</small> Formulation AI</span>
+              <p data-en="SRV-201 formulation AI for secure design-space exploration, candidate screening, and faster technical decisions." data-es="IA formulativa SRV-201 para exploracion segura del espacio de diseno, evaluacion de candidatos y decisiones tecnicas mas rapidas.">SRV-201 formulation AI for secure design-space exploration, candidate screening, and faster technical decisions.</p>
+              <a class="text-link" href="../../../stage2/services/v3.0/codex/chemneural/index.html" data-en="Explore route" data-es="Explorar ruta">Explore route</a>
+            </div>
+          </article></div>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="../../../stage2/services/v3.0/codex/index.html" data-en="Explore services" data-es="Explorar servicios">Explore services</a>
+            <a class="btn btn-secondary" href="../../../contact/v3.0/codex/contact.html#contact-form" data-en="Contact services team" data-es="Contactar equipo de servicios">Contact services team</a>
+          </div>
         </div>
-        <div class="green-bridge-img-box"></div>
-      </div>
-    </div>
-  </section>
+      </section>
 
-  <!-- Services + AI Promotion Block -->
-  <section class="section-layer" id="services">
-    <div class="container">
-      <h2 class="section-title" data-i18n="services.title">Custom Development Platforms</h2>
-      <p class="section-subtitle" data-i18n="services.subtitle">We deliver client-specific polymer platforms, distinct from standard resin catalogs.</p>
       
-      <div class="grid-2">
-        <div class="service-box">
-          <span class="service-tag">R&D Lab Platform</span>
-          <h3 style="font-size: 1.6rem; margin-bottom: 1.25rem;" data-i18n="services.lab.title">CogniChem Private Labs</h3>
-          <p style="color: var(--p4c-text-secondary); font-size: 0.95rem; margin-bottom: 1.5rem;" data-i18n="services.lab.desc">Access dedicated, secure physical and synthetic lab tracks for custom chemical development. All formulations are proprietary, protected under strict intellectual fences, and engineered to client-specified performance mandates.</p>
-          <ul style="color: var(--p4c-text-primary); font-size: 0.9rem; list-style-position: inside; margin-bottom: 2rem;">
-            <li data-i18n="services.lab.l1">Custom synthesis & scale-up</li>
-            <li data-i18n="services.lab.l2">Secure client-specific IP</li>
-            <li data-i18n="services.lab.l3">Direct technology transfer tracks</li>
-          </ul>
-          <a href="#contact" class="btn btn-secondary" data-i18n="services.cta">Request Private Lab Brief</a>
-        </div>
-        
-        <div class="service-box purple-glow">
-          <span class="service-tag">Predictive Optimization</span>
-          <h3 style="font-size: 1.6rem; margin-bottom: 1.25rem; color: var(--p4c-purple);" data-i18n="services.ai.title">ChemNeural AI Synthesis</h3>
-          <p style="color: var(--p4c-text-secondary); font-size: 0.95rem; margin-bottom: 1.5rem;" data-i18n="services.ai.desc">Accelerate formulation schedules using ChemNeural AI modeling. By analyzing mechanical, chemical resistance, and cost parameters, our proprietary agents target optimum polymer structures before wet lab validation commences.</p>
-          <ul style="color: var(--p4c-text-primary); font-size: 0.9rem; list-style-position: inside; margin-bottom: 2rem;">
-            <li data-i18n="services.ai.l1">Predictive solubility modeling</li>
-            <li data-i18n="services.ai.l2">Automated cost/performance optimization</li>
-            <li data-i18n="services.ai.l3">Fast-track regulatory compliance estimation</li>
-          </ul>
-          <a href="#contact" class="btn btn-secondary" style="border-color: var(--p4c-purple); color: var(--p4c-purple);" data-i18n="services.cta">Schedule AI Consultation</a>
+    <section class="tca-band" id="tca">
+      <div class="container tca-grid">
+        <img src="../../../../../public/images/core/promo_tca_advantage_visual.webp" alt="Total Cost Advantage model visual" width="900" height="540" loading="lazy">
+        <div>
+          <span class="tech-mono">TCA / MFES</span>
+          <h2 data-en="From price-per-kilo to total application cost" data-es="Del precio por kilo al costo total de aplicacion">From price-per-kilo to total application cost</h2>
+          <p data-en="The TCA model compares finished product cost, application time, durability, and system simplification. In relevant Series 3000 anticorrosive scenarios, replacing primer, intermediate, and topcoat complexity with a hybrid setup can reduce the total application cost index by 25-70%." data-es="El modelo TCA compara costo de producto terminado, tiempo de aplicacion, durabilidad y simplificacion del sistema. En escenarios anticorrosivos relevantes de Series 3000, reemplazar la complejidad de primer, intermedio y acabado con un sistema hibrido puede reducir el indice de costo total de aplicacion en 25-70%.">The TCA model compares finished product cost, application time, durability, and system simplification. In relevant Series 3000 anticorrosive scenarios, replacing primer, intermediate, and topcoat complexity with a hybrid setup can reduce the total application cost index by 25-70%.</p>
+          <div class="metric-row">
+            <strong>25-70%</strong><span data-en="application cost index reduction" data-es="reduccion del indice de costo de aplicacion">application cost index reduction</span>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Market CTA Grid -->
-  <section id="markets">
-    <div class="container">
-      <h2 class="section-title" data-i18n="markets.title">Industry Sectors</h2>
-      <p class="section-subtitle" data-i18n="markets.subtitle">Engineered options serving demanding global environments.</p>
+      <section class="section-block section-alt" id="heliozol">
+        <div class="container">
+          
+          <div class="section-logo-mark" aria-hidden="true">
+            <img src="../../../../../public/images/core/logo-transparent.webp" alt="" width="96" height="48" loading="lazy">
+          </div>
+          <h2 class="section-title" data-en="HelioZol waterborne migration" data-es="Migracion base agua HelioZol">HelioZol waterborne migration</h2>
+          <p class="section-subtitle" data-en="Series 6000 HelioZol brings the waterborne path into the same premium story: lower-VOC formulation direction, stronger confidence in film performance, and clear -Zol naming for waterborne systems." data-es="Series 6000 HelioZol integra la ruta base agua en la misma historia premium: direccion de menor VOC, mayor confianza en desempeno de pelicula y nomenclatura -Zol clara para sistemas base agua.">Series 6000 HelioZol brings the waterborne path into the same premium story: lower-VOC formulation direction, stronger confidence in film performance, and clear -Zol naming for waterborne systems.</p>
+          <div class="logo-panel">
+            <img src="../../../../../public/images/core/heliozol_series_card.webp" alt="Series 6000 HelioZol waterborne resin platform" width="520" height="340" loading="lazy">
+            <div>
+              <h3 data-en="Waterborne without performance retreat" data-es="Base agua sin retroceder en desempeno">Waterborne without performance retreat</h3>
+              <p data-en="HelioZol supports manufacturers moving from legacy solvent-borne technologies toward waterborne, surfactant-free, low-emission systems while keeping the application story credible for industrial buyers." data-es="HelioZol apoya a fabricantes que migran de tecnologias solventes tradicionales hacia sistemas base agua, sin surfactantes y de baja emision, manteniendo una historia de aplicacion creible para compradores industriales.">HelioZol supports manufacturers moving from legacy solvent-borne technologies toward waterborne, surfactant-free, low-emission systems while keeping the application story credible for industrial buyers.</p>
+              <a class="btn btn-secondary" href="../../../stage2/series/v3.0/codex/6000-heliozol/index.html" data-en="Explore HelioZol" data-es="Explorar HelioZol">Explore HelioZol</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-block">
+        <div class="container">
+          
+          <div class="section-logo-mark" aria-hidden="true">
+            <img src="../../../../../public/images/core/logo-transparent.webp" alt="" width="96" height="48" loading="lazy">
+          </div>
+          <h2 class="section-title" data-en="Strategic pillars" data-es="Pilares estrategicos">Strategic pillars</h2>
+          <div class="pillar-grid">
+        <article class="pillar-card media-card">
+          <div class="media-frame">
+            <img src="../../../../../public/images/core/ai_research_laboratory.webp" alt="Predictive Innovation Engineering" width="1600" height="900" loading="lazy">
+          </div>
+          <div class="p4c-card-body">
+            <h3>Predictive Innovation Engineering</h3>
+            <p>AI-assisted design-space exploration and Quality by Design reduce wasteful formulation cycles.</p>
+          </div>
+        </article>
+
+        <article class="pillar-card media-card">
+          <div class="media-frame">
+            <img src="../../../../../public/images/core/green_bridge_homepage.webp" alt="Technology Migration Leadership" width="1600" height="900" loading="lazy">
+          </div>
+          <div class="p4c-card-body">
+            <h3>Technology Migration Leadership</h3>
+            <p>A practical bridge from legacy solvent-borne systems toward high-confidence waterborne alternatives.</p>
+          </div>
+        </article>
+
+        <article class="pillar-card media-card">
+          <div class="media-frame">
+            <img src="../../../../../public/images/core/promo_tca_advantage_visual.webp" alt="Optimized Cost Performance" width="1600" height="900" loading="lazy">
+          </div>
+          <div class="p4c-card-body">
+            <h3>Optimized Cost Performance</h3>
+            <p>Lower formulated cost structures, higher mechanical film properties, and MFES-driven product simplification.</p>
+          </div>
+        </article>
+
+        <article class="pillar-card media-card">
+          <div class="media-frame">
+            <img src="../../../../../public/images/core/biosustainability_pillar.webp" alt="BioBased Sustainability" width="1600" height="900" loading="lazy">
+          </div>
+          <div class="p4c-card-body">
+            <h3>BioBased Sustainability</h3>
+            <p>Biobased, surfactant-free, and lower-emission chemistry directions support ESG goals.</p>
+          </div>
+        </article></div>
+        </div>
+      </section>
       
-      <div class="grid-3" style="grid-template-columns: repeat(4, 1fr);">
-        <div class="market-card">
-          <img src="public/images/core/market_industrial_maintenance_hero.webp" alt="Industrial and Protective resin applications" loading="lazy">
-          <div class="market-overlay">
-            <h3 data-i18n="markets.m1.title">Industrial & Protective</h3>
-          </div>
-        </div>
-        <div class="market-card">
-          <img src="public/images/core/market_wood_furniture_hero.webp" alt="Wood and Furniture resin applications" loading="lazy">
-          <div class="market-overlay">
-            <h3 data-i18n="markets.m2.title">Wood & Furniture</h3>
-          </div>
-        </div>
-        <div class="market-card">
-          <img src="public/images/core/market_automotive_refinish_hero.webp" alt="Automotive resin applications" loading="lazy">
-          <div class="market-overlay">
-            <h3 data-i18n="markets.m3.title">Automotive Refinish</h3>
-          </div>
-        </div>
-        <div class="market-card">
-          <img src="public/images/core/market_architectural_hero.webp" alt="Architectural resin applications" loading="lazy">
-          <div class="market-overlay">
-            <h3 data-i18n="markets.m4.title">Architectural & Construction</h3>
-          </div>
-        </div>
-      </div>
+    <div class="brand-divider" aria-hidden="true">
+      <span></span><img src="../../../../../public/images/core/logo-transparent.webp" alt="" width="80" height="40" loading="lazy"><span></span>
     </div>
-  </section>
 
-  <!-- Final CTA Form -->
-  <section class="section-alt" id="contact">
-    <div class="container">
-      <h2 class="section-title" data-i18n="contact.title">Technical Collaboration</h2>
-      <p class="section-subtitle" data-i18n="contact.subtitle">Submit your performance targets to access technical datasheets, samples, or to initiate a private lab sprint.</p>
-      
-      <form class="contact-form" onsubmit="event.preventDefault(); alert('Form submitted successfully!');">
-        <div class="form-group">
-          <label class="form-label" data-i18n="contact.form.name">Name / Company</label>
-          <input type="text" class="form-control" placeholder="Company Name" required>
-        </div>
-        <div class="form-group">
-          <label class="form-label" data-i18n="contact.form.email">Corporate Email</label>
-          <input type="email" class="form-control" placeholder="name@company.com" required>
-        </div>
-        <div class="form-group">
-          <label class="form-label" data-i18n="contact.form.interest">Primary Interest</label>
-          <select class="form-control">
-            <option data-i18n="contact.form.opt1">Request TDS (Series 3000)</option>
-            <option data-i18n="contact.form.opt2">Request Lab Synthesis Consultation</option>
-            <option data-i18n="contact.form.opt3">Request Product Sample</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label class="form-label" data-i18n="contact.form.notes">Performance Targets & Requirements</label>
-          <textarea class="form-control" rows="4" placeholder="Describe mechanical limits, VOC regulations, dry speed requirements..." required></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;" data-i18n="contact.form.submit">Initiate R&D Request</button>
-      </form>
-    </div>
-  </section>
+      <section class="section-block">
+        <div class="container">
+          
+          <div class="section-logo-mark" aria-hidden="true">
+            <img src="../../../../../public/images/core/logo-transparent.webp" alt="" width="96" height="48" loading="lazy">
+          </div>
+          <h2 class="section-title" data-en="Market routes" data-es="Rutas de mercado">Market routes</h2>
+          <p class="section-subtitle" data-en="Industrial protective coatings and wood finishes lead the commercial story, supported by automotive refinish, architectural construction, personal care, plastics, and advanced composites." data-es="Recubrimientos industriales y acabados de madera lideran la historia comercial, apoyados por repintado automotriz, arquitectura, cuidado personal, plasticos y composites avanzados.">Industrial protective coatings and wood finishes lead the commercial story, supported by automotive refinish, architectural construction, personal care, plastics, and advanced composites.</p>
+          <div class="card-grid">
+          <article class="p4c-card media-card" id="industrial-protective">
+            <a class="media-frame" href="../../../stage2/markets/v3.0/codex/industrial-protective/index.html">
+              <img src="../../../../../public/images/core/market_industrial_maintenance_hero.webp" alt="Industrial &amp; Protective visual for Pro4Chem" width="1600" height="900" loading="lazy">
+            </a>
+            <div class="p4c-card-body">
+              <span class="tech-mono card-kicker">Industrial & Protective</span>
+              <p data-en="FX-3100, LX-3300, FZ-6110, AX-4100." data-es="FX-3100, LX-3300, FZ-6110, AX-4100.">FX-3100, LX-3300, FZ-6110, AX-4100.</p>
+              <a class="text-link" href="../../../stage2/markets/v3.0/codex/industrial-protective/index.html" data-en="Explore route" data-es="Explorar ruta">Explore route</a>
+            </div>
+          </article>
 
-  <!-- Footer -->
-  <footer class="footer-bar">
-    <div class="container footer-grid">
-      <div>
-        <img src="public/images/core/logo-large-transparent.webp" alt="Pro4Chem Large logo" class="footer-logo">
-        <p style="color: var(--p4c-text-secondary); font-size: 0.95rem; max-width: 320px;" data-i18n="footer.about">High-performance polymer networks developed through predictive science and automated formulation systems.</p>
-      </div>
-      <div class="footer-links">
-        <h4 data-i18n="footer.h1">Platforms</h4>
-        <ul>
-          <li><a href="#products">Series 3000 VeloXyl</a></li>
-          <li><a href="#technology">Core Technologies</a></li>
-          <li><a href="#services">CogniChem Private Labs</a></li>
-          <li><a href="#services">ChemNeural AI</a></li>
-        </ul>
-      </div>
-      <div class="footer-links">
-        <h4 data-i18n="footer.h2">Locations</h4>
-        <p style="font-size: 0.9rem; color: var(--p4c-text-secondary); margin-bottom: 0.6rem;" data-i18n="footer.loc1"><strong>Miami Headquarters</strong><br>Miami, FL, United States</p>
-        <p style="font-size: 0.9rem; color: var(--p4c-text-secondary);" data-i18n="footer.loc2"><strong>R&D Hub</strong><br>Heredia, Costa Rica</p>
+          <article class="p4c-card media-card" id="wood-furniture">
+            <a class="media-frame" href="../../../stage2/markets/v3.0/codex/wood-furniture/index.html">
+              <img src="../../../../../public/images/core/market_wood_furniture_hero.webp" alt="Wood &amp; Furniture visual for Pro4Chem" width="1600" height="900" loading="lazy">
+            </a>
+            <div class="p4c-card-body">
+              <span class="tech-mono card-kicker">Wood & Furniture</span>
+              <p data-en="XX-3200, XZ-6200, TX-5300." data-es="XX-3200, XZ-6200, TX-5300.">XX-3200, XZ-6200, TX-5300.</p>
+              <a class="text-link" href="../../../stage2/markets/v3.0/codex/wood-furniture/index.html" data-en="Explore route" data-es="Explorar ruta">Explore route</a>
+            </div>
+          </article>
+
+          <article class="p4c-card media-card" id="automotive-refinish">
+            <a class="media-frame" href="../../../stage2/markets/v3.0/codex/automotive-refinish/index.html">
+              <img src="../../../../../public/images/core/market_automotive_refinish_hero.webp" alt="Automotive Refinish visual for Pro4Chem" width="1600" height="900" loading="lazy">
+            </a>
+            <div class="p4c-card-body">
+              <span class="tech-mono card-kicker">Automotive Refinish</span>
+              <p data-en="XX-3200, LX-3300, LX-3307." data-es="XX-3200, LX-3300, LX-3307.">XX-3200, LX-3300, LX-3307.</p>
+              <a class="text-link" href="../../../stage2/markets/v3.0/codex/automotive-refinish/index.html" data-en="Explore route" data-es="Explorar ruta">Explore route</a>
+            </div>
+          </article>
+
+          <article class="p4c-card media-card" id="architectural-construction">
+            <a class="media-frame" href="../../../stage2/markets/v3.0/codex/architectural/index.html">
+              <img src="../../../../../public/images/core/market_architectural_hero.webp" alt="Architectural &amp; Construction visual for Pro4Chem" width="1600" height="900" loading="lazy">
+            </a>
+            <div class="p4c-card-body">
+              <span class="tech-mono card-kicker">Architectural & Construction</span>
+              <p data-en="AX-2000, TX-5000, CL-7101." data-es="AX-2000, TX-5000, CL-7101.">AX-2000, TX-5000, CL-7101.</p>
+              <a class="text-link" href="../../../stage2/markets/v3.0/codex/architectural/index.html" data-en="Explore route" data-es="Explorar ruta">Explore route</a>
+            </div>
+          </article>
+
+          <article class="p4c-card media-card" id="cosmetics-personal-care">
+            <a class="media-frame" href="../../../stage2/markets/v3.0/codex/cosmetics/index.html">
+              <img src="../../../../../public/images/core/market_cosmetics_hero.webp" alt="Cosmetics &amp; Personal Care visual for Pro4Chem" width="1600" height="900" loading="lazy">
+            </a>
+            <div class="p4c-card-body">
+              <span class="tech-mono card-kicker">Cosmetics & Personal Care</span>
+              <p data-en="NatuZol and SynerXyl sustainability direction." data-es="Direccion de sostenibilidad con NatuZol y SynerXyl.">NatuZol and SynerXyl sustainability direction.</p>
+              <a class="text-link" href="../../../stage2/markets/v3.0/codex/cosmetics/index.html" data-en="Explore route" data-es="Explorar ruta">Explore route</a>
+            </div>
+          </article>
+
+          <article class="p4c-card media-card" id="plastics-composites">
+            <a class="media-frame" href="../../../stage2/markets/v3.0/codex/plastics-composites/index.html">
+              <img src="../../../../../public/images/core/market_plastics_composites_hero.webp" alt="Plastics &amp; Composites visual for Pro4Chem" width="1600" height="900" loading="lazy">
+            </a>
+            <div class="p4c-card-body">
+              <span class="tech-mono card-kicker">Plastics & Composites</span>
+              <p data-en="AdheXyl and TitanXyl substrate support." data-es="Soporte de sustratos con AdheXyl y TitanXyl.">AdheXyl and TitanXyl substrate support.</p>
+              <a class="text-link" href="../../../stage2/markets/v3.0/codex/plastics-composites/index.html" data-en="Explore route" data-es="Explorar ruta">Explore route</a>
+            </div>
+          </article></div>
+        </div>
+      </section>
+    </main>
+  <footer>
+    <div class="footer-brand-strip">
+      <img src="../../../../../public/images/core/logo-large-transparent.webp" alt="Pro4Chem Specialty Resins logo" width="360" height="120" loading="lazy">
+      <span class="footer-brand-tagline">Pro4Chem Specialty Resins - Adaptation &amp; Innovation by Design</span>
+    </div>
+    <div class="footer-columns">
+      <div class="footer-grid">
+        <div>
+          <p class="footer-heading" data-en="Contact" data-es="Contacto">Contact</p>
+          <a href="mailto:gabriela@pro4chem.com">gabriela@pro4chem.com</a>
+          <a href="tel:+50688147777">+506 8814 7777</a>
+          <a href="https://wa.me/50688147777">WhatsApp</a>
+          <p style="color:var(--p4c-text-secondary)">Miami: 3563 Loquat Ave, Miami, Florida<br>Costa Rica: La Asunción de Belen, De Amanco 200 oeste 150 Norte, Frente Ramstack, Belen, Heredia</p>
+        </div>
+        <div>
+          <p class="footer-heading" data-en="Company" data-es="Compania">Company</p>
+          <a href="index.html">Home</a>
+          <a href="../../../portfolio/v3.0/codex/portfolio.html">A focused resin portfolio for modern formulators</a>
+          <a href="../../../technology/v3.0/codex/technology.html">Predictive polymer architecture, not trial and error</a>
+          <a href="../../../about/v3.0/codex/about.html">Industrial chemistry shaped by adaptation and innovation</a>
+          <a href="../../../contact/v3.0/codex/contact.html">Request samples, TDS, or formulation support</a>
+        </div>
+        <div>
+          <p class="footer-heading" data-en="Products" data-es="Productos">Products</p>
+          <a href="../../../stage2/series/v3.0/codex/index.html">Series Product Lines</a>
+          <a href="../../../stage2/series/v3.0/codex/2000-amberxyl/index.html">Series 2000 AmberXyl</a>
+          <a href="../../../stage2/series/v3.0/codex/3000-veloxyl/index.html">Series 3000 VeloXyl</a>
+          <a href="../../../stage2/series/v3.0/codex/ferraxyl/index.html">FerraXyl Product Family</a>
+          <a href="../../../stage2/series/v3.0/codex/xeloxyl/index.html">XeloXyl Product Family</a>
+          <a href="../../../stage2/series/v3.0/codex/luxyl/index.html">LuXyl Product Family</a>
+          <a href="../../../stage2/series/v3.0/codex/4000-adhexyl/index.html">Series 4000 AdheXyl</a>
+          <a href="../../../stage2/series/v3.0/codex/5000-titanxyl/index.html">Series 5000 TitanXyl</a>
+          <a href="../../../stage2/series/v3.0/codex/6000-heliozol/index.html">Series 6000 HelioZol</a>
+          <a href="../../../stage2/series/v3.0/codex/7000-coalezol/index.html">Series 7000 CoaleZol</a>
+          <a href="../../../stage2/series/v3.0/codex/8000-synerxyl/index.html">Series 8000 SynerXyl</a>
+          <a href="../../../stage2/series/v3.0/codex/9000-natuzol/index.html">Series 9000 NatuZol</a>
+          <a href="../../../stage2/series/v3.0/codex/10000-purizol/index.html">Series 10000 PuriZol</a>
+        </div>
+        <div>
+          <p class="footer-heading" data-en="Markets" data-es="Mercados">Markets</p>
+          <a href="../../../markets/v3.0/codex/markets.html">Start with the application, then choose the resin platform</a>
+          <a href="../../../stage2/markets/v3.0/codex/industrial-protective/index.html">Industrial &amp; Protective Coatings</a>
+          <a href="../../../stage2/markets/v3.0/codex/wood-furniture/index.html">Wood &amp; Furniture Finishes</a>
+          <a href="../../../stage2/markets/v3.0/codex/automotive-refinish/index.html">Automotive Refinish</a>
+          <a href="../../../stage2/markets/v3.0/codex/architectural/index.html">Architectural &amp; Construction</a>
+          <a href="../../../stage2/markets/v3.0/codex/cosmetics/index.html">Cosmetics &amp; Personal Care</a>
+          <a href="../../../stage2/markets/v3.0/codex/plastics-composites/index.html">Plastics &amp; Advanced Composites</a>
+        </div>
+        <div>
+          <p class="footer-heading" data-en="Services" data-es="Servicios">Services</p>
+          <a href="../../../stage2/services/v3.0/codex/index.html">Services</a>
+          <a href="../../../stage2/services/v3.0/codex/cognichem/index.html">CogniChem Private Labs</a>
+          <a href="../../../stage2/services/v3.0/codex/chemneural/index.html">ChemNeural Formulation AI</a>
+          <a href="../../../stage2/resins/v3.0/codex/price-performance/index.html">TCA Price Performance</a>
+          <a href="../../../stage2/resins/v3.0/codex/[application]-[product-family]-[code]/index.html">Resin Route Template</a>
+        </div>
       </div>
     </div>
-    <div class="container footer-bottom">
-      <p>© 2026 Pro4Chem Specialty Resins. All rights reserved.</p>
-      <p>sales@pro4chem.com · <a href="#privacy" style="color: var(--p4c-text-muted); text-decoration: none;">Privacy Policy</a></p>
-    </div>
+    <div class="footer-copyright">&copy; 2026 Pro4Chem Specialty Resins. <span data-en="Adaptation &amp; Innovation by Design" data-es="Adaptacion e innovacion por diseno">Adaptation &amp; Innovation by Design</span></div>
   </footer>
-
-  <!-- Translation & Auto-Path Scripts -->
-  <script>
-    const TRANSLATIONS = {
-      en: {
-        "seo.title": "Pro4Chem Specialty Resins — Hybrid Resin Technologies",
-        "seo.description": "Pro4Chem Specialty Resins: Industrial science meets polymer innovation. Explore our high-performance Series 3000 hybrid resins, custom formulations, and secure client R&D services.",
-        "nav.products": "Products",
-        "nav.technology": "Technology",
-        "nav.markets": "Markets",
-        "nav.services": "Services",
-        "nav.contact": "Contact",
-        "hero.tag": "Hybrid Resin Technologies",
-        "hero.title": "Adaptation and Innovation by Design",
-        "hero.subtitle": "Pro4Chem engineering bridges legacy limitations with hybrid polymer science. Series 3000 represents the pinnacle of performance, speed, and ecological responsibility.",
-        "hero.ctaPrimary": "Explore Series 3000",
-        "hero.ctaSecondary": "Request Technical Consultation",
-        "pillars.title": "Strategic Pillars",
-        "pillars.subtitle": "Industrial-grade polymer science engineered to modernize chemical supply chains.",
-        "pillars.p1.title": "Predictive Innovation Engineering",
-        "pillars.p1.desc": "Synthesized data analytics combined with lab prototyping ensures predictable performance under extreme industrial conditions.",
-        "pillars.p2.title": "Technology Migration Leadership",
-        "pillars.p2.desc": "Easing transitions from hazardous solvent systems to next-generation waterborne solutions without losing application efficiency.",
-        "pillars.p3.title": "Optimized Performance/Cost",
-        "pillars.p3.desc": "Engineering single system integrations that replace multi-coat processes, slashing material and application costs.",
-        "tech.title": "Pro4Chem Core Technologies",
-        "tech.subtitle": "Advanced molecular platforms driving global industry sectors.",
-        "tech.xdry": "Ultra-fast moisture cure",
-        "tech.lumacore": "UV reflect & cure tech",
-        "tech.corroguard": "Corrosion mitigation backbone",
-        "tech.emulsacore": "Self-emulsified micro-resins",
-        "tech.xylocore": "Wood-structure cell bonding",
-        "tech.impenetra": "Scratch & impact block",
-        "products.title": "Series 3000 Hybrid Resins",
-        "products.subtitle": "VeloXyl hybrid platform offers tailored formulations designed for rapid integration.",
-        "products.ferraxyl.desc": "High-build DTM anti-corrosive system designed as a single-coat replacement for multi-step coating chains.",
-        "products.spec.tech": "Backbone Technology",
-        "products.spec.voc": "VOC Level",
-        "products.spec.gloss": "Gloss Retention",
-        "products.xeloxyl.desc": "Zero-nitrocellulose wood lacquer replacement offering rapid physical dry speed and zero CAB pricing constraints.",
-        "products.luxyl.desc": "Premium exterior protective resin ensuring mirror-finish brilliance and outstanding ultraviolet defense.",
-        "products.cta": "Request Technical Data Sheet",
-        "metrics.m1": "Coatings Replaced",
-        "metrics.m2": "Application Cost Saved",
-        "metrics.m3": "Physical Tack-Free",
-        "bridge.tag": "Eco-Innovation Migration",
-        "bridge.title": "The Green Bridge Initiative",
-        "bridge.desc": "Pro4Chem assists customers in moving seamlessly from traditional solvent-borne systems to high-solids waterborne technologies, lowering compliance friction and carbon impact without compromising mechanical limits.",
-        "bridge.cta": "Download Migration Blueprint",
-        "services.title": "Custom Development Platforms",
-        "services.subtitle": "We deliver client-specific polymer platforms, distinct from standard resin catalogs.",
-        "services.lab.title": "CogniChem Private Labs",
-        "services.lab.desc": "Access dedicated, secure physical and synthetic lab tracks for custom chemical development. All formulations are proprietary, protected under strict intellectual fences, and engineered to client-specified performance mandates.",
-        "services.lab.l1": "Custom synthesis & scale-up",
-        "services.lab.l2": "Secure client-specific IP",
-        "services.lab.l3": "Direct technology transfer tracks",
-        "services.ai.title": "ChemNeural AI Synthesis",
-        "services.ai.desc": "Accelerate formulation schedules using ChemNeural AI modeling. By analyzing mechanical, chemical resistance, and cost parameters, our proprietary agents target optimum polymer structures before wet lab validation commences.",
-        "services.ai.l1": "Predictive solubility modeling",
-        "services.ai.l2": "Automated cost/performance optimization",
-        "services.ai.l3": "Fast-track regulatory compliance estimation",
-        "services.cta": "Request Program Brief",
-        "markets.title": "Industry Sectors",
-        "markets.subtitle": "Engineered options serving demanding global environments.",
-        "markets.m1.title": "Industrial & Protective",
-        "markets.m2.title": "Wood & Furniture",
-        "markets.m3.title": "Automotive Refinish",
-        "markets.m4.title": "Architectural & Construction",
-        "contact.title": "Technical Collaboration",
-        "contact.subtitle": "Submit your performance targets to access technical datasheets, samples, or to initiate a private lab sprint.",
-        "contact.form.name": "Name / Company",
-        "contact.form.email": "Corporate Email",
-        "contact.form.interest": "Primary Interest",
-        "contact.form.opt1": "Request TDS (Series 3000)",
-        "contact.form.opt2": "Request Lab Synthesis Consultation",
-        "contact.form.opt3": "Request Product Sample",
-        "contact.form.notes": "Performance Targets & Requirements",
-        "contact.form.submit": "Initiate R&D Request",
-        "footer.about": "High-performance polymer networks developed through predictive science and automated formulation systems.",
-        "footer.h1": "Platforms",
-        "footer.h2": "Locations",
-        "footer.loc1": "Miami Headquarters - Miami, FL, United States",
-        "footer.loc2": "R&D Hub - Heredia, Costa Rica"
-      },
-      es: {
-        "seo.title": "Resinas Especiales Pro4Chem — Tecnologías de Resina Híbrida",
-        "seo.description": "Resinas Especiales Pro4Chem: La ciencia industrial al servicio de la innovación de polímeros. Conozca la plataforma de resinas híbridas Serie 3000 de alto rendimiento.",
-        "nav.products": "Productos",
-        "nav.technology": "Tecnología",
-        "nav.markets": "Mercados",
-        "nav.services": "Servicios",
-        "nav.contact": "Contacto",
-        "hero.tag": "Tecnologías de Resina Híbrida",
-        "hero.title": "Adaptación e Innovación por Diseño",
-        "hero.subtitle": "La ingeniería de Pro4Chem supera los límites de los sistemas tradicionales. La Serie 3000 representa la cumbre del rendimiento, velocidad y responsabilidad ecológica.",
-        "hero.ctaPrimary": "Explorar Serie 3000",
-        "hero.ctaSecondary": "Solicitar Asesoría Técnica",
-        "pillars.title": "Pilares Estratégicos",
-        "pillars.subtitle": "Ciencia de polímeros de grado industrial diseñada para modernizar las cadenas de suministro químicas.",
-        "pillars.p1.title": "Ingeniería de Innovación Predictiva",
-        "pillars.p1.desc": "El análisis sintético de datos en combinación con prototipos reales garantiza un rendimiento predecible bajo condiciones extremas.",
-        "pillars.p2.title": "Liderazgo en Migración Tecnológica",
-        "pillars.p2.desc": "Facilitamos la transición de sistemas basados en solventes a soluciones base agua de última generación, sin sacrificar la eficiencia.",
-        "pillars.p3.title": "Rendimiento y Costo Optimizados",
-        "pillars.p3.desc": "Ingeniería de sistemas integrados de capa única que reemplazan procesos multicapa, reduciendo costos de material y aplicación.",
-        "tech.title": "Tecnologías Clave Pro4Chem",
-        "tech.subtitle": "Plataformas moleculares de nivel avanzado que impulsan sectores industriales globales.",
-        "tech.xdry": "Curado por humedad ultra veloz",
-        "tech.lumacore": "Cura UV de alta reflexión",
-        "tech.corroguard": "Núcleo de mitigación de corrosión",
-        "tech.emulsacore": "Microresinas autoemulsionadas",
-        "tech.xylocore": "Enlaces celulares para madera",
-        "tech.impenetra": "Barrera de impacto y rayado",
-        "products.title": "Resinas Híbridas Serie 3000",
-        "products.subtitle": "La plataforma híbrida VeloXyl ofrece formulaciones personalizadas para una rápida integración.",
-        "products.ferraxyl.desc": "Sistema anticorrosivo directo a metal (DTM) de altos sólidos formulado como reemplazo de una sola capa en cadenas de recubrimientos.",
-        "products.spec.tech": "Tecnología de Respaldo",
-        "products.spec.voc": "Nivel de COV",
-        "products.spec.gloss": "Retención de Brillo",
-        "products.xeloxyl.desc": "Reemplazo de laca para madera libre de nitrocelulosa, ofrece un curado físico rápido sin las limitaciones de costo del CAB.",
-        "products.luxyl.desc": "Resina de protección exterior de alta gama que garantiza un acabado espejo brillante y una defensa superior contra rayos UV.",
-        "products.cta": "Solicitar Ficha Técnica (TDS)",
-        "metrics.m1": "Capas Reemplazadas",
-        "metrics.m2": "Ahorro en Costo de Aplicación",
-        "metrics.m3": "Curado Físico al Tacto",
-        "bridge.tag": "Migración hacia Eco-Innovación",
-        "bridge.title": "La Iniciativa Puente Verde",
-        "bridge.desc": "Pro4Chem apoya a sus clientes en la migración de sistemas solventes hacia tecnologías base agua de alta densidad, disminuyendo el impacto ecológico sin perder resistencia mecánica.",
-        "bridge.cta": "Descargar Plan de Migración",
-        "services.title": "Plataformas de Desarrollo a la Medida",
-        "services.subtitle": "Desarrollamos soluciones químicas exclusivas para clientes, fuera del catálogo estándar.",
-        "services.lab.title": "Laboratorios Privados CogniChem",
-        "services.lab.desc": "Acceso a pistas de investigación física y de síntesis exclusivas y seguras. Todas las formulaciones son de propiedad del cliente, protegidas bajo convenios de confidencialidad estrictos.",
-        "services.lab.l1": "Síntesis a medida y escalamiento",
-        "services.lab.l2": "Propiedad Intelectual exclusiva",
-        "services.lab.l3": "Pistas directas de transferencia tecnológica",
-        "services.ai.title": "Síntesis AI ChemNeural",
-        "services.ai.desc": "Optimice sus ciclos de formulación con el modelado de ChemNeural AI. Analizamos variables de resistencia mecánica, resistencia química y costos para hallar la resina perfecta antes de iniciar pruebas de laboratorio.",
-        "services.ai.l1": "Modelado predictivo de solubilidad",
-        "services.ai.l2": "Optimización automatizada costo-desempeño",
-        "services.ai.l3": "Evaluación rápida de cumplimiento regulatorio",
-        "services.cta": "Solicitar Información del Programa",
-        "markets.title": "Sectores Industriales",
-        "markets.subtitle": "Fórmulas de ingeniería especializadas para entornos de alta exigencia global.",
-        "markets.m1.title": "Industrial y Protección",
-        "markets.m2.title": "Madera y Muebles",
-        "markets.m3.title": "Repintado Automotriz",
-        "markets.m4.title": "Arquitectónico y Construcción",
-        "contact.title": "Colaboración Técnica",
-        "contact.subtitle": "Envíe sus metas de desempeño para obtener hojas técnicas, muestras o iniciar una sesión de desarrollo privado.",
-        "contact.form.name": "Nombre / Compañía",
-        "contact.form.email": "Correo Corporativo",
-        "contact.form.interest": "Interés Principal",
-        "contact.form.opt1": "Solicitar TDS (Serie 3000)",
-        "contact.form.opt2": "Solicitar Consulta de Laboratorio Privado",
-        "contact.form.opt3": "Solicitar Muestra de Producto",
-        "contact.form.notes": "Requisitos y Objetivos de Desempeño",
-        "contact.form.submit": "Enviar Solicitud de Desarrollo",
-        "footer.about": "Redes de polímeros de alto desempeño fabricadas mediante ciencia predictiva y formulación automatizada.",
-        "footer.h1": "Plataformas",
-        "footer.h2": "Oficinas",
-        "footer.loc1": "Sede Miami - Miami, FL, Estados Unidos",
-        "footer.loc2": "Centro de R&D - Heredia, Costa Rica"
-      }
-    };
-
-    let currentLang = localStorage.getItem("p4c-lang") || "en";
-
-    function setLanguage(l) {
-      currentLang = l;
-      localStorage.setItem("p4c-lang", l);
-      
-      // Update HTML lang attribute
-      document.documentElement.setAttribute('lang', l);
-      
-      // Update text contents
-      document.querySelectorAll("[data-i18n]").forEach(el => {
-        const k = el.getAttribute("data-i18n");
-        if (TRANSLATIONS[l] && TRANSLATIONS[l][k]) {
-          el.textContent = TRANSLATIONS[l][k];
-        }
-      });
-
-      // Update attributes (meta description, alt texts)
-      document.querySelectorAll("[data-i18n-attr]").forEach(el => {
-        const attrExpr = el.getAttribute("data-i18n-attr");
-        const parts = attrExpr.split(':');
-        const attrName = parts[0];
-        const key = parts[1];
-        if (TRANSLATIONS[l] && TRANSLATIONS[l][key]) {
-          el.setAttribute(attrName, TRANSLATIONS[l][key]);
-        }
-      });
-    }
-
-    function toggleLanguage() {
-      setLanguage(currentLang === "en" ? "es" : "en");
-    }
-
-    document.addEventListener("DOMContentLoaded", () => {
-      setLanguage(currentLang);
-    });
-
-    // Smart Base Path Auto-Resolver for review files loaded from subfolders
-    if (window.location.protocol === 'file:' || window.location.pathname.includes('/model-tests/')) {
-      const depth = '../../../../../';
-      
-      // Fix stylesheets
-      document.querySelectorAll('link[rel="stylesheet"]').forEach(link => {
-        const href = link.getAttribute('href');
-        if (href && !href.startsWith('http') && !href.startsWith('/')) {
-          link.setAttribute('href', depth + href);
-        }
-      });
-
-      // Fix images
-      document.querySelectorAll('img').forEach(img => {
-        const src = img.getAttribute('src');
-        if (src && !src.startsWith('http') && !src.startsWith('data:') && !src.startsWith('/')) {
-          img.setAttribute('src', depth + src);
-        }
-      });
-    }
-  </script>
+  <script src="../../../../../assets/js/nav.js"></script>
+  <script src="../../../../../assets/js/footer.js"></script>
+  <script src="../../../../../assets/js/lang.js"></script>
+  <script src="../../../../../assets/js/web-statistics.js"></script>
 </body>
 </html>
