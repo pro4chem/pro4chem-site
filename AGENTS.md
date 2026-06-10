@@ -4,13 +4,13 @@ Use the repo skill `$pro4chem-page-system` for Pro4Chem page work.
 
 `pro4chem-site` is the deployed/site repository. Default page creation and generated page edits must run through the control repo:
 
-`M:\Mi unidad\devweb\pro4chem-dev`
+`X:\devweb\pro4chem-dev`
 
 Direct edits in `pro4chem-site` are allowed only when the user explicitly approves a specific production/site page or emergency correction. Do not create independent page-system manifests, generated draft state, validation exports, or WMS dashboard data in this repo.
 
 Planner-first workflow:
 
-1. Use `M:\Mi unidad\devweb\pro4chem-dev` for page-system commands.
+1. Use `X:\devweb\pro4chem-dev` for page-system commands.
 2. Export manifests before planning.
 3. Run the planner for the requested page or explicit all-pages scope.
 4. Read the latest page-system report before editing.
@@ -21,8 +21,8 @@ Planner-first workflow:
 
 WMS dashboard:
 
-`M:\Mi unidad\devweb\pro4chem-dev\management\pages\agent-program-system.html`
+`X:\devweb\pro4chem-dev\management\pages\agent-program-system.html`
 
 Browser URL:
 
-`file:///M:/Mi%20unidad/devweb/pro4chem-dev/management/pages/agent-program-system.html`
+`file:///X:/devweb/pro4chem-dev/management/pages/agent-program-system.html`
