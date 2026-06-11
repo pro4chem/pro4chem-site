@@ -61,5 +61,10 @@
     window.setLanguage(currentLanguage() === 'en' ? 'es' : 'en');
   };
 
-  document.addEventListener('DOMContentLoaded', () => applyDataLanguage(currentLanguage()));
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.btn-lang').forEach(button => {
+      button.addEventListener('click', window.toggleLanguage);
+    });
+    applyDataLanguage(currentLanguage());
+  });
 })();
