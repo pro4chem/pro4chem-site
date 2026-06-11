@@ -41,7 +41,8 @@ body {
   background-color: var(--p4c-bg-base);
   color: var(--p4c-text-primary);
   font-family: 'Exo 2', sans-serif;
-  line-height: 1.6;
+  font-size: 17px;
+  line-height: 1.66;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
 }

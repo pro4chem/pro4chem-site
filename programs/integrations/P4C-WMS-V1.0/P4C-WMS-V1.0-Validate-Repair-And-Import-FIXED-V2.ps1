@@ -18,8 +18,8 @@ Solución V2:
   - No despliega a GitHub ni Cloudflare.
 #>
 param(
-    [string]$SiteRoot = "M:\Mi unidad\devweb\pro4chem-site",
-    [string]$DevRoot = "M:\Mi unidad\devweb\pro4chem-dev",
+    [string]$SiteRoot = "X:\devweb\pro4chem-site",
+    [string]$DevRoot = "X:\devweb\pro4chem-dev",
     [string]$SourceImages = "M:\Mi unidad\Pro4Chem-Web-Ai\Images\v21\Images",
     [switch]$OverwriteImages = $false,
     [switch]$RunGitStatus = $true

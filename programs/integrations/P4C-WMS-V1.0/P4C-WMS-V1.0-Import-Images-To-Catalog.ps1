@@ -8,9 +8,9 @@ Default source:
   M:\Mi unidad\Pro4Chem-Web-Ai\Images\v21\Images
 
 Default targets:
-  M:\Mi unidad\devweb\pro4chem-site\public\images\core
-  M:\Mi unidad\devweb\pro4chem-site\config\image-catalog-p4c-wms-v1.0.json
-  M:\Mi unidad\devweb\pro4chem-site\logs\image-import-log.csv
+  X:\devweb\pro4chem-site\public\images\core
+  X:\devweb\pro4chem-site\config\image-catalog-p4c-wms-v1.0.json
+  X:\devweb\pro4chem-site\logs\image-import-log.csv
 
 P4C-WMS-V1.0 policy:
   - Existing/generated final image assets are used directly from the local GitHub clone.
@@ -19,8 +19,8 @@ P4C-WMS-V1.0 policy:
 #>
 param(
     [string]$SourceImages = "M:\Mi unidad\Pro4Chem-Web-Ai\Images\v21\Images",
-    [string]$SiteRoot = "M:\Mi unidad\devweb\pro4chem-site",
-    [string]$DevRoot = "M:\Mi unidad\devweb\pro4chem-dev",
+    [string]$SiteRoot = "X:\devweb\pro4chem-site",
+    [string]$DevRoot = "X:\devweb\pro4chem-dev",
     [switch]$MirrorNewAndChangedToDev = $true,
     [switch]$Overwrite = $false
 )
