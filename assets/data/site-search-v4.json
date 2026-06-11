@@ -2957,6 +2957,5 @@
         "es": "Busque productos, servicios, mercados y rutas de innovacion Encuentre plataformas de resinas Pro4Chem, historias de innovacion Series 3000, servicios I+D, servicios IA, mercados y rutas de contacto desde una pagina. Product and website search Busqueda de productos y sitio Static search reads the generated WMS V4 search index so product, market, service, and company routes stay synchronized with page-system data. La busqueda estatica lee el indice generado WMS V4 para mantener rutas de productos, mercados, servicios y compania sincronizadas con los datos del sistema. Filter by intent Filtrar por intencion Use filters for Products, R&D Services, AI Services, Innovation, Markets, and Company pages. Use filtros para Productos, Servicios I+D, Servicios IA, Innovacion, Mercados y paginas de compania. Products Search resin series, product families, and price-performance routes. Busque series de resinas, familias de producto y rutas de precio-desempeno. velocyl_series_card.webp /portfolio.html Services Search CogniChem, ChemNeural, and technical consultation paths. Busque rutas de CogniChem, ChemNeural y consulta tecnica. rd_services_secure_ai.webp /services/ Markets Search application markets and product-fit routes. Busque mercados de aplicacion y rutas de ajuste de producto. market_industrial_maintenance_hero.webp /markets.html"
       }
     }
-  ],
-  "generatedAt": "2026-06-10T21:15:55"
+  ]
 }

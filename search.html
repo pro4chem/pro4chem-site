@@ -246,37 +246,6 @@
           <noscript><p><a class="btn btn-primary" href="/contact.html">Contact Pro4Chem for product support</a></p></noscript>
         </div>
       </section>
-      <script>
-      (() => {
-        const root = document.querySelector('.search-app');
-        const input = document.getElementById('siteSearchInput');
-        const results = document.getElementById('siteSearchResults');
-        const buttons = Array.from(document.querySelectorAll('[data-search-category]'));
-        let entries = [];
-        let category = 'All';
-        const render = () => {
-          const q = (input.value || '').trim().toLowerCase();
-          const matched = entries.filter((entry) => {
-            const inCategory = category === 'All' || entry.category === category;
-            const haystack = [entry.title, entry.navLabel, entry.category, (entry.tags || []).join(' '), entry.searchText?.en, entry.searchText?.es].join(' ').toLowerCase();
-            return inCategory && (!q || haystack.includes(q));
-          }).slice(0, 24);
-          results.innerHTML = matched.map((entry) => `<article class="search-result-card"><small>${entry.category}</small><h3><a href="${entry.url}">${entry.title}</a></h3><p>${entry.excerpt?.en || ''}</p></article>`).join('') || '<p class="empty-note">No matching Pro4Chem pages found.</p>';
-        };
-        buttons.forEach((button) => button.addEventListener('click', () => {
-          category = button.dataset.searchCategory || 'All';
-          buttons.forEach((item) => item.classList.toggle('active', item === button));
-          render();
-        }));
-        input.addEventListener('input', render);
-        fetch(root.dataset.searchIndex).then((response) => response.json()).then((data) => {
-          entries = data.entries || [];
-          render();
-        }).catch(() => {
-          results.innerHTML = '<p class="empty-note">Search index is not available yet.</p>';
-        });
-      })();
-      </script>
     </main>
   
   <footer>
@@ -339,6 +308,7 @@
   <script src="/assets/js/nav.js"></script>
   <script src="/assets/js/footer.js"></script>
   <script src="/assets/js/lang.js"></script>
+  <script src="/assets/js/site-search.js"></script>
   <script src="/assets/js/web-statistics.js"></script>
 </body>
 </html>
