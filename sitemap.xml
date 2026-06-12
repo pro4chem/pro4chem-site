@@ -2,32 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://www.pro4chem.com/about.html</loc><priority>0.8</priority></url>
   <url><loc>https://www.pro4chem.com/contact.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.pro4chem.com/sample-request.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.pro4chem.com/technical-consultation.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.pro4chem.com/rd-and-ai-research-services.html</loc><priority>0.8</priority></url>
   <url><loc>https://www.pro4chem.com/</loc><priority>1.0</priority></url>
+  <url><loc>https://www.pro4chem.com/markets.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.pro4chem.com/portfolio.html</loc><priority>0.9</priority></url>
+  <url><loc>https://www.pro4chem.com/search.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.pro4chem.com/technology.html</loc><priority>0.8</priority></url>
   <url><loc>https://www.pro4chem.com/markets/architectural</loc><priority>0.7</priority></url>
   <url><loc>https://www.pro4chem.com/markets/automotive-refinish</loc><priority>0.7</priority></url>
   <url><loc>https://www.pro4chem.com/markets/cosmetics</loc><priority>0.7</priority></url>
   <url><loc>https://www.pro4chem.com/markets/industrial-protective</loc><priority>0.8</priority></url>
-  <url><loc>https://www.pro4chem.com/markets.html</loc><priority>0.8</priority></url>
   <url><loc>https://www.pro4chem.com/markets/plastics-composites</loc><priority>0.7</priority></url>
   <url><loc>https://www.pro4chem.com/markets/wood-furniture</loc><priority>0.8</priority></url>
-  <url><loc>https://www.pro4chem.com/portfolio.html</loc><priority>0.9</priority></url>
   <url><loc>https://www.pro4chem.com/price-performance.html</loc><priority>0.8</priority></url>
-  <url><loc>https://www.pro4chem.com/series/10000-purizol</loc><priority>0.7</priority></url>
-  <url><loc>https://www.pro4chem.com/series/2000-amberxyl</loc><priority>0.7</priority></url>
+  <url><loc>https://www.pro4chem.com/series/</loc><priority>0.7</priority></url>
   <url><loc>https://www.pro4chem.com/series/3000-veloxyl</loc><priority>0.9</priority></url>
+  <url><loc>https://www.pro4chem.com/series/6000-heliozol</loc><priority>0.7</priority></url>
+  <url><loc>https://www.pro4chem.com/series/6000-heliozol/heliozol</loc><priority>0.7</priority></url>
+  <url><loc>https://www.pro4chem.com/series/2000-amberxyl</loc><priority>0.7</priority></url>
   <url><loc>https://www.pro4chem.com/series/4000-adhexyl</loc><priority>0.7</priority></url>
   <url><loc>https://www.pro4chem.com/series/5000-titanxyl</loc><priority>0.7</priority></url>
-  <url><loc>https://www.pro4chem.com/series/6000-heliozol</loc><priority>0.7</priority></url>
   <url><loc>https://www.pro4chem.com/series/7000-coalezol</loc><priority>0.7</priority></url>
   <url><loc>https://www.pro4chem.com/series/8000-synerxyl</loc><priority>0.7</priority></url>
   <url><loc>https://www.pro4chem.com/series/9000-natuzol</loc><priority>0.7</priority></url>
-  <url><loc>https://www.pro4chem.com/services/chemneural</loc><priority>0.8</priority></url>
-  <url><loc>https://www.pro4chem.com/services/cognichem</loc><priority>0.8</priority></url>
-  <url><loc>https://www.pro4chem.com/technology.html</loc><priority>0.8</priority></url>
-  <url><loc>https://www.pro4chem.com/series/</loc><priority>0.7</priority></url>
-  <url><loc>https://www.pro4chem.com/services/</loc><priority>0.8</priority></url>
+  <url><loc>https://www.pro4chem.com/series/10000-purizol</loc><priority>0.7</priority></url>
   <url><loc>https://www.pro4chem.com/series/3000-veloxyl/ferraxyl</loc><priority>0.9</priority></url>
   <url><loc>https://www.pro4chem.com/series/3000-veloxyl/xeloxyl</loc><priority>0.8</priority></url>
   <url><loc>https://www.pro4chem.com/series/3000-veloxyl/luxyl</loc><priority>0.8</priority></url>
-  <url><loc>https://www.pro4chem.com/search.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.pro4chem.com/services/chemneural</loc><priority>0.8</priority></url>
+  <url><loc>https://www.pro4chem.com/services/cognichem</loc><priority>0.8</priority></url>
+  <url><loc>https://www.pro4chem.com/services/</loc><priority>0.8</priority></url>
+  <url><loc>https://www.pro4chem.com/product-search.html</loc><priority>0.8</priority></url>
 </urlset>

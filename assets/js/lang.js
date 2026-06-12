@@ -63,6 +63,7 @@
 
   document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.btn-lang').forEach(button => {
+      button.onclick = null;
       button.addEventListener('click', window.toggleLanguage);
     });
     applyDataLanguage(currentLanguage());
